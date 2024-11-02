@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="まずはHelloWorldでしょ。">
-      <change afterPath="$PROJECT_DIR$/src/com/example/Dentaku.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/helloworld/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/HelloWorld.java" afterDir="false" />
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="String Templateって何？！">
+      <change afterPath="$PROJECT_DIR$/src/com/example/Robot.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +53,8 @@
     "vue.rearranger.settings.migration": "true",
     "アプリケーション.Dentaku.executor": "Run",
     "アプリケーション.HelloWorld.executor": "Run",
-    "アプリケーション.Main.executor": "Run"
+    "アプリケーション.Main.executor": "Run",
+    "アプリケーション.Robot.executor": "Run"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -64,7 +62,7 @@
       <recent name="com" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.Dentaku">
+  <component name="RunManager" selected="アプリケーション.Robot">
     <configuration name="Dentaku" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.Dentaku" />
       <module name="asobiba" />
@@ -98,8 +96,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Robot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.Robot" />
+      <module name="asobiba" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.Robot" />
         <item itemvalue="アプリケーション.Dentaku" />
         <item itemvalue="アプリケーション.HelloWorld" />
         <item itemvalue="アプリケーション.Main" />
@@ -118,7 +130,7 @@
       <workItem from="1730379140777" duration="218000" />
       <workItem from="1730379376042" duration="955000" />
       <workItem from="1730463192866" duration="78000" />
-      <workItem from="1730466680947" duration="1070000" />
+      <workItem from="1730466680947" duration="1321000" />
     </task>
     <task id="LOCAL-00001" summary="とりあえずコミット">
       <option name="closed" value="true" />
@@ -136,7 +148,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730380086571</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="String Templateって何？！">
+      <option name="closed" value="true" />
+      <created>1730467932802</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1730467932802</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +165,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="とりあえずコミット" />
     <MESSAGE value="まずはHelloWorldでしょ。" />
-    <option name="LAST_COMMIT_MESSAGE" value="まずはHelloWorldでしょ。" />
+    <MESSAGE value="String Templateって何？！" />
+    <option name="LAST_COMMIT_MESSAGE" value="String Templateって何？！" />
   </component>
 </project>

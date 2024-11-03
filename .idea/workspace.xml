@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="String Templateって何？！">
-      <change afterPath="$PROJECT_DIR$/src/com/example/Robot.java" afterDir="false" />
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="Robotクラスを追加。">
+      <change afterPath="$PROJECT_DIR$/src/com/example/IntStreamSample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,8 +52,10 @@
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "reference.webide.settings.project.settings.php",
     "vue.rearranger.settings.migration": "true",
+    "アプリケーション.CommentSample.executor": "Run",
     "アプリケーション.Dentaku.executor": "Run",
     "アプリケーション.HelloWorld.executor": "Run",
+    "アプリケーション.IntStreamSample.executor": "Run",
     "アプリケーション.Main.executor": "Run",
     "アプリケーション.Robot.executor": "Run"
   }
@@ -62,7 +65,7 @@
       <recent name="com" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.Robot">
+  <component name="RunManager" selected="アプリケーション.IntStreamSample">
     <configuration name="Dentaku" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.Dentaku" />
       <module name="asobiba" />
@@ -78,6 +81,19 @@
     </configuration>
     <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.HelloWorld" />
+      <module name="asobiba" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntStreamSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.IntStreamSample" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
@@ -111,6 +127,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.IntStreamSample" />
         <item itemvalue="アプリケーション.Robot" />
         <item itemvalue="アプリケーション.Dentaku" />
         <item itemvalue="アプリケーション.HelloWorld" />
@@ -130,7 +147,7 @@
       <workItem from="1730379140777" duration="218000" />
       <workItem from="1730379376042" duration="955000" />
       <workItem from="1730463192866" duration="78000" />
-      <workItem from="1730466680947" duration="1321000" />
+      <workItem from="1730466680947" duration="2438000" />
     </task>
     <task id="LOCAL-00001" summary="とりあえずコミット">
       <option name="closed" value="true" />
@@ -156,7 +173,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730467932802</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Robotクラスを追加。">
+      <option name="closed" value="true" />
+      <created>1730555885719</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1730555885719</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,6 +191,7 @@
     <MESSAGE value="とりあえずコミット" />
     <MESSAGE value="まずはHelloWorldでしょ。" />
     <MESSAGE value="String Templateって何？！" />
-    <option name="LAST_COMMIT_MESSAGE" value="String Templateって何？！" />
+    <MESSAGE value="Robotクラスを追加。" />
+    <option name="LAST_COMMIT_MESSAGE" value="Robotクラスを追加。" />
   </component>
 </project>

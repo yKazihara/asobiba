@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="IntStream.rangeClosedの書き方を学んだー！">
-      <change afterPath="$PROJECT_DIR$/src/com/example/LocalDateSample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="LocalDateって楽だよね。">
+      <change afterPath="$PROJECT_DIR$/src/com/example/CheckEncording.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +51,7 @@
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "reference.webide.settings.project.settings.php",
     "vue.rearranger.settings.migration": "true",
+    "アプリケーション.CheckEncording.executor": "Run",
     "アプリケーション.CommentSample.executor": "Run",
     "アプリケーション.Dentaku.executor": "Run",
     "アプリケーション.HelloWorld.executor": "Run",
@@ -66,9 +66,9 @@
       <recent name="com" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.LocalDateSample">
-    <configuration name="Dentaku" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.Dentaku" />
+  <component name="RunManager" selected="アプリケーション.CheckEncording">
+    <configuration name="CheckEncording" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.CheckEncording" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
@@ -80,8 +80,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.HelloWorld" />
+    <configuration name="Dentaku" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.Dentaku" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
@@ -134,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.CheckEncording" />
         <item itemvalue="アプリケーション.LocalDateSample" />
         <item itemvalue="アプリケーション.IntStreamSample" />
         <item itemvalue="アプリケーション.Robot" />
         <item itemvalue="アプリケーション.Dentaku" />
-        <item itemvalue="アプリケーション.HelloWorld" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +154,7 @@
       <workItem from="1730379140777" duration="218000" />
       <workItem from="1730379376042" duration="955000" />
       <workItem from="1730463192866" duration="78000" />
-      <workItem from="1730466680947" duration="3940000" />
+      <workItem from="1730466680947" duration="4405000" />
     </task>
     <task id="LOCAL-00001" summary="とりあえずコミット">
       <option name="closed" value="true" />
@@ -196,7 +196,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730639297325</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="LocalDateって楽だよね。">
+      <option name="closed" value="true" />
+      <created>1730725994559</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1730725994559</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,6 +216,7 @@
     <MESSAGE value="String Templateって何？！" />
     <MESSAGE value="Robotクラスを追加。" />
     <MESSAGE value="IntStream.rangeClosedの書き方を学んだー！" />
-    <option name="LAST_COMMIT_MESSAGE" value="IntStream.rangeClosedの書き方を学んだー！" />
+    <MESSAGE value="LocalDateって楽だよね。" />
+    <option name="LAST_COMMIT_MESSAGE" value="LocalDateって楽だよね。" />
   </component>
 </project>

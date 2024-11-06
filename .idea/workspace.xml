@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="LocalDateって楽だよね。">
-      <change afterPath="$PROJECT_DIR$/src/com/example/CheckEncording.java" afterDir="false" />
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="デフォルトエンコーディングを確認する。">
+      <change afterPath="$PROJECT_DIR$/src/com/example/CharacterLiteralsSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/StringLiteralsSample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,8 +51,9 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.webide.settings.project.settings.php",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true",
+    "アプリケーション.CharacterliteralsSample.executor": "Run",
     "アプリケーション.CheckEncording.executor": "Run",
     "アプリケーション.CommentSample.executor": "Run",
     "アプリケーション.Dentaku.executor": "Run",
@@ -58,7 +61,8 @@
     "アプリケーション.IntStreamSample.executor": "Run",
     "アプリケーション.LocalDateSample.executor": "Run",
     "アプリケーション.Main.executor": "Run",
-    "アプリケーション.Robot.executor": "Run"
+    "アプリケーション.Robot.executor": "Run",
+    "アプリケーション.StringLiteralsSample.executor": "Run"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -66,9 +70,9 @@
       <recent name="com" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.CheckEncording">
-    <configuration name="CheckEncording" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.CheckEncording" />
+  <component name="RunManager" selected="アプリケーション.StringLiteralsSample">
+    <configuration name="CharacterLiteralsSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.CharacterLiteralsSample" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
@@ -80,8 +84,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Dentaku" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.Dentaku" />
+    <configuration name="CheckEncording" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.CheckEncording" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
@@ -119,8 +123,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Robot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.Robot" />
+    <configuration name="StringLiteralsSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.StringLiteralsSample" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
@@ -134,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.StringLiteralsSample" />
+        <item itemvalue="アプリケーション.CharacterLiteralsSample" />
         <item itemvalue="アプリケーション.CheckEncording" />
         <item itemvalue="アプリケーション.LocalDateSample" />
         <item itemvalue="アプリケーション.IntStreamSample" />
-        <item itemvalue="アプリケーション.Robot" />
-        <item itemvalue="アプリケーション.Dentaku" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +158,9 @@
       <workItem from="1730379140777" duration="218000" />
       <workItem from="1730379376042" duration="955000" />
       <workItem from="1730463192866" duration="78000" />
-      <workItem from="1730466680947" duration="4405000" />
+      <workItem from="1730466680947" duration="4993000" />
+      <workItem from="1730876208280" duration="168000" />
+      <workItem from="1730897823946" duration="390000" />
     </task>
     <task id="LOCAL-00001" summary="とりあえずコミット">
       <option name="closed" value="true" />
@@ -204,7 +210,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730725994559</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="デフォルトエンコーディングを確認する。">
+      <option name="closed" value="true" />
+      <created>1730810315261</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1730810315261</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,6 +231,11 @@
     <MESSAGE value="Robotクラスを追加。" />
     <MESSAGE value="IntStream.rangeClosedの書き方を学んだー！" />
     <MESSAGE value="LocalDateって楽だよね。" />
-    <option name="LAST_COMMIT_MESSAGE" value="LocalDateって楽だよね。" />
+    <MESSAGE value="デフォルトエンコーディングを確認する。" />
+    <option name="LAST_COMMIT_MESSAGE" value="デフォルトエンコーディングを確認する。" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

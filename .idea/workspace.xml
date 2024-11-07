@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="デフォルトエンコーディングを確認する。">
-      <change afterPath="$PROJECT_DIR$/src/com/example/CharacterLiteralsSample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/StringLiteralsSample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="文字リテラルと文字列リテラル。">
+      <change afterPath="$PROJECT_DIR$/src/com/example/EscapeSequencesSample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +55,7 @@
     "アプリケーション.CheckEncording.executor": "Run",
     "アプリケーション.CommentSample.executor": "Run",
     "アプリケーション.Dentaku.executor": "Run",
+    "アプリケーション.EscapeSequencesSample.executor": "Run",
     "アプリケーション.HelloWorld.executor": "Run",
     "アプリケーション.IntStreamSample.executor": "Run",
     "アプリケーション.LocalDateSample.executor": "Run",
@@ -70,7 +69,7 @@
       <recent name="com" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.StringLiteralsSample">
+  <component name="RunManager" selected="アプリケーション.EscapeSequencesSample">
     <configuration name="CharacterLiteralsSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.CharacterLiteralsSample" />
       <module name="asobiba" />
@@ -97,8 +96,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntStreamSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.IntStreamSample" />
+    <configuration name="EscapeSequencesSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.EscapeSequencesSample" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
@@ -138,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.EscapeSequencesSample" />
         <item itemvalue="アプリケーション.StringLiteralsSample" />
         <item itemvalue="アプリケーション.CharacterLiteralsSample" />
         <item itemvalue="アプリケーション.CheckEncording" />
         <item itemvalue="アプリケーション.LocalDateSample" />
-        <item itemvalue="アプリケーション.IntStreamSample" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +159,7 @@
       <workItem from="1730463192866" duration="78000" />
       <workItem from="1730466680947" duration="4993000" />
       <workItem from="1730876208280" duration="168000" />
-      <workItem from="1730897823946" duration="390000" />
+      <workItem from="1730897823946" duration="645000" />
     </task>
     <task id="LOCAL-00001" summary="とりあえずコミット">
       <option name="closed" value="true" />
@@ -218,7 +217,23 @@
       <option name="project" value="LOCAL" />
       <updated>1730810315261</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="文字リテラルと文字列リテラル。">
+      <option name="closed" value="true" />
+      <created>1730898288237</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1730898288237</updated>
+    </task>
+    <task id="LOCAL-00009" summary="文字リテラルと文字列リテラル。">
+      <option name="closed" value="true" />
+      <created>1730898306761</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1730898306761</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,7 +247,8 @@
     <MESSAGE value="IntStream.rangeClosedの書き方を学んだー！" />
     <MESSAGE value="LocalDateって楽だよね。" />
     <MESSAGE value="デフォルトエンコーディングを確認する。" />
-    <option name="LAST_COMMIT_MESSAGE" value="デフォルトエンコーディングを確認する。" />
+    <MESSAGE value="文字リテラルと文字列リテラル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="文字リテラルと文字列リテラル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

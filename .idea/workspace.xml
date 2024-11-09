@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="エスケープシーケンスのサンプル。">
-      <change afterPath="$PROJECT_DIR$/src/com/example/NumberLiteralsSample.java" afterDir="false" />
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="整数・浮動小数点数リテラルのサンプル。">
+      <change afterPath="$PROJECT_DIR$/src/com/example/AddSuffixToNumericLiteralSample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +52,7 @@
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true",
+    "アプリケーション.AddSuffixToNumericLiteralSample.executor": "Run",
     "アプリケーション.CharacterliteralsSample.executor": "Run",
     "アプリケーション.CheckEncording.executor": "Run",
     "アプリケーション.CommentSample.executor": "Run",
@@ -72,9 +73,9 @@
       <recent name="com" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.NumberLiteralsSample">
-    <configuration name="CharacterLiteralsSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.CharacterLiteralsSample" />
+  <component name="RunManager" selected="アプリケーション.AddSuffixToNumericLiteralSample">
+    <configuration name="AddSuffixToNumericLiteralSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.AddSuffixToNumericLiteralSample" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
@@ -86,8 +87,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckEncording" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.CheckEncording" />
+    <configuration name="CharacterLiteralsSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.CharacterLiteralsSample" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
@@ -140,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.AddSuffixToNumericLiteralSample" />
         <item itemvalue="アプリケーション.NumberLiteralsSample" />
         <item itemvalue="アプリケーション.EscapeSequencesSample" />
         <item itemvalue="アプリケーション.StringLiteralsSample" />
         <item itemvalue="アプリケーション.CharacterLiteralsSample" />
-        <item itemvalue="アプリケーション.CheckEncording" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +164,8 @@
       <workItem from="1730466680947" duration="4993000" />
       <workItem from="1730876208280" duration="168000" />
       <workItem from="1730897823946" duration="871000" />
-      <workItem from="1730984796498" duration="500000" />
+      <workItem from="1730984796498" duration="592000" />
+      <workItem from="1731157133472" duration="301000" />
     </task>
     <task id="LOCAL-00001" summary="とりあえずコミット">
       <option name="closed" value="true" />
@@ -245,7 +247,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730983530192</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="整数・浮動小数点数リテラルのサンプル。">
+      <option name="closed" value="true" />
+      <created>1731070591199</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1731070591199</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,7 +271,8 @@
     <MESSAGE value="デフォルトエンコーディングを確認する。" />
     <MESSAGE value="文字リテラルと文字列リテラル。" />
     <MESSAGE value="エスケープシーケンスのサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="エスケープシーケンスのサンプル。" />
+    <MESSAGE value="整数・浮動小数点数リテラルのサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="整数・浮動小数点数リテラルのサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

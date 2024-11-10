@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="数値リテラルにサフィックスを付けて型を指定するサンプル。" />
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="論理値リテラルのサンプル。">
+      <change afterPath="$PROJECT_DIR$/src/com/example/VarSample.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,41 +38,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
-    &quot;アプリケーション.AddSuffixToNumericLiteralSample.executor&quot;: &quot;Run&quot;,
-    &quot;アプリケーション.CharacterliteralsSample.executor&quot;: &quot;Run&quot;,
-    &quot;アプリケーション.CheckEncording.executor&quot;: &quot;Run&quot;,
-    &quot;アプリケーション.CommentSample.executor&quot;: &quot;Run&quot;,
-    &quot;アプリケーション.Dentaku.executor&quot;: &quot;Run&quot;,
-    &quot;アプリケーション.EscapeSequencesSample.executor&quot;: &quot;Run&quot;,
-    &quot;アプリケーション.HelloWorld.executor&quot;: &quot;Run&quot;,
-    &quot;アプリケーション.IntStreamSample.executor&quot;: &quot;Run&quot;,
-    &quot;アプリケーション.IntegerLiteralsSample.executor&quot;: &quot;Run&quot;,
-    &quot;アプリケーション.LocalDateSample.executor&quot;: &quot;Run&quot;,
-    &quot;アプリケーション.Main.executor&quot;: &quot;Run&quot;,
-    &quot;アプリケーション.NumberLiteralsSample.executor&quot;: &quot;Run&quot;,
-    &quot;アプリケーション.Robot.executor&quot;: &quot;Run&quot;,
-    &quot;アプリケーション.StringLiteralsSample.executor&quot;: &quot;Run&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true",
+    "アプリケーション.AddSuffixToNumericLiteralSample.executor": "Run",
+    "アプリケーション.BooleanLiteralsSample.executor": "Run",
+    "アプリケーション.CharacterliteralsSample.executor": "Run",
+    "アプリケーション.CheckEncording.executor": "Run",
+    "アプリケーション.CommentSample.executor": "Run",
+    "アプリケーション.Dentaku.executor": "Run",
+    "アプリケーション.EscapeSequencesSample.executor": "Run",
+    "アプリケーション.HelloWorld.executor": "Run",
+    "アプリケーション.IntStreamSample.executor": "Run",
+    "アプリケーション.IntegerLiteralsSample.executor": "Run",
+    "アプリケーション.LocalDateSample.executor": "Run",
+    "アプリケーション.Main.executor": "Run",
+    "アプリケーション.NumberLiteralsSample.executor": "Run",
+    "アプリケーション.Robot.executor": "Run",
+    "アプリケーション.StringLiteralsSample.executor": "Run",
+    "アプリケーション.VarSample.executor": "Run"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.BooleanLiteralsSample">
+  <component name="RunManager" selected="アプリケーション.VarSample">
     <configuration name="AddSuffixToNumericLiteralSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.AddSuffixToNumericLiteralSample" />
       <module name="asobiba" />
@@ -123,8 +127,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringLiteralsSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.StringLiteralsSample" />
+    <configuration name="VarSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.VarSample" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
@@ -138,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.VarSample" />
         <item itemvalue="アプリケーション.BooleanLiteralsSample" />
         <item itemvalue="アプリケーション.AddSuffixToNumericLiteralSample" />
         <item itemvalue="アプリケーション.NumberLiteralsSample" />
         <item itemvalue="アプリケーション.EscapeSequencesSample" />
-        <item itemvalue="アプリケーション.StringLiteralsSample" />
       </list>
     </recent_temporary>
   </component>
@@ -163,6 +167,7 @@
       <workItem from="1730897823946" duration="871000" />
       <workItem from="1730984796498" duration="592000" />
       <workItem from="1731157133472" duration="407000" />
+      <workItem from="1731242326667" duration="368000" />
     </task>
     <task id="LOCAL-00001" summary="とりあえずコミット">
       <option name="closed" value="true" />
@@ -260,7 +265,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731157462193</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="論理値リテラルのサンプル。">
+      <option name="closed" value="true" />
+      <created>1731242436465</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1731242436465</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,7 +291,8 @@
     <MESSAGE value="エスケープシーケンスのサンプル。" />
     <MESSAGE value="整数・浮動小数点数リテラルのサンプル。" />
     <MESSAGE value="数値リテラルにサフィックスを付けて型を指定するサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="数値リテラルにサフィックスを付けて型を指定するサンプル。" />
+    <MESSAGE value="論理値リテラルのサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="論理値リテラルのサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

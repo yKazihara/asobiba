@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="論理値リテラルのサンプル。">
-      <change afterPath="$PROJECT_DIR$/src/com/example/VarSample.java" afterDir="false" />
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="ほー、var も使えるようになったんだ。">
+      <change afterPath="$PROJECT_DIR$/src/com/example/FinalSample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +58,7 @@
     "アプリケーション.CommentSample.executor": "Run",
     "アプリケーション.Dentaku.executor": "Run",
     "アプリケーション.EscapeSequencesSample.executor": "Run",
+    "アプリケーション.FinalSample.executor": "Run",
     "アプリケーション.HelloWorld.executor": "Run",
     "アプリケーション.IntStreamSample.executor": "Run",
     "アプリケーション.IntegerLiteralsSample.executor": "Run",
@@ -74,7 +75,7 @@
       <recent name="com" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.VarSample">
+  <component name="RunManager" selected="アプリケーション.FinalSample">
     <configuration name="AddSuffixToNumericLiteralSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.AddSuffixToNumericLiteralSample" />
       <module name="asobiba" />
@@ -101,8 +102,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EscapeSequencesSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.EscapeSequencesSample" />
+    <configuration name="FinalSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.FinalSample" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
@@ -142,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.FinalSample" />
         <item itemvalue="アプリケーション.VarSample" />
         <item itemvalue="アプリケーション.BooleanLiteralsSample" />
         <item itemvalue="アプリケーション.AddSuffixToNumericLiteralSample" />
         <item itemvalue="アプリケーション.NumberLiteralsSample" />
-        <item itemvalue="アプリケーション.EscapeSequencesSample" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +168,7 @@
       <workItem from="1730897823946" duration="871000" />
       <workItem from="1730984796498" duration="592000" />
       <workItem from="1731157133472" duration="407000" />
-      <workItem from="1731242326667" duration="368000" />
+      <workItem from="1731242326667" duration="626000" />
     </task>
     <task id="LOCAL-00001" summary="とりあえずコミット">
       <option name="closed" value="true" />
@@ -273,7 +274,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731242436465</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="ほー、var も使えるようになったんだ。">
+      <option name="closed" value="true" />
+      <created>1731243011636</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1731243011636</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,7 +301,8 @@
     <MESSAGE value="整数・浮動小数点数リテラルのサンプル。" />
     <MESSAGE value="数値リテラルにサフィックスを付けて型を指定するサンプル。" />
     <MESSAGE value="論理値リテラルのサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="論理値リテラルのサンプル。" />
+    <MESSAGE value="ほー、var も使えるようになったんだ。" />
+    <option name="LAST_COMMIT_MESSAGE" value="ほー、var も使えるようになったんだ。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

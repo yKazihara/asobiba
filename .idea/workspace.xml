@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="ほー、var も使えるようになったんだ。">
-      <change afterPath="$PROJECT_DIR$/src/com/example/FinalSample.java" afterDir="false" />
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="final変数のサンプル。">
+      <change afterPath="$PROJECT_DIR$/src/com/example/CastSample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +54,7 @@
     "vue.rearranger.settings.migration": "true",
     "アプリケーション.AddSuffixToNumericLiteralSample.executor": "Run",
     "アプリケーション.BooleanLiteralsSample.executor": "Run",
+    "アプリケーション.CastSample.executor": "Run",
     "アプリケーション.CharacterliteralsSample.executor": "Run",
     "アプリケーション.CheckEncording.executor": "Run",
     "アプリケーション.CommentSample.executor": "Run",
@@ -75,7 +77,7 @@
       <recent name="com" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.FinalSample">
+  <component name="RunManager" selected="アプリケーション.CastSample">
     <configuration name="AddSuffixToNumericLiteralSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.AddSuffixToNumericLiteralSample" />
       <module name="asobiba" />
@@ -102,8 +104,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FinalSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.FinalSample" />
+    <configuration name="CastSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.CastSample" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
@@ -115,8 +117,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberLiteralsSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.NumberLiteralsSample" />
+    <configuration name="FinalSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.FinalSample" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
@@ -143,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.CastSample" />
         <item itemvalue="アプリケーション.FinalSample" />
         <item itemvalue="アプリケーション.VarSample" />
         <item itemvalue="アプリケーション.BooleanLiteralsSample" />
         <item itemvalue="アプリケーション.AddSuffixToNumericLiteralSample" />
-        <item itemvalue="アプリケーション.NumberLiteralsSample" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +170,7 @@
       <workItem from="1730897823946" duration="871000" />
       <workItem from="1730984796498" duration="592000" />
       <workItem from="1731157133472" duration="407000" />
-      <workItem from="1731242326667" duration="626000" />
+      <workItem from="1731242326667" duration="1844000" />
     </task>
     <task id="LOCAL-00001" summary="とりあえずコミット">
       <option name="closed" value="true" />
@@ -282,7 +284,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731243011636</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="final変数のサンプル。">
+      <option name="closed" value="true" />
+      <created>1731327626568</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1731327626568</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -302,7 +312,8 @@
     <MESSAGE value="数値リテラルにサフィックスを付けて型を指定するサンプル。" />
     <MESSAGE value="論理値リテラルのサンプル。" />
     <MESSAGE value="ほー、var も使えるようになったんだ。" />
-    <option name="LAST_COMMIT_MESSAGE" value="ほー、var も使えるようになったんだ。" />
+    <MESSAGE value="final変数のサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="final変数のサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

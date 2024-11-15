@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="ラッパークラスのサンプル。">
-      <change afterPath="$PROJECT_DIR$/src/com/example/ArithmeticOperatorsSample.java" afterDir="false" />
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="算術演算子のサンプル。">
+      <change beforePath="$PROJECT_DIR$/src/com/example/ArithmeticOperatorsSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/ArithmeticOperatorsSample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +175,7 @@
       <workItem from="1730897823946" duration="871000" />
       <workItem from="1730984796498" duration="592000" />
       <workItem from="1731157133472" duration="407000" />
-      <workItem from="1731242326667" duration="4452000" />
+      <workItem from="1731242326667" duration="4771000" />
     </task>
     <task id="LOCAL-00001" summary="とりあえずコミット">
       <option name="closed" value="true" />
@@ -321,7 +321,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731588027166</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="算術演算子のサンプル。">
+      <option name="closed" value="true" />
+      <created>1731674463688</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1731674463688</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -345,7 +353,8 @@
     <MESSAGE value="キャストや自動型変換のサンプル。" />
     <MESSAGE value="演算の時に自動的に行われる型変換のサンプル。" />
     <MESSAGE value="ラッパークラスのサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="ラッパークラスのサンプル。" />
+    <MESSAGE value="算術演算子のサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="算術演算子のサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

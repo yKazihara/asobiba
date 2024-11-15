@@ -25,5 +25,14 @@ public class ArithmeticOperatorsSample {
         int num2 = 4;
         System.out.println(num1 / num2); // 2
         System.out.println(num1 / (double)num2); // 2.5
+        System.out.println("-----");
+        // int i = 10 / 0; 実行時にエラー
+        // int j = 10 % 0; 実行時にエラー
+        double d1 = 10.0 / 0;
+        System.out.println(d1); // Infinity
+        double d2 = 10.0 % 0; // Infinity
+        System.out.println(d1);
+        System.out.println(10.0f / 0); // Infinity
+        System.out.println(10.0f % 0); // NaN
     }
 }

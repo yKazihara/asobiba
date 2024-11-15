@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="演算の時に自動的に行われる型変換のサンプル。">
-      <change afterPath="$PROJECT_DIR$/src/com/example/WrapperClassSample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="ラッパークラスのサンプル。">
+      <change afterPath="$PROJECT_DIR$/src/com/example/ArithmeticOperatorsSample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +52,7 @@
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true",
     "アプリケーション.AddSuffixToNumericLiteralSample.executor": "Run",
+    "アプリケーション.ArithmeticOperatorsSample.executor": "Run",
     "アプリケーション.BooleanLiteralsSample.executor": "Run",
     "アプリケーション.CastDuringCalcrationSample.executor": "Run",
     "アプリケーション.CastSample.executor": "Run",
@@ -82,7 +82,20 @@
       <recent name="com" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.WrapperClassSample">
+  <component name="RunManager" selected="アプリケーション.ArithmeticOperatorsSample">
+    <configuration name="ArithmeticOperatorsSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.ArithmeticOperatorsSample" />
+      <module name="asobiba" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CastDuringCalcrationSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.CastDuringCalcrationSample" />
       <module name="asobiba" />
@@ -122,19 +135,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VarSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.VarSample" />
-      <module name="asobiba" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="WrapperClassSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.WrapperClassSample" />
       <module name="asobiba" />
@@ -150,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.ArithmeticOperatorsSample" />
         <item itemvalue="アプリケーション.WrapperClassSample" />
         <item itemvalue="アプリケーション.CastDuringCalcrationSample" />
         <item itemvalue="アプリケーション.CastSample" />
         <item itemvalue="アプリケーション.FinalSample" />
-        <item itemvalue="アプリケーション.VarSample" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +175,7 @@
       <workItem from="1730897823946" duration="871000" />
       <workItem from="1730984796498" duration="592000" />
       <workItem from="1731157133472" duration="407000" />
-      <workItem from="1731242326667" duration="4006000" />
+      <workItem from="1731242326667" duration="4452000" />
     </task>
     <task id="LOCAL-00001" summary="とりあえずコミット">
       <option name="closed" value="true" />
@@ -313,7 +313,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731503274164</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="ラッパークラスのサンプル。">
+      <option name="closed" value="true" />
+      <created>1731588027166</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1731588027166</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -336,7 +344,8 @@
     <MESSAGE value="final変数のサンプル。" />
     <MESSAGE value="キャストや自動型変換のサンプル。" />
     <MESSAGE value="演算の時に自動的に行われる型変換のサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="演算の時に自動的に行われる型変換のサンプル。" />
+    <MESSAGE value="ラッパークラスのサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="ラッパークラスのサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

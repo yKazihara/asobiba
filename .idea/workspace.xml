@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="算術演算子のサンプル。ゼロ割追加。">
-      <change afterPath="$PROJECT_DIR$/src/com/example/UnaryMinusOperatorSample.java" afterDir="false" />
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="単項マイナス演算子のサンプル。">
+      <change afterPath="$PROJECT_DIR$/src/com/example/OperatorPrecedenceSample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +69,7 @@
     "アプリケーション.LocalDateSample.executor": "Run",
     "アプリケーション.Main.executor": "Run",
     "アプリケーション.NumberLiteralsSample.executor": "Run",
+    "アプリケーション.OperatorPrecedenceSample.executor": "Run",
     "アプリケーション.Robot.executor": "Run",
     "アプリケーション.StringLiteralsSample.executor": "Run",
     "アプリケーション.UnaryMinusOperatorSample.executor": "Run",
@@ -83,7 +85,7 @@
       <recent name="com" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.UnaryMinusOperatorSample">
+  <component name="RunManager" selected="アプリケーション.OperatorPrecedenceSample">
     <configuration name="ArithmeticOperatorsSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.ArithmeticOperatorsSample" />
       <module name="asobiba" />
@@ -110,8 +112,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CastSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.CastSample" />
+    <configuration name="OperatorPrecedenceSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.OperatorPrecedenceSample" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
@@ -151,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.OperatorPrecedenceSample" />
         <item itemvalue="アプリケーション.UnaryMinusOperatorSample" />
         <item itemvalue="アプリケーション.ArithmeticOperatorsSample" />
         <item itemvalue="アプリケーション.WrapperClassSample" />
         <item itemvalue="アプリケーション.CastDuringCalcrationSample" />
-        <item itemvalue="アプリケーション.CastSample" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +178,7 @@
       <workItem from="1730897823946" duration="871000" />
       <workItem from="1730984796498" duration="592000" />
       <workItem from="1731157133472" duration="407000" />
-      <workItem from="1731242326667" duration="5158000" />
+      <workItem from="1731242326667" duration="5946000" />
     </task>
     <task id="LOCAL-00001" summary="とりあえずコミット">
       <option name="closed" value="true" />
@@ -338,7 +340,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731674753051</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="単項マイナス演算子のサンプル。">
+      <option name="closed" value="true" />
+      <created>1731752952034</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1731752952034</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -364,7 +374,8 @@
     <MESSAGE value="ラッパークラスのサンプル。" />
     <MESSAGE value="算術演算子のサンプル。" />
     <MESSAGE value="算術演算子のサンプル。ゼロ割追加。" />
-    <option name="LAST_COMMIT_MESSAGE" value="算術演算子のサンプル。ゼロ割追加。" />
+    <MESSAGE value="単項マイナス演算子のサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="単項マイナス演算子のサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

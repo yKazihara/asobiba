@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="単項マイナス演算子のサンプル。追加。">
-      <change afterPath="$PROJECT_DIR$/src/com/example/IncrementAndDecrementSample.java" afterDir="false" />
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="インクリメントとデクリメントのサンプル。">
+      <change afterPath="$PROJECT_DIR$/src/com/example/AssignmentOperatorsSample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,6 +54,7 @@
     "vue.rearranger.settings.migration": "true",
     "アプリケーション.AddSuffixToNumericLiteralSample.executor": "Run",
     "アプリケーション.ArithmeticOperatorsSample.executor": "Run",
+    "アプリケーション.AssignmentOperatorsSample.executor": "Run",
     "アプリケーション.BooleanLiteralsSample.executor": "Run",
     "アプリケーション.CastDuringCalcrationSample.executor": "Run",
     "アプリケーション.CastSample.executor": "Run",
@@ -86,9 +87,22 @@
       <recent name="com" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.IncrementAndDecrementSample">
+  <component name="RunManager" selected="アプリケーション.AssignmentOperatorsSample">
     <configuration name="ArithmeticOperatorsSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.ArithmeticOperatorsSample" />
+      <module name="asobiba" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AssignmentOperatorsSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.AssignmentOperatorsSample" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
@@ -139,26 +153,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WrapperClassSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.WrapperClassSample" />
-      <module name="asobiba" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.AssignmentOperatorsSample" />
         <item itemvalue="アプリケーション.IncrementAndDecrementSample" />
         <item itemvalue="アプリケーション.OperatorPrecedenceSample" />
         <item itemvalue="アプリケーション.UnaryMinusOperatorSample" />
         <item itemvalue="アプリケーション.ArithmeticOperatorsSample" />
-        <item itemvalue="アプリケーション.WrapperClassSample" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +180,8 @@
       <workItem from="1730897823946" duration="871000" />
       <workItem from="1730984796498" duration="592000" />
       <workItem from="1731157133472" duration="407000" />
-      <workItem from="1731242326667" duration="6696000" />
+      <workItem from="1731242326667" duration="6796000" />
+      <workItem from="1731933851345" duration="280000" />
     </task>
     <task id="LOCAL-00001" summary="とりあえずコミット">
       <option name="closed" value="true" />
@@ -357,7 +359,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731753703793</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="インクリメントとデクリメントのサンプル。">
+      <option name="closed" value="true" />
+      <created>1731846704175</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1731846704175</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -385,7 +395,8 @@
     <MESSAGE value="算術演算子のサンプル。ゼロ割追加。" />
     <MESSAGE value="単項マイナス演算子のサンプル。" />
     <MESSAGE value="単項マイナス演算子のサンプル。追加。" />
-    <option name="LAST_COMMIT_MESSAGE" value="単項マイナス演算子のサンプル。追加。" />
+    <MESSAGE value="インクリメントとデクリメントのサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="インクリメントとデクリメントのサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

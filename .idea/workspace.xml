@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="論理演算子のサンプル。">
-      <change afterPath="$PROJECT_DIR$/src/com/example/StringConcatenationSample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/TernaryOperatorSample.java" afterDir="false" />
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="三項演算子や文字連結のサンプル。">
+      <change afterPath="$PROJECT_DIR$/src/com/example/ForLoopSample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,6 +64,7 @@
     "アプリケーション.Dentaku.executor": "Run",
     "アプリケーション.EscapeSequencesSample.executor": "Run",
     "アプリケーション.FinalSample.executor": "Run",
+    "アプリケーション.ForLoopSample.executor": "Run",
     "アプリケーション.HelloWorld.executor": "Run",
     "アプリケーション.IncrementAndDecrementSample.executor": "Run",
     "アプリケーション.IntStreamSample.executor": "Run",
@@ -92,9 +92,9 @@
       <recent name="com" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.StringConcatenationSample">
-    <configuration name="AssignmentOperatorsSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.AssignmentOperatorsSample" />
+  <component name="RunManager" selected="アプリケーション.ForLoopSample">
+    <configuration name="ForLoopSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.ForLoopSample" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
@@ -160,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.ForLoopSample" />
         <item itemvalue="アプリケーション.StringConcatenationSample" />
         <item itemvalue="アプリケーション.TernaryOperatorSample" />
         <item itemvalue="アプリケーション.LogicalOperatorsSample" />
         <item itemvalue="アプリケーション.RelationalAndEqualityOperatorsSample" />
-        <item itemvalue="アプリケーション.AssignmentOperatorsSample" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +187,7 @@
       <workItem from="1731157133472" duration="407000" />
       <workItem from="1731242326667" duration="6796000" />
       <workItem from="1731933851345" duration="1211000" />
-      <workItem from="1732106102350" duration="1198000" />
+      <workItem from="1732106102350" duration="1767000" />
     </task>
     <task id="LOCAL-00001" summary="とりあえずコミット">
       <option name="closed" value="true" />
@@ -397,14 +397,21 @@
       <option name="project" value="LOCAL" />
       <updated>1732106796368</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="三項演算子や文字連結のサンプル。">
+      <option name="closed" value="true" />
+      <created>1732192992912</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1732192992912</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="とりあえずコミット" />
     <MESSAGE value="まずはHelloWorldでしょ。" />
     <MESSAGE value="String Templateって何？！" />
     <MESSAGE value="Robotクラスを追加。" />
@@ -429,7 +436,8 @@
     <MESSAGE value="代入演算子のサンプル。" />
     <MESSAGE value="関係演算子のサンプル。" />
     <MESSAGE value="論理演算子のサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="論理演算子のサンプル。" />
+    <MESSAGE value="三項演算子や文字連結のサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="三項演算子や文字連結のサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

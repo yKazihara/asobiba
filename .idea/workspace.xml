@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="Forを使ったループのサンプル。">
-      <change afterPath="$PROJECT_DIR$/src/com/example/WhileLoopSample.java" afterDir="false" />
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="whileを使ったループのサンプル。">
+      <change afterPath="$PROJECT_DIR$/src/com/example/DoWhileSample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,6 +62,7 @@
     "アプリケーション.CheckEncording.executor": "Run",
     "アプリケーション.CommentSample.executor": "Run",
     "アプリケーション.Dentaku.executor": "Run",
+    "アプリケーション.DoWhileSample.executor": "Run",
     "アプリケーション.EscapeSequencesSample.executor": "Run",
     "アプリケーション.FinalSample.executor": "Run",
     "アプリケーション.ForLoopSample.executor": "Run",
@@ -93,9 +94,9 @@
       <recent name="com" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.WhileLoopSample">
-    <configuration name="ForLoopSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.ForLoopSample" />
+  <component name="RunManager" selected="アプリケーション.DoWhileSample">
+    <configuration name="DoWhileSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.DoWhileSample" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
@@ -107,8 +108,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LogicalOperatorsSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.LogicalOperatorsSample" />
+    <configuration name="ForLoopSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.ForLoopSample" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
@@ -161,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.DoWhileSample" />
         <item itemvalue="アプリケーション.WhileLoopSample" />
         <item itemvalue="アプリケーション.ForLoopSample" />
         <item itemvalue="アプリケーション.StringConcatenationSample" />
         <item itemvalue="アプリケーション.TernaryOperatorSample" />
-        <item itemvalue="アプリケーション.LogicalOperatorsSample" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +191,8 @@
       <workItem from="1731933851345" duration="1211000" />
       <workItem from="1732106102350" duration="1858000" />
       <workItem from="1732280813862" duration="100000" />
-      <workItem from="1732355535678" duration="621000" />
+      <workItem from="1732355535678" duration="714000" />
+      <workItem from="1732451924994" duration="281000" />
     </task>
     <task id="LOCAL-00001" summary="とりあえずコミット">
       <option name="closed" value="true" />
@@ -416,14 +418,21 @@
       <option name="project" value="LOCAL" />
       <updated>1732280261052</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="whileを使ったループのサンプル。">
+      <option name="closed" value="true" />
+      <created>1732366055426</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1732366055426</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="String Templateって何？！" />
     <MESSAGE value="Robotクラスを追加。" />
     <MESSAGE value="IntStream.rangeClosedの書き方を学んだー！" />
     <MESSAGE value="LocalDateって楽だよね。" />
@@ -448,7 +457,8 @@
     <MESSAGE value="論理演算子のサンプル。" />
     <MESSAGE value="三項演算子や文字連結のサンプル。" />
     <MESSAGE value="Forを使ったループのサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="Forを使ったループのサンプル。" />
+    <MESSAGE value="whileを使ったループのサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="whileを使ったループのサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

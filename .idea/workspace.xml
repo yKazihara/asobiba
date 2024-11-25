@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="whileを使ったループのサンプル。">
-      <change afterPath="$PROJECT_DIR$/src/com/example/DoWhileSample.java" afterDir="false" />
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="dowhileを使ったループのサンプル。">
+      <change afterPath="$PROJECT_DIR$/src/com/example/forEachSample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,53 +39,53 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true",
-    "アプリケーション.AddSuffixToNumericLiteralSample.executor": "Run",
-    "アプリケーション.ArithmeticOperatorsSample.executor": "Run",
-    "アプリケーション.AssignmentOperatorsSample.executor": "Run",
-    "アプリケーション.BooleanLiteralsSample.executor": "Run",
-    "アプリケーション.CastDuringCalcrationSample.executor": "Run",
-    "アプリケーション.CastSample.executor": "Run",
-    "アプリケーション.CharacterliteralsSample.executor": "Run",
-    "アプリケーション.CheckEncording.executor": "Run",
-    "アプリケーション.CommentSample.executor": "Run",
-    "アプリケーション.Dentaku.executor": "Run",
-    "アプリケーション.DoWhileSample.executor": "Run",
-    "アプリケーション.EscapeSequencesSample.executor": "Run",
-    "アプリケーション.FinalSample.executor": "Run",
-    "アプリケーション.ForLoopSample.executor": "Run",
-    "アプリケーション.HelloWorld.executor": "Run",
-    "アプリケーション.IncrementAndDecrementSample.executor": "Run",
-    "アプリケーション.IntStreamSample.executor": "Run",
-    "アプリケーション.IntegerLiteralsSample.executor": "Run",
-    "アプリケーション.LocalDateSample.executor": "Run",
-    "アプリケーション.LogicalOperatorsSample.executor": "Run",
-    "アプリケーション.Main.executor": "Run",
-    "アプリケーション.NumberLiteralsSample.executor": "Run",
-    "アプリケーション.OperatorPrecedenceSample.executor": "Run",
-    "アプリケーション.RelationalAndEqualityOperatorsSample.executor": "Run",
-    "アプリケーション.Robot.executor": "Run",
-    "アプリケーション.StringConcatenationSample.executor": "Run",
-    "アプリケーション.StringLiteralsSample.executor": "Run",
-    "アプリケーション.TernaryOperatorSample.executor": "Run",
-    "アプリケーション.UnaryMinusOperatorSample.executor": "Run",
-    "アプリケーション.VarSample.executor": "Run",
-    "アプリケーション.WhileLoopSample.executor": "Run",
-    "アプリケーション.WrapperClassSample.executor": "Run"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;アプリケーション.AddSuffixToNumericLiteralSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.ArithmeticOperatorsSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.AssignmentOperatorsSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.BooleanLiteralsSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.CastDuringCalcrationSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.CastSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.CharacterliteralsSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.CheckEncording.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.CommentSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.Dentaku.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.DoWhileSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.EscapeSequencesSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.FinalSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.ForLoopSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.HelloWorld.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.IncrementAndDecrementSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.IntStreamSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.IntegerLiteralsSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.LocalDateSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.LogicalOperatorsSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.Main.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.NumberLiteralsSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.OperatorPrecedenceSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.RelationalAndEqualityOperatorsSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.Robot.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.StringConcatenationSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.StringLiteralsSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.TernaryOperatorSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.UnaryMinusOperatorSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.VarSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.WhileLoopSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.WrapperClassSample.executor&quot;: &quot;Run&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/com/example" />
@@ -94,7 +94,7 @@
       <recent name="com" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.DoWhileSample">
+  <component name="RunManager" selected="アプリケーション.forEachSample">
     <configuration name="DoWhileSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.DoWhileSample" />
       <module name="asobiba" />
@@ -134,19 +134,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TernaryOperatorSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.TernaryOperatorSample" />
-      <module name="asobiba" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="WhileLoopSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.WhileLoopSample" />
       <module name="asobiba" />
@@ -160,13 +147,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="forEachSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.forEachSample" />
+      <module name="asobiba" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.forEachSample" />
         <item itemvalue="アプリケーション.DoWhileSample" />
         <item itemvalue="アプリケーション.WhileLoopSample" />
         <item itemvalue="アプリケーション.ForLoopSample" />
         <item itemvalue="アプリケーション.StringConcatenationSample" />
-        <item itemvalue="アプリケーション.TernaryOperatorSample" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +192,8 @@
       <workItem from="1732106102350" duration="1858000" />
       <workItem from="1732280813862" duration="100000" />
       <workItem from="1732355535678" duration="714000" />
-      <workItem from="1732451924994" duration="281000" />
+      <workItem from="1732451924994" duration="541000" />
+      <workItem from="1732453162836" duration="126000" />
     </task>
     <task id="LOCAL-00001" summary="とりあえずコミット">
       <option name="closed" value="true" />
@@ -426,14 +427,21 @@
       <option name="project" value="LOCAL" />
       <updated>1732366055426</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="dowhileを使ったループのサンプル。">
+      <option name="closed" value="true" />
+      <created>1732452457673</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1732452457673</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Robotクラスを追加。" />
     <MESSAGE value="IntStream.rangeClosedの書き方を学んだー！" />
     <MESSAGE value="LocalDateって楽だよね。" />
     <MESSAGE value="デフォルトエンコーディングを確認する。" />
@@ -458,7 +466,8 @@
     <MESSAGE value="三項演算子や文字連結のサンプル。" />
     <MESSAGE value="Forを使ったループのサンプル。" />
     <MESSAGE value="whileを使ったループのサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="whileを使ったループのサンプル。" />
+    <MESSAGE value="dowhileを使ったループのサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="dowhileを使ったループのサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

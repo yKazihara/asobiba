@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="拡張for文のサンプル。">
-      <change afterPath="$PROJECT_DIR$/src/com/example/BreakSample.java" afterDir="false" />
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="breakとラベルのサンプル。">
+      <change afterPath="$PROJECT_DIR$/src/com/example/ContinueSample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,6 +62,7 @@
     "アプリケーション.CharacterliteralsSample.executor": "Run",
     "アプリケーション.CheckEncording.executor": "Run",
     "アプリケーション.CommentSample.executor": "Run",
+    "アプリケーション.ContinueSample.executor": "Run",
     "アプリケーション.Dentaku.executor": "Run",
     "アプリケーション.DoWhileSample.executor": "Run",
     "アプリケーション.EscapeSequencesSample.executor": "Run",
@@ -96,7 +97,7 @@
       <recent name="com" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.BreakSample">
+  <component name="RunManager" selected="アプリケーション.ContinueSample">
     <configuration name="BreakSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.BreakSample" />
       <module name="asobiba" />
@@ -110,8 +111,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DoWhileSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.DoWhileSample" />
+    <configuration name="ContinueSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.ContinueSample" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
@@ -123,8 +124,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForLoopSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.ForLoopSample" />
+    <configuration name="DoWhileSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.DoWhileSample" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
@@ -164,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.ContinueSample" />
         <item itemvalue="アプリケーション.BreakSample" />
         <item itemvalue="アプリケーション.forEachSample" />
         <item itemvalue="アプリケーション.DoWhileSample" />
         <item itemvalue="アプリケーション.WhileLoopSample" />
-        <item itemvalue="アプリケーション.ForLoopSample" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +197,8 @@
       <workItem from="1732355535678" duration="714000" />
       <workItem from="1732451924994" duration="541000" />
       <workItem from="1732453162836" duration="326000" />
-      <workItem from="1732539146829" duration="547000" />
+      <workItem from="1732539146829" duration="624000" />
+      <workItem from="1732710831270" duration="360000" />
     </task>
     <task id="LOCAL-00001" summary="とりあえずコミット">
       <option name="closed" value="true" />
@@ -446,14 +448,21 @@
       <option name="project" value="LOCAL" />
       <updated>1732538705373</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="breakとラベルのサンプル。">
+      <option name="closed" value="true" />
+      <created>1732625339491</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1732625339491</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="LocalDateって楽だよね。" />
     <MESSAGE value="デフォルトエンコーディングを確認する。" />
     <MESSAGE value="文字リテラルと文字列リテラル。" />
     <MESSAGE value="エスケープシーケンスのサンプル。" />
@@ -478,7 +487,8 @@
     <MESSAGE value="whileを使ったループのサンプル。" />
     <MESSAGE value="dowhileを使ったループのサンプル。" />
     <MESSAGE value="拡張for文のサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="拡張for文のサンプル。" />
+    <MESSAGE value="breakとラベルのサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="breakとラベルのサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

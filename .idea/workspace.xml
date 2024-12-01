@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="continueのサンプル。" />
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="配列のサンプル。" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,7 +94,20 @@
       <recent name="com" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.IfSample">
+  <component name="RunManager" selected="アプリケーション.ArrayIndexSample">
+    <configuration name="ArrayIndexSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.ArrayIndexSample" />
+      <module name="asobiba" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BreakSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.BreakSample" />
       <module name="asobiba" />
@@ -110,19 +123,6 @@
     </configuration>
     <configuration name="ContinueSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.ContinueSample" />
-      <module name="asobiba" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DoWhileSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.DoWhileSample" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
@@ -162,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.ArrayIndexSample" />
         <item itemvalue="アプリケーション.IfSample" />
         <item itemvalue="アプリケーション.ContinueSample" />
         <item itemvalue="アプリケーション.BreakSample" />
         <item itemvalue="アプリケーション.forEachSample" />
-        <item itemvalue="アプリケーション.DoWhileSample" />
       </list>
     </recent_temporary>
   </component>
@@ -466,6 +466,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="文字リテラルと文字列リテラル。" />

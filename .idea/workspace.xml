@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="配列の初期化や参照のサンプル。">
-      <change afterPath="$PROJECT_DIR$/src/com/example/ArrayLengthSample.java" afterDir="false" />
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="配列の長さを取得するサンプル。">
+      <change afterPath="$PROJECT_DIR$/src/com/example/MultidimensionalArraysSample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,6 +78,7 @@
     "アプリケーション.LocalDateSample.executor": "Run",
     "アプリケーション.LogicalOperatorsSample.executor": "Run",
     "アプリケーション.Main.executor": "Run",
+    "アプリケーション.MultidimensionalArraysSample.executor": "Run",
     "アプリケーション.NumberLiteralsSample.executor": "Run",
     "アプリケーション.OperatorPrecedenceSample.executor": "Run",
     "アプリケーション.RelationalAndEqualityOperatorsSample.executor": "Run",
@@ -100,7 +101,7 @@
       <recent name="com" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.ArrayLengthSample">
+  <component name="RunManager" selected="アプリケーション.MultidimensionalArraysSample">
     <configuration name="ArrayIndexSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.ArrayIndexSample" />
       <module name="asobiba" />
@@ -116,19 +117,6 @@
     </configuration>
     <configuration name="ArrayLengthSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.ArrayLengthSample" />
-      <module name="asobiba" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ContinueSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.ContinueSample" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
@@ -166,13 +154,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MultidimensionalArraysSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.MultidimensionalArraysSample" />
+      <module name="asobiba" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.MultidimensionalArraysSample" />
         <item itemvalue="アプリケーション.ArrayLengthSample" />
         <item itemvalue="アプリケーション.InitArraySample" />
         <item itemvalue="アプリケーション.ArrayIndexSample" />
         <item itemvalue="アプリケーション.IfSample" />
-        <item itemvalue="アプリケーション.ContinueSample" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +204,8 @@
       <workItem from="1732539146829" duration="624000" />
       <workItem from="1732710831270" duration="601000" />
       <workItem from="1733049672614" duration="185000" />
-      <workItem from="1733143854533" duration="772000" />
+      <workItem from="1733143854533" duration="820000" />
+      <workItem from="1733317235814" duration="315000" />
     </task>
     <task id="LOCAL-00001" summary="とりあえずコミット">
       <option name="closed" value="true" />
@@ -485,7 +487,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733144247782</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="配列の長さを取得するサンプル。">
+      <option name="closed" value="true" />
+      <created>1733230367222</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1733230367222</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -503,7 +513,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="整数・浮動小数点数リテラルのサンプル。" />
     <MESSAGE value="数値リテラルにサフィックスを付けて型を指定するサンプル。" />
     <MESSAGE value="論理値リテラルのサンプル。" />
     <MESSAGE value="ほー、var も使えるようになったんだ。" />
@@ -528,7 +537,8 @@
     <MESSAGE value="continueのサンプル。" />
     <MESSAGE value="配列のインデックスのサンプル。" />
     <MESSAGE value="配列の初期化や参照のサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="配列の初期化や参照のサンプル。" />
+    <MESSAGE value="配列の長さを取得するサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="配列の長さを取得するサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

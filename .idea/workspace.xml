@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="Arrays.fillのサンプル。">
-      <change afterPath="$PROJECT_DIR$/src/com/example/CopyArraySample.java" afterDir="false" />
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="配列のコピーのサンプル。">
+      <change afterPath="$PROJECT_DIR$/src/com/example/ArraysCopyOfRangeSample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,6 +56,7 @@
     "アプリケーション.ArithmeticOperatorsSample.executor": "Run",
     "アプリケーション.ArrayIndexSample.executor": "Run",
     "アプリケーション.ArrayLengthSample.executor": "Run",
+    "アプリケーション.ArraysCopyOfRangeSample.executor": "Run",
     "アプリケーション.ArraysFillSample.executor": "Run",
     "アプリケーション.AssignmentOperatorsSample.executor": "Run",
     "アプリケーション.BooleanLiteralsSample.executor": "Run",
@@ -66,6 +67,7 @@
     "アプリケーション.CheckEncording.executor": "Run",
     "アプリケーション.CommentSample.executor": "Run",
     "アプリケーション.ContinueSample.executor": "Run",
+    "アプリケーション.CopyArraySample (1).executor": "Run",
     "アプリケーション.CopyArraySample.executor": "Run",
     "アプリケーション.Dentaku.executor": "Run",
     "アプリケーション.DoWhileSample.executor": "Run",
@@ -105,7 +107,20 @@
       <recent name="com" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.CopyArraySample (1)">
+  <component name="RunManager" selected="アプリケーション.ArraysCopyOfRangeSample">
+    <configuration name="ArraysCopyOfRangeSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.ArraysCopyOfRangeSample" />
+      <module name="asobiba" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ArraysFillSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.ArraysFillSample" />
       <module name="asobiba" />
@@ -158,26 +173,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultidimensionalArraysSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.MultidimensionalArraysSample" />
-      <module name="asobiba" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.ArraysCopyOfRangeSample" />
         <item itemvalue="アプリケーション.CopyArraySample (1)" />
         <item itemvalue="アプリケーション.CopyArraySample" />
         <item itemvalue="アプリケーション.ArraysFillSample" />
         <item itemvalue="アプリケーション.InitializingMultidimensionalArraysSample" />
-        <item itemvalue="アプリケーション.MultidimensionalArraysSample" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +213,7 @@
       <workItem from="1733143854533" duration="820000" />
       <workItem from="1733317235814" duration="889000" />
       <workItem from="1733490181738" duration="1176000" />
-      <workItem from="1733662421370" duration="883000" />
+      <workItem from="1733662421370" duration="1585000" />
     </task>
     <task id="LOCAL-00001" summary="とりあえずコミット">
       <option name="closed" value="true" />
@@ -533,7 +535,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733576915768</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="配列のコピーのサンプル。">
+      <option name="closed" value="true" />
+      <created>1733663602414</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1733663602414</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -551,7 +561,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="キャストや自動型変換のサンプル。" />
     <MESSAGE value="演算の時に自動的に行われる型変換のサンプル。" />
     <MESSAGE value="ラッパークラスのサンプル。" />
     <MESSAGE value="算術演算子のサンプル。" />
@@ -576,7 +585,8 @@
     <MESSAGE value="多次元配列の初期化のサンプル。" />
     <MESSAGE value="多次元配列の長さを取得するサンプルを追記。" />
     <MESSAGE value="Arrays.fillのサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="Arrays.fillのサンプル。" />
+    <MESSAGE value="配列のコピーのサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="配列のコピーのサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="配列の要素を逆順に並び替えるサンプル。">
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="配列を昇順・降順に並び替えるサンプルを更新。">
+      <change afterPath="$PROJECT_DIR$/src/com/example/ArraysToStringSample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/ArraysSortDescSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/ArraysSortAscAndDescSample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +61,7 @@
     "アプリケーション.ArraysFillSample.executor": "Run",
     "アプリケーション.ArraysSortAscAndDescSample.executor": "Run",
     "アプリケーション.ArraysSortDescSample.executor": "Run",
+    "アプリケーション.ArraysToStringSample.executor": "Run",
     "アプリケーション.AssignmentOperatorsSample.executor": "Run",
     "アプリケーション.BooleanLiteralsSample.executor": "Run",
     "アプリケーション.BreakSample.executor": "Run",
@@ -111,7 +112,7 @@
       <recent name="com" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.ArraysSortAscAndDescSample">
+  <component name="RunManager" selected="アプリケーション.ArraysToStringSample">
     <configuration name="ArraysCopyOfRangeSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.ArraysCopyOfRangeSample" />
       <module name="asobiba" />
@@ -151,8 +152,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CopyArraySample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.CopyArraySample" />
+    <configuration name="ArraysToStringSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.ArraysToStringSample" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
@@ -179,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.ArraysToStringSample" />
         <item itemvalue="アプリケーション.ArraysSortAscAndDescSample" />
         <item itemvalue="アプリケーション.ArraysEqualsSample" />
         <item itemvalue="アプリケーション.SystemArraycopySample" />
         <item itemvalue="アプリケーション.ArraysCopyOfRangeSample" />
-        <item itemvalue="アプリケーション.CopyArraySample (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -219,7 +220,8 @@
       <workItem from="1733490181738" duration="1176000" />
       <workItem from="1733662421370" duration="1679000" />
       <workItem from="1733829561139" duration="1953000" />
-      <workItem from="1734003135636" duration="967000" />
+      <workItem from="1734003135636" duration="1027000" />
+      <workItem from="1734181174046" duration="308000" />
     </task>
     <task id="LOCAL-00001" summary="とりあえずコミット">
       <option name="closed" value="true" />
@@ -581,7 +583,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734003346457</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="配列を昇順・降順に並び替えるサンプルを更新。">
+      <option name="closed" value="true" />
+      <created>1734094595588</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1734094595588</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -599,7 +609,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="単項マイナス演算子のサンプル。" />
     <MESSAGE value="単項マイナス演算子のサンプル。追加。" />
     <MESSAGE value="インクリメントとデクリメントのサンプル。" />
     <MESSAGE value="代入演算子のサンプル。" />
@@ -624,7 +633,8 @@
     <MESSAGE value="2つの配列を連結して新しい配列を作成するサンプル。" />
     <MESSAGE value="2つの配列の要素の値を比較するサンプル。" />
     <MESSAGE value="配列の要素を逆順に並び替えるサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="配列の要素を逆順に並び替えるサンプル。" />
+    <MESSAGE value="配列を昇順・降順に並び替えるサンプルを更新。" />
+    <option name="LAST_COMMIT_MESSAGE" value="配列を昇順・降順に並び替えるサンプルを更新。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

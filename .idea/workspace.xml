@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="配列の文字列表現を取得するサンプル。" />
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="Stringサンプルに追記。">
+      <change afterPath="$PROJECT_DIR$/src/com/example/IntegerToStringSample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,6 +84,7 @@
     "アプリケーション.InitializingMultidimensionalArraysSample.executor": "Run",
     "アプリケーション.IntStreamSample.executor": "Run",
     "アプリケーション.IntegerLiteralsSample.executor": "Run",
+    "アプリケーション.IntegerToStringSample.executor": "Run",
     "アプリケーション.LocalDateSample.executor": "Run",
     "アプリケーション.LogicalOperatorsSample.executor": "Run",
     "アプリケーション.Main.executor": "Run",
@@ -109,7 +113,7 @@
       <recent name="com" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.StringLiteralsSample">
+  <component name="RunManager" selected="アプリケーション.IntegerToStringSample">
     <configuration name="ArraysEqualsSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.ArraysEqualsSample" />
       <module name="asobiba" />
@@ -149,6 +153,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IntegerToStringSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.IntegerToStringSample" />
+      <module name="asobiba" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StringLiteralsSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.StringLiteralsSample" />
       <module name="asobiba" />
@@ -162,26 +179,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SystemArraycopySample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.SystemArraycopySample" />
-      <module name="asobiba" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.IntegerToStringSample" />
         <item itemvalue="アプリケーション.StringLiteralsSample" />
         <item itemvalue="アプリケーション.ArraysToStringSample" />
         <item itemvalue="アプリケーション.ArraysSortAscAndDescSample" />
         <item itemvalue="アプリケーション.ArraysEqualsSample" />
-        <item itemvalue="アプリケーション.SystemArraycopySample" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +222,8 @@
       <workItem from="1733662421370" duration="1679000" />
       <workItem from="1733829561139" duration="1953000" />
       <workItem from="1734003135636" duration="1027000" />
-      <workItem from="1734181174046" duration="446000" />
+      <workItem from="1734181174046" duration="692000" />
+      <workItem from="1734353290604" duration="321000" />
     </task>
     <task id="LOCAL-00001" summary="とりあえずコミット">
       <option name="closed" value="true" />
@@ -596,7 +601,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734181494418</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Stringサンプルに追記。">
+      <option name="closed" value="true" />
+      <created>1734260946475</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1734260946475</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -614,7 +627,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="インクリメントとデクリメントのサンプル。" />
     <MESSAGE value="代入演算子のサンプル。" />
     <MESSAGE value="関係演算子のサンプル。" />
     <MESSAGE value="論理演算子のサンプル。" />
@@ -639,7 +651,8 @@
     <MESSAGE value="配列の要素を逆順に並び替えるサンプル。" />
     <MESSAGE value="配列を昇順・降順に並び替えるサンプルを更新。" />
     <MESSAGE value="配列の文字列表現を取得するサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="配列の文字列表現を取得するサンプル。" />
+    <MESSAGE value="Stringサンプルに追記。" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stringサンプルに追記。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

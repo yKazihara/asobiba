@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="Stringサンプルに追記。">
-      <change afterPath="$PROJECT_DIR$/src/com/example/IntegerToStringSample.java" afterDir="false" />
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="数値を文字列に変換するサンプル。">
+      <change afterPath="$PROJECT_DIR$/src/com/example/StringToNumberSample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,6 +96,7 @@
     "アプリケーション.SettingValuesToArraySample.executor": "Run",
     "アプリケーション.StringConcatenationSample.executor": "Run",
     "アプリケーション.StringLiteralsSample.executor": "Run",
+    "アプリケーション.StringToNumberSample.executor": "Run",
     "アプリケーション.SystemArraycopySample.executor": "Run",
     "アプリケーション.TernaryOperatorSample.executor": "Run",
     "アプリケーション.UnaryMinusOperatorSample.executor": "Run",
@@ -113,20 +114,7 @@
       <recent name="com" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.IntegerToStringSample">
-    <configuration name="ArraysEqualsSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.ArraysEqualsSample" />
-      <module name="asobiba" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="アプリケーション.StringToNumberSample">
     <configuration name="ArraysSortAscAndDescSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.ArraysSortAscAndDescSample" />
       <module name="asobiba" />
@@ -179,13 +167,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringToNumberSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.StringToNumberSample" />
+      <module name="asobiba" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.StringToNumberSample" />
         <item itemvalue="アプリケーション.IntegerToStringSample" />
         <item itemvalue="アプリケーション.StringLiteralsSample" />
         <item itemvalue="アプリケーション.ArraysToStringSample" />
         <item itemvalue="アプリケーション.ArraysSortAscAndDescSample" />
-        <item itemvalue="アプリケーション.ArraysEqualsSample" />
       </list>
     </recent_temporary>
   </component>
@@ -223,7 +224,7 @@
       <workItem from="1733829561139" duration="1953000" />
       <workItem from="1734003135636" duration="1027000" />
       <workItem from="1734181174046" duration="692000" />
-      <workItem from="1734353290604" duration="321000" />
+      <workItem from="1734353290604" duration="878000" />
     </task>
     <task id="LOCAL-00001" summary="とりあえずコミット">
       <option name="closed" value="true" />
@@ -609,7 +610,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734260946475</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="数値を文字列に変換するサンプル。">
+      <option name="closed" value="true" />
+      <created>1734353721433</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1734353721433</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -627,7 +636,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="代入演算子のサンプル。" />
     <MESSAGE value="関係演算子のサンプル。" />
     <MESSAGE value="論理演算子のサンプル。" />
     <MESSAGE value="三項演算子や文字連結のサンプル。" />
@@ -652,7 +660,8 @@
     <MESSAGE value="配列を昇順・降順に並び替えるサンプルを更新。" />
     <MESSAGE value="配列の文字列表現を取得するサンプル。" />
     <MESSAGE value="Stringサンプルに追記。" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stringサンプルに追記。" />
+    <MESSAGE value="数値を文字列に変換するサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="数値を文字列に変換するサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

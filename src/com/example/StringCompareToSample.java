@@ -26,5 +26,18 @@ public class StringCompareToSample {
         System.out.println(str5.compareTo(str8)); // 8194って何かと思ったら↓を確認
         System.out.println(str5.charAt(3) + ":" + Integer.toString(str5.charAt(3))); // 港:28207
         System.out.println(str5.charAt(3) + ":" + Integer.toString(str8.charAt(3))); // 港:20013
+
+        System.out.println("-----");
+
+        // 業務的に使うチャンスとしては、文字比較してゼロなら〜それ以外なら〜っていうのが多いのかな
+        String aaa = "aaa";
+        String aab = "aab";
+
+        if (aaa.compareTo(aab) == 0) {
+            System.out.println("2つの文字列は同じです。");
+        } else {
+            System.out.println("2つの文字列は違いますねー。"); // こっちが出力される
+        }
+
     }
 }

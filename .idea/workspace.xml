@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="文字列と文字列の大きさを比較するサンプル。">
-      <change afterPath="$PROJECT_DIR$/src/com/example/StringLengthSample.java" afterDir="false" />
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="文字列の長さを取得するサンプル。">
+      <change afterPath="$PROJECT_DIR$/src/com/example/StringCodePointCountSample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/StringCompareToSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/StringCompareToSample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,75 +39,77 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
-    &quot;アプリケーション.AddSuffixToNumericLiteralSample.executor&quot;: &quot;Run&quot;,
-    &quot;アプリケーション.ArithmeticOperatorsSample.executor&quot;: &quot;Run&quot;,
-    &quot;アプリケーション.ArrayIndexSample.executor&quot;: &quot;Run&quot;,
-    &quot;アプリケーション.ArrayLengthSample.executor&quot;: &quot;Run&quot;,
-    &quot;アプリケーション.ArraysCopyOfRangeSample.executor&quot;: &quot;Run&quot;,
-    &quot;アプリケーション.ArraysEqualsSample.executor&quot;: &quot;Run&quot;,
-    &quot;アプリケーション.ArraysFillSample.executor&quot;: &quot;Run&quot;,
-    &quot;アプリケーション.ArraysSortAscAndDescSample.executor&quot;: &quot;Run&quot;,
-    &quot;アプリケーション.ArraysSortDescSample.executor&quot;: &quot;Run&quot;,
-    &quot;アプリケーション.ArraysToStringSample.executor&quot;: &quot;Run&quot;,
-    &quot;アプリケーション.AssignmentOperatorsSample.executor&quot;: &quot;Run&quot;,
-    &quot;アプリケーション.BooleanLiteralsSample.executor&quot;: &quot;Run&quot;,
-    &quot;アプリケーション.BreakSample.executor&quot;: &quot;Run&quot;,
-    &quot;アプリケーション.CastDuringCalcrationSample.executor&quot;: &quot;Run&quot;,
-    &quot;アプリケーション.CastSample.executor&quot;: &quot;Run&quot;,
-    &quot;アプリケーション.CharacterliteralsSample.executor&quot;: &quot;Run&quot;,
-    &quot;アプリケーション.CheckEncording.executor&quot;: &quot;Run&quot;,
-    &quot;アプリケーション.CommentSample.executor&quot;: &quot;Run&quot;,
-    &quot;アプリケーション.ContinueSample.executor&quot;: &quot;Run&quot;,
-    &quot;アプリケーション.CopyArraySample (1).executor&quot;: &quot;Run&quot;,
-    &quot;アプリケーション.CopyArraySample.executor&quot;: &quot;Run&quot;,
-    &quot;アプリケーション.Dentaku.executor&quot;: &quot;Run&quot;,
-    &quot;アプリケーション.DoWhileSample.executor&quot;: &quot;Run&quot;,
-    &quot;アプリケーション.EscapeSequencesSample.executor&quot;: &quot;Run&quot;,
-    &quot;アプリケーション.FinalSample.executor&quot;: &quot;Run&quot;,
-    &quot;アプリケーション.ForLoopSample.executor&quot;: &quot;Run&quot;,
-    &quot;アプリケーション.HelloWorld.executor&quot;: &quot;Run&quot;,
-    &quot;アプリケーション.IncrementAndDecrementSample.executor&quot;: &quot;Run&quot;,
-    &quot;アプリケーション.InitArraySample.executor&quot;: &quot;Run&quot;,
-    &quot;アプリケーション.InitializingMultidimensionalArraysSample.executor&quot;: &quot;Run&quot;,
-    &quot;アプリケーション.IntStreamSample.executor&quot;: &quot;Run&quot;,
-    &quot;アプリケーション.IntegerLiteralsSample.executor&quot;: &quot;Run&quot;,
-    &quot;アプリケーション.IntegerToStringSample.executor&quot;: &quot;Run&quot;,
-    &quot;アプリケーション.LocalDateSample.executor&quot;: &quot;Run&quot;,
-    &quot;アプリケーション.LogicalOperatorsSample.executor&quot;: &quot;Run&quot;,
-    &quot;アプリケーション.Main.executor&quot;: &quot;Run&quot;,
-    &quot;アプリケーション.MultidimensionalArraysSample.executor&quot;: &quot;Run&quot;,
-    &quot;アプリケーション.NumberLiteralsSample.executor&quot;: &quot;Run&quot;,
-    &quot;アプリケーション.OperatorPrecedenceSample.executor&quot;: &quot;Run&quot;,
-    &quot;アプリケーション.RelationalAndEqualityOperatorsSample.executor&quot;: &quot;Run&quot;,
-    &quot;アプリケーション.Robot.executor&quot;: &quot;Run&quot;,
-    &quot;アプリケーション.SettingValuesToArraySample.executor&quot;: &quot;Run&quot;,
-    &quot;アプリケーション.StringCompareToSample.executor&quot;: &quot;Run&quot;,
-    &quot;アプリケーション.StringConcatenationSample.executor&quot;: &quot;Run&quot;,
-    &quot;アプリケーション.StringEqualsSample.executor&quot;: &quot;Run&quot;,
-    &quot;アプリケーション.StringLiteralsSample.executor&quot;: &quot;Run&quot;,
-    &quot;アプリケーション.StringToNumberSample.executor&quot;: &quot;Run&quot;,
-    &quot;アプリケーション.SystemArraycopySample.executor&quot;: &quot;Run&quot;,
-    &quot;アプリケーション.TernaryOperatorSample.executor&quot;: &quot;Run&quot;,
-    &quot;アプリケーション.UnaryMinusOperatorSample.executor&quot;: &quot;Run&quot;,
-    &quot;アプリケーション.VarSample.executor&quot;: &quot;Run&quot;,
-    &quot;アプリケーション.WhileLoopSample.executor&quot;: &quot;Run&quot;,
-    &quot;アプリケーション.WrapperClassSample.executor&quot;: &quot;Run&quot;,
-    &quot;アプリケーション.forEachSample.executor&quot;: &quot;Run&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true",
+    "アプリケーション.AddSuffixToNumericLiteralSample.executor": "Run",
+    "アプリケーション.ArithmeticOperatorsSample.executor": "Run",
+    "アプリケーション.ArrayIndexSample.executor": "Run",
+    "アプリケーション.ArrayLengthSample.executor": "Run",
+    "アプリケーション.ArraysCopyOfRangeSample.executor": "Run",
+    "アプリケーション.ArraysEqualsSample.executor": "Run",
+    "アプリケーション.ArraysFillSample.executor": "Run",
+    "アプリケーション.ArraysSortAscAndDescSample.executor": "Run",
+    "アプリケーション.ArraysSortDescSample.executor": "Run",
+    "アプリケーション.ArraysToStringSample.executor": "Run",
+    "アプリケーション.AssignmentOperatorsSample.executor": "Run",
+    "アプリケーション.BooleanLiteralsSample.executor": "Run",
+    "アプリケーション.BreakSample.executor": "Run",
+    "アプリケーション.CastDuringCalcrationSample.executor": "Run",
+    "アプリケーション.CastSample.executor": "Run",
+    "アプリケーション.CharacterliteralsSample.executor": "Run",
+    "アプリケーション.CheckEncording.executor": "Run",
+    "アプリケーション.CommentSample.executor": "Run",
+    "アプリケーション.ContinueSample.executor": "Run",
+    "アプリケーション.CopyArraySample (1).executor": "Run",
+    "アプリケーション.CopyArraySample.executor": "Run",
+    "アプリケーション.Dentaku.executor": "Run",
+    "アプリケーション.DoWhileSample.executor": "Run",
+    "アプリケーション.EscapeSequencesSample.executor": "Run",
+    "アプリケーション.FinalSample.executor": "Run",
+    "アプリケーション.ForLoopSample.executor": "Run",
+    "アプリケーション.HelloWorld.executor": "Run",
+    "アプリケーション.IncrementAndDecrementSample.executor": "Run",
+    "アプリケーション.InitArraySample.executor": "Run",
+    "アプリケーション.InitializingMultidimensionalArraysSample.executor": "Run",
+    "アプリケーション.IntStreamSample.executor": "Run",
+    "アプリケーション.IntegerLiteralsSample.executor": "Run",
+    "アプリケーション.IntegerToStringSample.executor": "Run",
+    "アプリケーション.LocalDateSample.executor": "Run",
+    "アプリケーション.LogicalOperatorsSample.executor": "Run",
+    "アプリケーション.Main.executor": "Run",
+    "アプリケーション.MultidimensionalArraysSample.executor": "Run",
+    "アプリケーション.NumberLiteralsSample.executor": "Run",
+    "アプリケーション.OperatorPrecedenceSample.executor": "Run",
+    "アプリケーション.RelationalAndEqualityOperatorsSample.executor": "Run",
+    "アプリケーション.Robot.executor": "Run",
+    "アプリケーション.SettingValuesToArraySample.executor": "Run",
+    "アプリケーション.StringCodePointCountSample.executor": "Run",
+    "アプリケーション.StringCompareToSample.executor": "Run",
+    "アプリケーション.StringConcatenationSample.executor": "Run",
+    "アプリケーション.StringEqualsSample.executor": "Run",
+    "アプリケーション.StringLengthSample.executor": "Run",
+    "アプリケーション.StringLiteralsSample.executor": "Run",
+    "アプリケーション.StringToNumberSample.executor": "Run",
+    "アプリケーション.SystemArraycopySample.executor": "Run",
+    "アプリケーション.TernaryOperatorSample.executor": "Run",
+    "アプリケーション.UnaryMinusOperatorSample.executor": "Run",
+    "アプリケーション.VarSample.executor": "Run",
+    "アプリケーション.WhileLoopSample.executor": "Run",
+    "アプリケーション.WrapperClassSample.executor": "Run",
+    "アプリケーション.forEachSample.executor": "Run"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/com/example" />
@@ -117,9 +118,9 @@
       <recent name="com" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.StringLengthSample">
-    <configuration name="IntegerToStringSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.IntegerToStringSample" />
+  <component name="RunManager" selected="アプリケーション.StringCodePointCountSample">
+    <configuration name="StringCodePointCountSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.StringCodePointCountSample" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
@@ -185,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.StringCodePointCountSample" />
         <item itemvalue="アプリケーション.StringLengthSample" />
         <item itemvalue="アプリケーション.StringCompareToSample" />
         <item itemvalue="アプリケーション.StringEqualsSample" />
         <item itemvalue="アプリケーション.StringToNumberSample" />
-        <item itemvalue="アプリケーション.IntegerToStringSample" />
       </list>
     </recent_temporary>
   </component>
@@ -229,15 +230,7 @@
       <workItem from="1734181174046" duration="692000" />
       <workItem from="1734353290604" duration="912000" />
       <workItem from="1734526991423" duration="1437000" />
-      <workItem from="1734698771132" duration="318000" />
-    </task>
-    <task id="LOCAL-00004" summary="Robotクラスを追加。">
-      <option name="closed" value="true" />
-      <created>1730555885719</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1730555885719</updated>
+      <workItem from="1734698771132" duration="1037000" />
     </task>
     <task id="LOCAL-00005" summary="IntStream.rangeClosedの書き方を学んだー！">
       <option name="closed" value="true" />
@@ -623,7 +616,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734607953426</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="文字列の長さを取得するサンプル。">
+      <option name="closed" value="true" />
+      <created>1734699347557</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1734699347557</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -641,7 +642,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Forを使ったループのサンプル。" />
     <MESSAGE value="whileを使ったループのサンプル。" />
     <MESSAGE value="dowhileを使ったループのサンプル。" />
     <MESSAGE value="拡張for文のサンプル。" />
@@ -666,7 +666,8 @@
     <MESSAGE value="文字列を数値に変換するサンプル。" />
     <MESSAGE value="文字列の比較のサンプル。" />
     <MESSAGE value="文字列と文字列の大きさを比較するサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="文字列と文字列の大きさを比較するサンプル。" />
+    <MESSAGE value="文字列の長さを取得するサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="文字列の長さを取得するサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

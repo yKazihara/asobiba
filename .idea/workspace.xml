@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="文字列から指定したインデックスのUnicodeコードポイントを取得するサンプル。">
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="文字列から開始と終了インデックスを指定して部分文字列を取得するサンプル。">
+      <change afterPath="$PROJECT_DIR$/src/com/example/StringTrimStripSample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +102,9 @@
     "アプリケーション.StringEqualsSample.executor": "Run",
     "アプリケーション.StringLengthSample.executor": "Run",
     "アプリケーション.StringLiteralsSample.executor": "Run",
+    "アプリケーション.StringSubstringSample.executor": "Run",
     "アプリケーション.StringToNumberSample.executor": "Run",
+    "アプリケーション.StringTrimStripSample.executor": "Run",
     "アプリケーション.SystemArraycopySample.executor": "Run",
     "アプリケーション.TernaryOperatorSample.executor": "Run",
     "アプリケーション.UnaryMinusOperatorSample.executor": "Run",
@@ -119,7 +122,7 @@
       <recent name="com" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.StringSubstringSample">
+  <component name="RunManager" selected="アプリケーション.StringTrimStripSample">
     <configuration name="StringCharAtSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.StringCharAtSample" />
       <module name="asobiba" />
@@ -159,19 +162,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringLengthSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.StringLengthSample" />
-      <module name="asobiba" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="StringSubstringSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.StringSubstringSample" />
       <module name="asobiba" />
@@ -185,13 +175,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringTrimStripSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.StringTrimStripSample" />
+      <module name="asobiba" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.StringTrimStripSample" />
         <item itemvalue="アプリケーション.StringSubstringSample" />
         <item itemvalue="アプリケーション.StringCodePointAtSample" />
         <item itemvalue="アプリケーション.StringCharAtSample" />
         <item itemvalue="アプリケーション.StringCodePointCountSample" />
-        <item itemvalue="アプリケーション.StringLengthSample" />
       </list>
     </recent_temporary>
   </component>
@@ -233,15 +236,8 @@
       <workItem from="1734526991423" duration="1437000" />
       <workItem from="1734698771132" duration="1239000" />
       <workItem from="1734862830687" duration="313000" />
-      <workItem from="1734958008117" duration="308000" />
-    </task>
-    <task id="LOCAL-00008" summary="文字リテラルと文字列リテラル。">
-      <option name="closed" value="true" />
-      <created>1730898288237</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1730898288237</updated>
+      <workItem from="1734958008117" duration="471000" />
+      <workItem from="1735131282452" duration="378000" />
     </task>
     <task id="LOCAL-00009" summary="文字リテラルと文字列リテラル。">
       <option name="closed" value="true" />
@@ -627,7 +623,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734958215187</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="文字列から開始と終了インデックスを指定して部分文字列を取得するサンプル。">
+      <option name="closed" value="true" />
+      <created>1735044415934</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1735044415934</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -645,7 +649,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="breakとラベルのサンプル。" />
     <MESSAGE value="continueのサンプル。" />
     <MESSAGE value="配列のインデックスのサンプル。" />
     <MESSAGE value="配列の初期化や参照のサンプル。" />
@@ -670,7 +673,8 @@
     <MESSAGE value="文字列の文字数を取得するサンプル。" />
     <MESSAGE value="文字列から指定したインデックスの文字を取得するサンプル。" />
     <MESSAGE value="文字列から指定したインデックスのUnicodeコードポイントを取得するサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="文字列から指定したインデックスのUnicodeコードポイントを取得するサンプル。" />
+    <MESSAGE value="文字列から開始と終了インデックスを指定して部分文字列を取得するサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="文字列から開始と終了インデックスを指定して部分文字列を取得するサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

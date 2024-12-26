@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="文字列から開始と終了インデックスを指定して部分文字列を取得するサンプル。">
-      <change afterPath="$PROJECT_DIR$/src/com/example/StringTrimStripSample.java" afterDir="false" />
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="文字列の先頭と末尾から空白文字を取り除くサンプル。">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -122,7 +121,7 @@
       <recent name="com" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.StringTrimStripSample">
+  <component name="RunManager" selected="アプリケーション.StringToUpperLowerCaseSample">
     <configuration name="StringCharAtSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.StringCharAtSample" />
       <module name="asobiba" />
@@ -149,8 +148,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringCodePointCountSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.StringCodePointCountSample" />
+    <configuration name="StringSubstringSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.StringSubstringSample" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
@@ -162,8 +161,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringSubstringSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.StringSubstringSample" />
+    <configuration name="StringToUpperLowerCaseSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.StringToUpperLowerCaseSample" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
@@ -190,11 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.StringToUpperLowerCaseSample" />
         <item itemvalue="アプリケーション.StringTrimStripSample" />
         <item itemvalue="アプリケーション.StringSubstringSample" />
         <item itemvalue="アプリケーション.StringCodePointAtSample" />
         <item itemvalue="アプリケーション.StringCharAtSample" />
-        <item itemvalue="アプリケーション.StringCodePointCountSample" />
       </list>
     </recent_temporary>
   </component>
@@ -237,15 +236,7 @@
       <workItem from="1734698771132" duration="1239000" />
       <workItem from="1734862830687" duration="313000" />
       <workItem from="1734958008117" duration="471000" />
-      <workItem from="1735131282452" duration="378000" />
-    </task>
-    <task id="LOCAL-00009" summary="文字リテラルと文字列リテラル。">
-      <option name="closed" value="true" />
-      <created>1730898306761</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1730898306761</updated>
+      <workItem from="1735131282452" duration="960000" />
     </task>
     <task id="LOCAL-00010" summary="エスケープシーケンスのサンプル。">
       <option name="closed" value="true" />
@@ -631,7 +622,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735044415934</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="文字列の先頭と末尾から空白文字を取り除くサンプル。">
+      <option name="closed" value="true" />
+      <created>1735131960054</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1735131960055</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -649,7 +648,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="continueのサンプル。" />
     <MESSAGE value="配列のインデックスのサンプル。" />
     <MESSAGE value="配列の初期化や参照のサンプル。" />
     <MESSAGE value="配列の長さを取得するサンプル。" />
@@ -674,7 +672,8 @@
     <MESSAGE value="文字列から指定したインデックスの文字を取得するサンプル。" />
     <MESSAGE value="文字列から指定したインデックスのUnicodeコードポイントを取得するサンプル。" />
     <MESSAGE value="文字列から開始と終了インデックスを指定して部分文字列を取得するサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="文字列から開始と終了インデックスを指定して部分文字列を取得するサンプル。" />
+    <MESSAGE value="文字列の先頭と末尾から空白文字を取り除くサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="文字列の先頭と末尾から空白文字を取り除くサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

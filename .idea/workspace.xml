@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="文字列の先頭と末尾から空白文字を取り除くサンプル。">
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="文字列に含まれる文字を大文字または小文字に変換するサンプル。">
+      <change afterPath="$PROJECT_DIR$/src/com/example/StringConcatSample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,12 +98,14 @@
     "アプリケーション.StringCodePointAtSample.executor": "Run",
     "アプリケーション.StringCodePointCountSample.executor": "Run",
     "アプリケーション.StringCompareToSample.executor": "Run",
+    "アプリケーション.StringConcatSample.executor": "Run",
     "アプリケーション.StringConcatenationSample.executor": "Run",
     "アプリケーション.StringEqualsSample.executor": "Run",
     "アプリケーション.StringLengthSample.executor": "Run",
     "アプリケーション.StringLiteralsSample.executor": "Run",
     "アプリケーション.StringSubstringSample.executor": "Run",
     "アプリケーション.StringToNumberSample.executor": "Run",
+    "アプリケーション.StringToUpperLowerCaseSample.executor": "Run",
     "アプリケーション.StringTrimStripSample.executor": "Run",
     "アプリケーション.SystemArraycopySample.executor": "Run",
     "アプリケーション.TernaryOperatorSample.executor": "Run",
@@ -121,9 +124,9 @@
       <recent name="com" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.StringToUpperLowerCaseSample">
-    <configuration name="StringCharAtSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.StringCharAtSample" />
+  <component name="RunManager" selected="アプリケーション.StringConcatSample">
+    <configuration name="StringCodePointAtSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.StringCodePointAtSample" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
@@ -135,8 +138,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringCodePointAtSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.StringCodePointAtSample" />
+    <configuration name="StringConcatSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.StringConcatSample" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
@@ -189,11 +192,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.StringConcatSample" />
         <item itemvalue="アプリケーション.StringToUpperLowerCaseSample" />
         <item itemvalue="アプリケーション.StringTrimStripSample" />
         <item itemvalue="アプリケーション.StringSubstringSample" />
         <item itemvalue="アプリケーション.StringCodePointAtSample" />
-        <item itemvalue="アプリケーション.StringCharAtSample" />
       </list>
     </recent_temporary>
   </component>
@@ -236,15 +239,7 @@
       <workItem from="1734698771132" duration="1239000" />
       <workItem from="1734862830687" duration="313000" />
       <workItem from="1734958008117" duration="471000" />
-      <workItem from="1735131282452" duration="960000" />
-    </task>
-    <task id="LOCAL-00010" summary="エスケープシーケンスのサンプル。">
-      <option name="closed" value="true" />
-      <created>1730983530192</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1730983530192</updated>
+      <workItem from="1735131282452" duration="1745000" />
     </task>
     <task id="LOCAL-00011" summary="整数・浮動小数点数リテラルのサンプル。">
       <option name="closed" value="true" />
@@ -630,7 +625,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735131960055</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="文字列に含まれる文字を大文字または小文字に変換するサンプル。">
+      <option name="closed" value="true" />
+      <created>1735213429831</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1735213429831</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -648,7 +651,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="配列のインデックスのサンプル。" />
     <MESSAGE value="配列の初期化や参照のサンプル。" />
     <MESSAGE value="配列の長さを取得するサンプル。" />
     <MESSAGE value="多次元配列のサンプル。" />
@@ -673,7 +675,8 @@
     <MESSAGE value="文字列から指定したインデックスのUnicodeコードポイントを取得するサンプル。" />
     <MESSAGE value="文字列から開始と終了インデックスを指定して部分文字列を取得するサンプル。" />
     <MESSAGE value="文字列の先頭と末尾から空白文字を取り除くサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="文字列の先頭と末尾から空白文字を取り除くサンプル。" />
+    <MESSAGE value="文字列に含まれる文字を大文字または小文字に変換するサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="文字列に含まれる文字を大文字または小文字に変換するサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

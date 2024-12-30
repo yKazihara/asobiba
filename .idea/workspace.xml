@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="文字列の一部を別の文字や文字列に置換するサンプル。">
-      <change afterPath="$PROJECT_DIR$/src/com/example/StringJoinSample.java" afterDir="false" />
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="指定した区切り文字で複数の文字列を連結し新しい文字列を作成するサンプル。">
+      <change afterPath="$PROJECT_DIR$/src/com/example/StringIndexOfSample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,6 +101,8 @@
     "アプリケーション.StringConcatSample.executor": "Run",
     "アプリケーション.StringConcatenationSample.executor": "Run",
     "アプリケーション.StringEqualsSample.executor": "Run",
+    "アプリケーション.StringIndexOfSample.executor": "Run",
+    "アプリケーション.StringJoinSample.executor": "Run",
     "アプリケーション.StringLengthSample.executor": "Run",
     "アプリケーション.StringLiteralsSample.executor": "Run",
     "アプリケーション.StringReplaceSample.executor": "Run",
@@ -125,9 +127,22 @@
       <recent name="com" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.StringJoinSample">
+  <component name="RunManager" selected="アプリケーション.StringIndexOfSample">
     <configuration name="StringConcatSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.StringConcatSample" />
+      <module name="asobiba" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringIndexOfSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.StringIndexOfSample" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
@@ -178,26 +193,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringTrimStripSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.StringTrimStripSample" />
-      <module name="asobiba" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.StringIndexOfSample" />
         <item itemvalue="アプリケーション.StringJoinSample" />
         <item itemvalue="アプリケーション.StringReplaceSample" />
         <item itemvalue="アプリケーション.StringConcatSample" />
         <item itemvalue="アプリケーション.StringToUpperLowerCaseSample" />
-        <item itemvalue="アプリケーション.StringTrimStripSample" />
       </list>
     </recent_temporary>
   </component>
@@ -240,15 +242,7 @@
       <workItem from="1734698771132" duration="1239000" />
       <workItem from="1734862830687" duration="313000" />
       <workItem from="1734958008117" duration="471000" />
-      <workItem from="1735131282452" duration="2634000" />
-    </task>
-    <task id="LOCAL-00013" summary="論理値リテラルのサンプル。">
-      <option name="closed" value="true" />
-      <created>1731242436465</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1731242436465</updated>
+      <workItem from="1735131282452" duration="3592000" />
     </task>
     <task id="LOCAL-00014" summary="ほー、var も使えるようになったんだ。">
       <option name="closed" value="true" />
@@ -634,7 +628,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735383764373</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="指定した区切り文字で複数の文字列を連結し新しい文字列を作成するサンプル。">
+      <option name="closed" value="true" />
+      <created>1735473312814</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1735473312814</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -652,7 +654,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="多次元配列のサンプル。" />
     <MESSAGE value="多次元配列の初期化のサンプル。" />
     <MESSAGE value="多次元配列の長さを取得するサンプルを追記。" />
     <MESSAGE value="Arrays.fillのサンプル。" />
@@ -677,7 +678,8 @@
     <MESSAGE value="文字列に含まれる文字を大文字または小文字に変換するサンプル。" />
     <MESSAGE value="文字列の最後に別の文字列を連結するサンプル。" />
     <MESSAGE value="文字列の一部を別の文字や文字列に置換するサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="文字列の一部を別の文字や文字列に置換するサンプル。" />
+    <MESSAGE value="指定した区切り文字で複数の文字列を連結し新しい文字列を作成するサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="指定した区切り文字で複数の文字列を連結し新しい文字列を作成するサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

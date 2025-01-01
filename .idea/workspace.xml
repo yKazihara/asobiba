@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="文字列全体が正規表現パターンとマッチするか調べるサンプル。">
-      <change afterPath="$PROJECT_DIR$/src/com/example/StringSplitSample.java" afterDir="false" />
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="文字列を正規表現パターンを使って分割するサンプル。">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/StringReplaceSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/StringReplaceSample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,88 +39,88 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true",
-    "アプリケーション.AddSuffixToNumericLiteralSample.executor": "Run",
-    "アプリケーション.ArithmeticOperatorsSample.executor": "Run",
-    "アプリケーション.ArrayIndexSample.executor": "Run",
-    "アプリケーション.ArrayLengthSample.executor": "Run",
-    "アプリケーション.ArraysCopyOfRangeSample.executor": "Run",
-    "アプリケーション.ArraysEqualsSample.executor": "Run",
-    "アプリケーション.ArraysFillSample.executor": "Run",
-    "アプリケーション.ArraysSortAscAndDescSample.executor": "Run",
-    "アプリケーション.ArraysSortDescSample.executor": "Run",
-    "アプリケーション.ArraysToStringSample.executor": "Run",
-    "アプリケーション.AssignmentOperatorsSample.executor": "Run",
-    "アプリケーション.BooleanLiteralsSample.executor": "Run",
-    "アプリケーション.BreakSample.executor": "Run",
-    "アプリケーション.CastDuringCalcrationSample.executor": "Run",
-    "アプリケーション.CastSample.executor": "Run",
-    "アプリケーション.CharacterliteralsSample.executor": "Run",
-    "アプリケーション.CheckEncording.executor": "Run",
-    "アプリケーション.CommentSample.executor": "Run",
-    "アプリケーション.ContinueSample.executor": "Run",
-    "アプリケーション.CopyArraySample (1).executor": "Run",
-    "アプリケーション.CopyArraySample.executor": "Run",
-    "アプリケーション.Dentaku.executor": "Run",
-    "アプリケーション.DoWhileSample.executor": "Run",
-    "アプリケーション.EscapeSequencesSample.executor": "Run",
-    "アプリケーション.FinalSample.executor": "Run",
-    "アプリケーション.ForLoopSample.executor": "Run",
-    "アプリケーション.HelloWorld.executor": "Run",
-    "アプリケーション.IncrementAndDecrementSample.executor": "Run",
-    "アプリケーション.InitArraySample.executor": "Run",
-    "アプリケーション.InitializingMultidimensionalArraysSample.executor": "Run",
-    "アプリケーション.IntStreamSample.executor": "Run",
-    "アプリケーション.IntegerLiteralsSample.executor": "Run",
-    "アプリケーション.IntegerToStringSample.executor": "Run",
-    "アプリケーション.LocalDateSample.executor": "Run",
-    "アプリケーション.LogicalOperatorsSample.executor": "Run",
-    "アプリケーション.Main.executor": "Run",
-    "アプリケーション.MultidimensionalArraysSample.executor": "Run",
-    "アプリケーション.NumberLiteralsSample.executor": "Run",
-    "アプリケーション.OperatorPrecedenceSample.executor": "Run",
-    "アプリケーション.RelationalAndEqualityOperatorsSample.executor": "Run",
-    "アプリケーション.Robot.executor": "Run",
-    "アプリケーション.SettingValuesToArraySample.executor": "Run",
-    "アプリケーション.StringCharAtSample.executor": "Run",
-    "アプリケーション.StringCodePointAtSample.executor": "Run",
-    "アプリケーション.StringCodePointCountSample.executor": "Run",
-    "アプリケーション.StringCompareToSample.executor": "Run",
-    "アプリケーション.StringConcatSample.executor": "Run",
-    "アプリケーション.StringConcatenationSample.executor": "Run",
-    "アプリケーション.StringEqualsSample.executor": "Run",
-    "アプリケーション.StringIndexOfSample.executor": "Run",
-    "アプリケーション.StringJoinSample.executor": "Run",
-    "アプリケーション.StringLengthSample.executor": "Run",
-    "アプリケーション.StringLiteralsSample.executor": "Run",
-    "アプリケーション.StringMatchesSample.executor": "Run",
-    "アプリケーション.StringReplaceSample.executor": "Run",
-    "アプリケーション.StringSplitSample.executor": "Run",
-    "アプリケーション.StringSubstringSample.executor": "Run",
-    "アプリケーション.StringToNumberSample.executor": "Run",
-    "アプリケーション.StringToUpperLowerCaseSample.executor": "Run",
-    "アプリケーション.StringTrimStripSample.executor": "Run",
-    "アプリケーション.SystemArraycopySample.executor": "Run",
-    "アプリケーション.TernaryOperatorSample.executor": "Run",
-    "アプリケーション.UnaryMinusOperatorSample.executor": "Run",
-    "アプリケーション.VarSample.executor": "Run",
-    "アプリケーション.WhileLoopSample.executor": "Run",
-    "アプリケーション.WrapperClassSample.executor": "Run",
-    "アプリケーション.forEachSample.executor": "Run"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;アプリケーション.AddSuffixToNumericLiteralSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.ArithmeticOperatorsSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.ArrayIndexSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.ArrayLengthSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.ArraysCopyOfRangeSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.ArraysEqualsSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.ArraysFillSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.ArraysSortAscAndDescSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.ArraysSortDescSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.ArraysToStringSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.AssignmentOperatorsSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.BooleanLiteralsSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.BreakSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.CastDuringCalcrationSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.CastSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.CharacterliteralsSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.CheckEncording.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.CommentSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.ContinueSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.CopyArraySample (1).executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.CopyArraySample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.Dentaku.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.DoWhileSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.EscapeSequencesSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.FinalSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.ForLoopSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.HelloWorld.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.IncrementAndDecrementSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.InitArraySample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.InitializingMultidimensionalArraysSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.IntStreamSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.IntegerLiteralsSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.IntegerToStringSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.LocalDateSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.LogicalOperatorsSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.Main.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.MultidimensionalArraysSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.NumberLiteralsSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.OperatorPrecedenceSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.RelationalAndEqualityOperatorsSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.Robot.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.SettingValuesToArraySample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.StringCharAtSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.StringCodePointAtSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.StringCodePointCountSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.StringCompareToSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.StringConcatSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.StringConcatenationSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.StringEqualsSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.StringIndexOfSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.StringJoinSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.StringLengthSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.StringLiteralsSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.StringMatchesSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.StringReplaceSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.StringSplitSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.StringSubstringSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.StringToNumberSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.StringToUpperLowerCaseSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.StringTrimStripSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.SystemArraycopySample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.TernaryOperatorSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.UnaryMinusOperatorSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.VarSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.WhileLoopSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.WrapperClassSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.forEachSample.executor&quot;: &quot;Run&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/com/example" />
@@ -129,7 +129,7 @@
       <recent name="com" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.StringSplitSample">
+  <component name="RunManager" selected="アプリケーション.StringReplaceSample">
     <configuration name="StringIndexOfSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.StringIndexOfSample" />
       <module name="asobiba" />
@@ -197,11 +197,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.StringReplaceSample" />
         <item itemvalue="アプリケーション.StringSplitSample" />
         <item itemvalue="アプリケーション.StringMatchesSample" />
         <item itemvalue="アプリケーション.StringIndexOfSample" />
         <item itemvalue="アプリケーション.StringJoinSample" />
-        <item itemvalue="アプリケーション.StringReplaceSample" />
       </list>
     </recent_temporary>
   </component>
@@ -244,15 +244,8 @@
       <workItem from="1734698771132" duration="1239000" />
       <workItem from="1734862830687" duration="313000" />
       <workItem from="1734958008117" duration="471000" />
-      <workItem from="1735131282452" duration="4774000" />
-    </task>
-    <task id="LOCAL-00016" summary="キャストや自動型変換のサンプル。">
-      <option name="closed" value="true" />
-      <created>1731416643084</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1731416643084</updated>
+      <workItem from="1735131282452" duration="5520000" />
+      <workItem from="1735684735159" duration="185000" />
     </task>
     <task id="LOCAL-00017" summary="演算の時に自動的に行われる型変換のサンプル。">
       <option name="closed" value="true" />
@@ -638,7 +631,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735532079825</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="文字列を正規表現パターンを使って分割するサンプル。">
+      <option name="closed" value="true" />
+      <created>1735632272386</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1735632272387</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -656,7 +657,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Arrays.fillのサンプル。" />
     <MESSAGE value="配列のコピーのサンプル。" />
     <MESSAGE value="Arrays.copyOfRangeのサンプル。" />
     <MESSAGE value="2つの配列を連結して新しい配列を作成するサンプル。" />
@@ -681,7 +681,8 @@
     <MESSAGE value="指定した区切り文字で複数の文字列を連結し新しい文字列を作成するサンプル。" />
     <MESSAGE value="文字列の中で指定した文字または文字列が出現するインデックスを取得するサンプル。" />
     <MESSAGE value="文字列全体が正規表現パターンとマッチするか調べるサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="文字列全体が正規表現パターンとマッチするか調べるサンプル。" />
+    <MESSAGE value="文字列を正規表現パターンを使って分割するサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="文字列を正規表現パターンを使って分割するサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

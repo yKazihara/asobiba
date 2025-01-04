@@ -1,6 +1,6 @@
 package com.example;
 
-public class MethodParamSample {
+public class MethodParamSample1 {
     public static void main(String[] args) {
         int num1, num2;
 

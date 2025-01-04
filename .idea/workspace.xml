@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="メソッドのサンプル。">
-      <change afterPath="$PROJECT_DIR$/src/com/example/MethodParamSample.java" afterDir="false" />
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="引数を使ってメソッドに値を渡すサンプル。">
+      <change afterPath="$PROJECT_DIR$/src/com/example/MethodParamSample2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/MethodParamSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/MethodParamSample1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +90,7 @@
     "アプリケーション.LogicalOperatorsSample.executor": "Run",
     "アプリケーション.Main.executor": "Run",
     "アプリケーション.MethodParamSample.executor": "Run",
+    "アプリケーション.MethodParamSample2.executor": "Run",
     "アプリケーション.MethodSample.executor": "Run",
     "アプリケーション.MultidimensionalArraysSample.executor": "Run",
     "アプリケーション.NumberLiteralsSample.executor": "Run",
@@ -131,9 +133,22 @@
       <recent name="com" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.MethodParamSample">
-    <configuration name="MethodParamSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.MethodParamSample" />
+  <component name="RunManager" selected="アプリケーション.MethodParamSample2">
+    <configuration name="MethodParamSample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.MethodParamSample1" />
+      <module name="asobiba" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MethodParamSample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.MethodParamSample2" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
@@ -147,19 +162,6 @@
     </configuration>
     <configuration name="MethodSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.MethodSample" />
-      <module name="asobiba" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringMatchesSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.StringMatchesSample" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
@@ -199,11 +201,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="アプリケーション.MethodParamSample" />
+        <item itemvalue="アプリケーション.MethodParamSample2" />
+        <item itemvalue="アプリケーション.MethodParamSample1" />
         <item itemvalue="アプリケーション.MethodSample" />
         <item itemvalue="アプリケーション.StringReplaceSample" />
         <item itemvalue="アプリケーション.StringSplitSample" />
-        <item itemvalue="アプリケーション.StringMatchesSample" />
       </list>
     </recent_temporary>
   </component>
@@ -247,15 +249,7 @@
       <workItem from="1734862830687" duration="313000" />
       <workItem from="1734958008117" duration="471000" />
       <workItem from="1735131282452" duration="5520000" />
-      <workItem from="1735684735159" duration="1904000" />
-    </task>
-    <task id="LOCAL-00019" summary="算術演算子のサンプル。">
-      <option name="closed" value="true" />
-      <created>1731674463688</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1731674463688</updated>
+      <workItem from="1735684735159" duration="2433000" />
     </task>
     <task id="LOCAL-00020" summary="算術演算子のサンプル。ゼロ割追加。">
       <option name="closed" value="true" />
@@ -641,7 +635,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735811052541</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="引数を使ってメソッドに値を渡すサンプル。">
+      <option name="closed" value="true" />
+      <created>1735894379446</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1735894379446</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -659,7 +661,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2つの配列を連結して新しい配列を作成するサンプル。" />
     <MESSAGE value="2つの配列の要素の値を比較するサンプル。" />
     <MESSAGE value="配列の要素を逆順に並び替えるサンプル。" />
     <MESSAGE value="配列を昇順・降順に並び替えるサンプルを更新。" />
@@ -684,7 +685,8 @@
     <MESSAGE value="文字列を正規表現パターンを使って分割するサンプル。" />
     <MESSAGE value="文字列の中の正規表現パターンとマッチする部分を置換するサンプルを追記。" />
     <MESSAGE value="メソッドのサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="メソッドのサンプル。" />
+    <MESSAGE value="引数を使ってメソッドに値を渡すサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="引数を使ってメソッドに値を渡すサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

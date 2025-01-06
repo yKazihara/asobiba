@@ -16,17 +16,31 @@ public class MethodReturnSample {
         checkResult = check(result + 1); // 計算結果にプラス１しておく。
         System.out.println(result); // 10
         System.out.println(checkResult); // 11は奇数です。
+
+        System.out.println("-----");
+
+        int[] data = initArray();
+        System.out.println(data[0]); // 10
+        System.out.println(data[1]); // 19
     }
 
-    private static int bai(int n){
+    private static int bai(int n) {
         return n * 2;
     }
 
     private static String check(int n) {
-        if (n % 2 == 0){
+        if (n % 2 == 0) {
             return STR."\{n}は偶数です。";
         } else {
             return STR."\{n}は奇数です。";
         }
+    }
+
+    private static int[] initArray() {
+        int[] data = new int[2];
+        data[0] = 10;
+        data[1] = 19;
+
+        return data;
     }
 }

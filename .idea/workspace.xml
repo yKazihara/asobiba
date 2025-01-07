@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="メソッドのオーバーロードのサンプル。">
-      <change afterPath="$PROJECT_DIR$/src/com/example/VariableArgumentsSample.java" afterDir="false" />
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="可変引数のサンプル。">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,6 +121,7 @@
     "アプリケーション.TernaryOperatorSample.executor": "Run",
     "アプリケーション.UnaryMinusOperatorSample.executor": "Run",
     "アプリケーション.VarSample.executor": "Run",
+    "アプリケーション.VariableArgumentsSample.executor": "Run",
     "アプリケーション.WhileLoopSample.executor": "Run",
     "アプリケーション.WrapperClassSample.executor": "Run",
     "アプリケーション.forEachSample.executor": "Run"
@@ -134,9 +135,9 @@
       <recent name="com" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.VariableArgumentsSample">
-    <configuration name="MethodParamSample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.MethodParamSample2" />
+  <component name="RunManager" selected="アプリケーション.CombiningFixedAndVariableArgumentsSample">
+    <configuration name="CombiningFixedAndVariableArgumentsSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.CombiningFixedAndVariableArgumentsSample" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
@@ -202,11 +203,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.CombiningFixedAndVariableArgumentsSample" />
         <item itemvalue="アプリケーション.VariableArgumentsSample" />
         <item itemvalue="アプリケーション.OverloadsSample" />
         <item itemvalue="アプリケーション.ReturnSample" />
         <item itemvalue="アプリケーション.MethodReturnSample" />
-        <item itemvalue="アプリケーション.MethodParamSample2" />
       </list>
     </recent_temporary>
   </component>
@@ -250,15 +251,7 @@
       <workItem from="1734862830687" duration="313000" />
       <workItem from="1734958008117" duration="471000" />
       <workItem from="1735131282452" duration="5520000" />
-      <workItem from="1735684735159" duration="5615000" />
-    </task>
-    <task id="LOCAL-00025" summary="関係演算子のサンプル。">
-      <option name="closed" value="true" />
-      <created>1732020736905</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1732020736905</updated>
+      <workItem from="1735684735159" duration="6046000" />
     </task>
     <task id="LOCAL-00026" summary="論理演算子のサンプル。">
       <option name="closed" value="true" />
@@ -644,7 +637,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736230626713</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="可変引数のサンプル。">
+      <option name="closed" value="true" />
+      <created>1736232520240</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1736232520240</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -662,7 +663,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="数値を文字列に変換するサンプル。" />
     <MESSAGE value="文字列を数値に変換するサンプル。" />
     <MESSAGE value="文字列の比較のサンプル。" />
     <MESSAGE value="文字列と文字列の大きさを比較するサンプル。" />
@@ -687,7 +687,8 @@
     <MESSAGE value="戻り値を使ってメソッドから配列を返すサンプル。" />
     <MESSAGE value="returnのサンプル。" />
     <MESSAGE value="メソッドのオーバーロードのサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="メソッドのオーバーロードのサンプル。" />
+    <MESSAGE value="可変引数のサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="可変引数のサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

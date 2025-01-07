@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="戻り値を使ってメソッドから値を返すサンプル。" />
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="戻り値を使ってメソッドから配列を返すサンプル。">
+      <change afterPath="$PROJECT_DIR$/src/com/example/ReturnSample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -130,7 +133,7 @@
       <recent name="com" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.MethodReturnSample">
+  <component name="RunManager" selected="アプリケーション.ReturnSample">
     <configuration name="MethodParamSample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.MethodParamSample1" />
       <module name="asobiba" />
@@ -183,8 +186,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringReplaceSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.StringReplaceSample" />
+    <configuration name="ReturnSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.ReturnSample" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
@@ -198,11 +201,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.ReturnSample" />
         <item itemvalue="アプリケーション.MethodReturnSample" />
         <item itemvalue="アプリケーション.MethodParamSample2" />
         <item itemvalue="アプリケーション.MethodParamSample1" />
         <item itemvalue="アプリケーション.MethodSample" />
-        <item itemvalue="アプリケーション.StringReplaceSample" />
       </list>
     </recent_temporary>
   </component>
@@ -246,15 +249,7 @@
       <workItem from="1734862830687" duration="313000" />
       <workItem from="1734958008117" duration="471000" />
       <workItem from="1735131282452" duration="5520000" />
-      <workItem from="1735684735159" duration="4038000" />
-    </task>
-    <task id="LOCAL-00022" summary="単項マイナス演算子のサンプル。追加。">
-      <option name="closed" value="true" />
-      <created>1731753703793</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1731753703793</updated>
+      <workItem from="1735684735159" duration="4829000" />
     </task>
     <task id="LOCAL-00023" summary="インクリメントとデクリメントのサンプル。">
       <option name="closed" value="true" />
@@ -640,7 +635,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736063689408</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="戻り値を使ってメソッドから配列を返すサンプル。">
+      <option name="closed" value="true" />
+      <created>1736139651695</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1736139651695</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -658,7 +661,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="配列を昇順・降順に並び替えるサンプルを更新。" />
     <MESSAGE value="配列の文字列表現を取得するサンプル。" />
     <MESSAGE value="Stringサンプルに追記。" />
     <MESSAGE value="数値を文字列に変換するサンプル。" />
@@ -683,7 +685,8 @@
     <MESSAGE value="引数を使ってメソッドに値を渡すサンプル。" />
     <MESSAGE value="引数を使ってメソッドに値を渡すサンプル その2。" />
     <MESSAGE value="戻り値を使ってメソッドから値を返すサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="戻り値を使ってメソッドから値を返すサンプル。" />
+    <MESSAGE value="戻り値を使ってメソッドから配列を返すサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="戻り値を使ってメソッドから配列を返すサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

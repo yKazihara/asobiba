@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="戻り値を使ってメソッドから配列を返すサンプル。">
-      <change afterPath="$PROJECT_DIR$/src/com/example/ReturnSample.java" afterDir="false" />
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="returnのサンプル。">
+      <change afterPath="$PROJECT_DIR$/src/com/example/OverloadsSample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +95,9 @@
     "アプリケーション.MultidimensionalArraysSample.executor": "Run",
     "アプリケーション.NumberLiteralsSample.executor": "Run",
     "アプリケーション.OperatorPrecedenceSample.executor": "Run",
+    "アプリケーション.OverloadsSample.executor": "Run",
     "アプリケーション.RelationalAndEqualityOperatorsSample.executor": "Run",
+    "アプリケーション.ReturnSample.executor": "Run",
     "アプリケーション.Robot.executor": "Run",
     "アプリケーション.SettingValuesToArraySample.executor": "Run",
     "アプリケーション.StringCharAtSample.executor": "Run",
@@ -133,7 +135,7 @@
       <recent name="com" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.ReturnSample">
+  <component name="RunManager" selected="アプリケーション.OverloadsSample">
     <configuration name="MethodParamSample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.MethodParamSample1" />
       <module name="asobiba" />
@@ -173,8 +175,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.MethodSample" />
+    <configuration name="OverloadsSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.OverloadsSample" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
@@ -201,11 +203,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.OverloadsSample" />
         <item itemvalue="アプリケーション.ReturnSample" />
         <item itemvalue="アプリケーション.MethodReturnSample" />
         <item itemvalue="アプリケーション.MethodParamSample2" />
         <item itemvalue="アプリケーション.MethodParamSample1" />
-        <item itemvalue="アプリケーション.MethodSample" />
       </list>
     </recent_temporary>
   </component>
@@ -249,15 +251,7 @@
       <workItem from="1734862830687" duration="313000" />
       <workItem from="1734958008117" duration="471000" />
       <workItem from="1735131282452" duration="5520000" />
-      <workItem from="1735684735159" duration="4829000" />
-    </task>
-    <task id="LOCAL-00023" summary="インクリメントとデクリメントのサンプル。">
-      <option name="closed" value="true" />
-      <created>1731846704175</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1731846704175</updated>
+      <workItem from="1735684735159" duration="5480000" />
     </task>
     <task id="LOCAL-00024" summary="代入演算子のサンプル。">
       <option name="closed" value="true" />
@@ -643,7 +637,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736139651695</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="returnのサンプル。">
+      <option name="closed" value="true" />
+      <created>1736214309204</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1736214309204</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -661,7 +663,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="配列の文字列表現を取得するサンプル。" />
     <MESSAGE value="Stringサンプルに追記。" />
     <MESSAGE value="数値を文字列に変換するサンプル。" />
     <MESSAGE value="文字列を数値に変換するサンプル。" />
@@ -686,7 +687,8 @@
     <MESSAGE value="引数を使ってメソッドに値を渡すサンプル その2。" />
     <MESSAGE value="戻り値を使ってメソッドから値を返すサンプル。" />
     <MESSAGE value="戻り値を使ってメソッドから配列を返すサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="戻り値を使ってメソッドから配列を返すサンプル。" />
+    <MESSAGE value="returnのサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="returnのサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

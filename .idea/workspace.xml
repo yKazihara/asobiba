@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="可変引数のサンプル。">
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="固定引数と可変引数の組み合わせのサンプル：修正。">
+      <change afterPath="$PROJECT_DIR$/src/com/example/tryCatchSample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,6 +69,7 @@
     "アプリケーション.CastSample.executor": "Run",
     "アプリケーション.CharacterliteralsSample.executor": "Run",
     "アプリケーション.CheckEncording.executor": "Run",
+    "アプリケーション.CombiningFixedAndVariableArgumentsSample.executor": "Run",
     "アプリケーション.CommentSample.executor": "Run",
     "アプリケーション.ContinueSample.executor": "Run",
     "アプリケーション.CopyArraySample (1).executor": "Run",
@@ -135,22 +137,9 @@
       <recent name="com" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.CombiningFixedAndVariableArgumentsSample">
+  <component name="RunManager" selected="アプリケーション.tryCatchSample">
     <configuration name="CombiningFixedAndVariableArgumentsSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.CombiningFixedAndVariableArgumentsSample" />
-      <module name="asobiba" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MethodReturnSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.MethodReturnSample" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
@@ -201,13 +190,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="tryCatchSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.tryCatchSample" />
+      <module name="asobiba" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.tryCatchSample" />
         <item itemvalue="アプリケーション.CombiningFixedAndVariableArgumentsSample" />
         <item itemvalue="アプリケーション.VariableArgumentsSample" />
         <item itemvalue="アプリケーション.OverloadsSample" />
         <item itemvalue="アプリケーション.ReturnSample" />
-        <item itemvalue="アプリケーション.MethodReturnSample" />
       </list>
     </recent_temporary>
   </component>
@@ -251,23 +253,7 @@
       <workItem from="1734862830687" duration="313000" />
       <workItem from="1734958008117" duration="471000" />
       <workItem from="1735131282452" duration="5520000" />
-      <workItem from="1735684735159" duration="6046000" />
-    </task>
-    <task id="LOCAL-00026" summary="論理演算子のサンプル。">
-      <option name="closed" value="true" />
-      <created>1732106796368</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1732106796368</updated>
-    </task>
-    <task id="LOCAL-00027" summary="三項演算子や文字連結のサンプル。">
-      <option name="closed" value="true" />
-      <created>1732192992912</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1732192992912</updated>
+      <workItem from="1735684735159" duration="6612000" />
     </task>
     <task id="LOCAL-00028" summary="Forを使ったループのサンプル。">
       <option name="closed" value="true" />
@@ -645,7 +631,23 @@
       <option name="project" value="LOCAL" />
       <updated>1736232520240</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="固定引数と可変引数の組み合わせのサンプル。">
+      <option name="closed" value="true" />
+      <created>1736249732095</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1736249732095</updated>
+    </task>
+    <task id="LOCAL-00076" summary="固定引数と可変引数の組み合わせのサンプル：修正。">
+      <option name="closed" value="true" />
+      <created>1736249765408</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1736249765409</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -663,8 +665,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="文字列を数値に変換するサンプル。" />
-    <MESSAGE value="文字列の比較のサンプル。" />
     <MESSAGE value="文字列と文字列の大きさを比較するサンプル。" />
     <MESSAGE value="文字列の長さを取得するサンプル。" />
     <MESSAGE value="文字列の文字数を取得するサンプル。" />
@@ -688,7 +688,9 @@
     <MESSAGE value="returnのサンプル。" />
     <MESSAGE value="メソッドのオーバーロードのサンプル。" />
     <MESSAGE value="可変引数のサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="可変引数のサンプル。" />
+    <MESSAGE value="固定引数と可変引数の組み合わせのサンプル。" />
+    <MESSAGE value="固定引数と可変引数の組み合わせのサンプル：修正。" />
+    <option name="LAST_COMMIT_MESSAGE" value="固定引数と可変引数の組み合わせのサンプル：修正。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

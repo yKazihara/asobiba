@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="try catchのサンプル。">
-      <change afterPath="$PROJECT_DIR$/src/com/example/tryCatchFinallySample.java" afterDir="false" />
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="try catch finallyのサンプル。">
+      <change afterPath="$PROJECT_DIR$/src/com/example/MatcherSample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +89,7 @@
     "アプリケーション.LocalDateSample.executor": "Run",
     "アプリケーション.LogicalOperatorsSample.executor": "Run",
     "アプリケーション.Main.executor": "Run",
+    "アプリケーション.MatcherSample.executor": "Run",
     "アプリケーション.MethodParamSample.executor": "Run",
     "アプリケーション.MethodParamSample2.executor": "Run",
     "アプリケーション.MethodReturnSample.executor": "Run",
@@ -138,7 +140,7 @@
       <recent name="com" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.tryCatchFinallySample">
+  <component name="RunManager" selected="アプリケーション.MatcherSample">
     <configuration name="CombiningFixedAndVariableArgumentsSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.CombiningFixedAndVariableArgumentsSample" />
       <module name="asobiba" />
@@ -152,8 +154,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OverloadsSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.OverloadsSample" />
+    <configuration name="MatcherSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.MatcherSample" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
@@ -206,11 +208,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.MatcherSample" />
         <item itemvalue="アプリケーション.tryCatchFinallySample" />
         <item itemvalue="アプリケーション.tryCatchSample" />
         <item itemvalue="アプリケーション.CombiningFixedAndVariableArgumentsSample" />
         <item itemvalue="アプリケーション.VariableArgumentsSample" />
-        <item itemvalue="アプリケーション.OverloadsSample" />
       </list>
     </recent_temporary>
   </component>
@@ -254,15 +256,7 @@
       <workItem from="1734862830687" duration="313000" />
       <workItem from="1734958008117" duration="471000" />
       <workItem from="1735131282452" duration="5520000" />
-      <workItem from="1735684735159" duration="6928000" />
-    </task>
-    <task id="LOCAL-00029" summary="whileを使ったループのサンプル。">
-      <option name="closed" value="true" />
-      <created>1732366055426</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1732366055426</updated>
+      <workItem from="1735684735159" duration="7710000" />
     </task>
     <task id="LOCAL-00030" summary="dowhileを使ったループのサンプル。">
       <option name="closed" value="true" />
@@ -648,7 +642,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736319563210</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="try catch finallyのサンプル。">
+      <option name="closed" value="true" />
+      <created>1736319870071</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1736319870072</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -666,7 +668,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="文字列の長さを取得するサンプル。" />
     <MESSAGE value="文字列の文字数を取得するサンプル。" />
     <MESSAGE value="文字列から指定したインデックスの文字を取得するサンプル。" />
     <MESSAGE value="文字列から指定したインデックスのUnicodeコードポイントを取得するサンプル。" />
@@ -691,7 +692,8 @@
     <MESSAGE value="固定引数と可変引数の組み合わせのサンプル。" />
     <MESSAGE value="固定引数と可変引数の組み合わせのサンプル：修正。" />
     <MESSAGE value="try catchのサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="try catchのサンプル。" />
+    <MESSAGE value="try catch finallyのサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="try catch finallyのサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

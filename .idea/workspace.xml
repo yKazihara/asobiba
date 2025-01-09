@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="try catch finallyのサンプル。">
-      <change afterPath="$PROJECT_DIR$/src/com/example/MatcherSample.java" afterDir="false" />
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="正規表現のサンプル。">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/MatcherSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/MatcherSample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -256,15 +256,7 @@
       <workItem from="1734862830687" duration="313000" />
       <workItem from="1734958008117" duration="471000" />
       <workItem from="1735131282452" duration="5520000" />
-      <workItem from="1735684735159" duration="7710000" />
-    </task>
-    <task id="LOCAL-00030" summary="dowhileを使ったループのサンプル。">
-      <option name="closed" value="true" />
-      <created>1732452457673</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1732452457673</updated>
+      <workItem from="1735684735159" duration="8278000" />
     </task>
     <task id="LOCAL-00031" summary="拡張for文のサンプル。">
       <option name="closed" value="true" />
@@ -650,7 +642,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736319870072</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="正規表現のサンプル。">
+      <option name="closed" value="true" />
+      <created>1736406283300</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1736406283300</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -668,7 +668,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="文字列の文字数を取得するサンプル。" />
     <MESSAGE value="文字列から指定したインデックスの文字を取得するサンプル。" />
     <MESSAGE value="文字列から指定したインデックスのUnicodeコードポイントを取得するサンプル。" />
     <MESSAGE value="文字列から開始と終了インデックスを指定して部分文字列を取得するサンプル。" />
@@ -693,7 +692,8 @@
     <MESSAGE value="固定引数と可変引数の組み合わせのサンプル：修正。" />
     <MESSAGE value="try catchのサンプル。" />
     <MESSAGE value="try catch finallyのサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="try catch finallyのサンプル。" />
+    <MESSAGE value="正規表現のサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="正規表現のサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

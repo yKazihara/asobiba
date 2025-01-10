@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="正規表現のサンプル。">
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="正規表現のエスケープサンプルを追記。">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/MatcherSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/MatcherSample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +139,7 @@
       <recent name="com" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.MatcherSample">
+  <component name="RunManager" selected="アプリケーション.MatcherMatchesSample">
     <configuration name="CombiningFixedAndVariableArgumentsSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.CombiningFixedAndVariableArgumentsSample" />
       <module name="asobiba" />
@@ -154,8 +153,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MatcherSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.MatcherSample" />
+    <configuration name="MatcherMatchesSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.MatcherMatchesSample" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
@@ -167,8 +166,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VariableArgumentsSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.VariableArgumentsSample" />
+    <configuration name="MatcherSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.MatcherSample" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
@@ -208,11 +207,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.MatcherMatchesSample" />
         <item itemvalue="アプリケーション.MatcherSample" />
         <item itemvalue="アプリケーション.tryCatchFinallySample" />
         <item itemvalue="アプリケーション.tryCatchSample" />
         <item itemvalue="アプリケーション.CombiningFixedAndVariableArgumentsSample" />
-        <item itemvalue="アプリケーション.VariableArgumentsSample" />
       </list>
     </recent_temporary>
   </component>
@@ -256,15 +255,7 @@
       <workItem from="1734862830687" duration="313000" />
       <workItem from="1734958008117" duration="471000" />
       <workItem from="1735131282452" duration="5520000" />
-      <workItem from="1735684735159" duration="8278000" />
-    </task>
-    <task id="LOCAL-00031" summary="拡張for文のサンプル。">
-      <option name="closed" value="true" />
-      <created>1732538705373</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1732538705373</updated>
+      <workItem from="1735684735159" duration="8664000" />
     </task>
     <task id="LOCAL-00032" summary="breakとラベルのサンプル。">
       <option name="closed" value="true" />
@@ -650,7 +641,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736406283300</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="正規表現のエスケープサンプルを追記。">
+      <option name="closed" value="true" />
+      <created>1736426908635</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1736426908635</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -668,7 +667,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="文字列から指定したインデックスの文字を取得するサンプル。" />
     <MESSAGE value="文字列から指定したインデックスのUnicodeコードポイントを取得するサンプル。" />
     <MESSAGE value="文字列から開始と終了インデックスを指定して部分文字列を取得するサンプル。" />
     <MESSAGE value="文字列の先頭と末尾から空白文字を取り除くサンプル。" />
@@ -693,7 +691,8 @@
     <MESSAGE value="try catchのサンプル。" />
     <MESSAGE value="try catch finallyのサンプル。" />
     <MESSAGE value="正規表現のサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="正規表現のサンプル。" />
+    <MESSAGE value="正規表現のエスケープサンプルを追記。" />
+    <option name="LAST_COMMIT_MESSAGE" value="正規表現のエスケープサンプルを追記。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

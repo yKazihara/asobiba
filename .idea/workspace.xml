@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="正規表現のエスケープサンプルを追記。">
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="文字列の全体がパターンとマッチするか調べるサンプル。">
+      <change afterPath="$PROJECT_DIR$/src/com/example/MatcherLookingAtSample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,6 +89,8 @@
     "アプリケーション.LocalDateSample.executor": "Run",
     "アプリケーション.LogicalOperatorsSample.executor": "Run",
     "アプリケーション.Main.executor": "Run",
+    "アプリケーション.MatcherLookingAtSample.executor": "Run",
+    "アプリケーション.MatcherMatchesSample.executor": "Run",
     "アプリケーション.MatcherSample.executor": "Run",
     "アプリケーション.MethodParamSample.executor": "Run",
     "アプリケーション.MethodParamSample2.executor": "Run",
@@ -139,9 +142,9 @@
       <recent name="com" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.MatcherMatchesSample">
-    <configuration name="CombiningFixedAndVariableArgumentsSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.CombiningFixedAndVariableArgumentsSample" />
+  <component name="RunManager" selected="アプリケーション.MatcherLookingAtSample">
+    <configuration name="MatcherLookingAtSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.MatcherLookingAtSample" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
@@ -207,11 +210,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.MatcherLookingAtSample" />
         <item itemvalue="アプリケーション.MatcherMatchesSample" />
         <item itemvalue="アプリケーション.MatcherSample" />
         <item itemvalue="アプリケーション.tryCatchFinallySample" />
         <item itemvalue="アプリケーション.tryCatchSample" />
-        <item itemvalue="アプリケーション.CombiningFixedAndVariableArgumentsSample" />
       </list>
     </recent_temporary>
   </component>
@@ -255,15 +258,7 @@
       <workItem from="1734862830687" duration="313000" />
       <workItem from="1734958008117" duration="471000" />
       <workItem from="1735131282452" duration="5520000" />
-      <workItem from="1735684735159" duration="8664000" />
-    </task>
-    <task id="LOCAL-00032" summary="breakとラベルのサンプル。">
-      <option name="closed" value="true" />
-      <created>1732625339491</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1732625339491</updated>
+      <workItem from="1735684735159" duration="9638000" />
     </task>
     <task id="LOCAL-00033" summary="continueのサンプル。">
       <option name="closed" value="true" />
@@ -649,7 +644,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736426908635</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="文字列の全体がパターンとマッチするか調べるサンプル。">
+      <option name="closed" value="true" />
+      <created>1736513617475</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1736513617475</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -667,7 +670,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="文字列から指定したインデックスのUnicodeコードポイントを取得するサンプル。" />
     <MESSAGE value="文字列から開始と終了インデックスを指定して部分文字列を取得するサンプル。" />
     <MESSAGE value="文字列の先頭と末尾から空白文字を取り除くサンプル。" />
     <MESSAGE value="文字列に含まれる文字を大文字または小文字に変換するサンプル。" />
@@ -692,7 +694,8 @@
     <MESSAGE value="try catch finallyのサンプル。" />
     <MESSAGE value="正規表現のサンプル。" />
     <MESSAGE value="正規表現のエスケープサンプルを追記。" />
-    <option name="LAST_COMMIT_MESSAGE" value="正規表現のエスケープサンプルを追記。" />
+    <MESSAGE value="文字列の全体がパターンとマッチするか調べるサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="文字列の全体がパターンとマッチするか調べるサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

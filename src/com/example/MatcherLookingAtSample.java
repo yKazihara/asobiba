@@ -4,7 +4,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class MatcherLookingAtSample {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         // 対象の文字列の先頭からマッチすれば true
         String regex1 = "港区";
         Pattern p1 = Pattern.compile(regex1);

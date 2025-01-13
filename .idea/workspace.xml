@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="文字列の先頭からパターンとマッチするか調べるサンプル。">
-      <change afterPath="$PROJECT_DIR$/src/com/example/MatcherFindSample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/MatcherLookingAtSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/MatcherLookingAtSample.java" afterDir="false" />
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="文字列の中でパターンとマッチする部分を検索するサンプル。">
+      <change afterPath="$PROJECT_DIR$/src/com/example/MatcherStartEndGroupSample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +142,7 @@
       <recent name="com" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.MatcherFindSample">
+  <component name="RunManager" selected="アプリケーション.MatcherStartEndGroupSample">
     <configuration name="MatcherFindSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.MatcherFindSample" />
       <module name="asobiba" />
@@ -197,8 +195,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="tryCatchFinallySample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.tryCatchFinallySample" />
+    <configuration name="MatcherStartEndGroupSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.MatcherStartEndGroupSample" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
@@ -212,11 +210,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.MatcherStartEndGroupSample" />
         <item itemvalue="アプリケーション.MatcherFindSample" />
         <item itemvalue="アプリケーション.MatcherLookingAtSample" />
         <item itemvalue="アプリケーション.MatcherMatchesSample" />
         <item itemvalue="アプリケーション.MatcherSample" />
-        <item itemvalue="アプリケーション.tryCatchFinallySample" />
       </list>
     </recent_temporary>
   </component>
@@ -260,15 +258,7 @@
       <workItem from="1734862830687" duration="313000" />
       <workItem from="1734958008117" duration="471000" />
       <workItem from="1735131282452" duration="5520000" />
-      <workItem from="1735684735159" duration="10582000" />
-    </task>
-    <task id="LOCAL-00034" summary="配列のインデックスのサンプル。">
-      <option name="closed" value="true" />
-      <created>1733049816143</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1733049816143</updated>
+      <workItem from="1735684735159" duration="10879000" />
     </task>
     <task id="LOCAL-00035" summary="配列の初期化や参照のサンプル。">
       <option name="closed" value="true" />
@@ -654,7 +644,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736600038725</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="文字列の中でパターンとマッチする部分を検索するサンプル。">
+      <option name="closed" value="true" />
+      <created>1736685595966</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1736685595966</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -672,7 +670,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="文字列の先頭と末尾から空白文字を取り除くサンプル。" />
     <MESSAGE value="文字列に含まれる文字を大文字または小文字に変換するサンプル。" />
     <MESSAGE value="文字列の最後に別の文字列を連結するサンプル。" />
     <MESSAGE value="文字列の一部を別の文字や文字列に置換するサンプル。" />
@@ -697,7 +694,8 @@
     <MESSAGE value="正規表現のエスケープサンプルを追記。" />
     <MESSAGE value="文字列の全体がパターンとマッチするか調べるサンプル。" />
     <MESSAGE value="文字列の先頭からパターンとマッチするか調べるサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="文字列の先頭からパターンとマッチするか調べるサンプル。" />
+    <MESSAGE value="文字列の中でパターンとマッチする部分を検索するサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="文字列の中でパターンとマッチする部分を検索するサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

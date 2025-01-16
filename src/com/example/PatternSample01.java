@@ -3,7 +3,7 @@ package com.example;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class PatternSample {
+public class PatternSample01 {
     public static void main(String[] args) {
         String regex1 = "Sun";
         Pattern p1 = Pattern.compile(regex1);

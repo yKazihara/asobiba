@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="Matcherオブジェクトをリセットして位置情報をゼロへ戻すサンプル。">
-      <change afterPath="$PROJECT_DIR$/src/com/example/PatternSample.java" afterDir="false" />
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="文字クラスを使って色々な文字にマッチするパターンを記述するサンプル。">
+      <change afterPath="$PROJECT_DIR$/src/com/example/PatternSample02.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/PatternSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/PatternSample01.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,6 +106,7 @@
     "アプリケーション.OperatorPrecedenceSample.executor": "Run",
     "アプリケーション.OverloadsSample.executor": "Run",
     "アプリケーション.PatternSample.executor": "Run",
+    "アプリケーション.PatternSample02.executor": "Run",
     "アプリケーション.RelationalAndEqualityOperatorsSample.executor": "Run",
     "アプリケーション.ReturnSample.executor": "Run",
     "アプリケーション.Robot.executor": "Run",
@@ -147,20 +149,7 @@
       <recent name="com" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.PatternSample">
-    <configuration name="MatcherFindSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.MatcherFindSample" />
-      <module name="asobiba" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="アプリケーション.PatternSample02">
     <configuration name="MatcherRegionSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.MatcherRegionSample" />
       <module name="asobiba" />
@@ -200,8 +189,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PatternSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.PatternSample" />
+    <configuration name="PatternSample01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.PatternSample01" />
+      <module name="asobiba" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PatternSample02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.PatternSample02" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
@@ -215,11 +217,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="アプリケーション.PatternSample" />
+        <item itemvalue="アプリケーション.PatternSample02" />
+        <item itemvalue="アプリケーション.PatternSample01" />
         <item itemvalue="アプリケーション.MatcherResetSample" />
         <item itemvalue="アプリケーション.MatcherRegionSample" />
         <item itemvalue="アプリケーション.MatcherStartEndGroupSample" />
-        <item itemvalue="アプリケーション.MatcherFindSample" />
       </list>
     </recent_temporary>
   </component>
@@ -263,15 +265,8 @@
       <workItem from="1734862830687" duration="313000" />
       <workItem from="1734958008117" duration="471000" />
       <workItem from="1735131282452" duration="5520000" />
-      <workItem from="1735684735159" duration="13385000" />
-    </task>
-    <task id="LOCAL-00038" summary="多次元配列の初期化のサンプル。">
-      <option name="closed" value="true" />
-      <created>1733402024884</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1733402024884</updated>
+      <workItem from="1735684735159" duration="13978000" />
+      <workItem from="1736974760283" duration="1449000" />
     </task>
     <task id="LOCAL-00039" summary="多次元配列の長さを取得するサンプルを追記。">
       <option name="closed" value="true" />
@@ -657,7 +652,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736829338164</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="文字クラスを使って色々な文字にマッチするパターンを記述するサンプル。">
+      <option name="closed" value="true" />
+      <created>1736941597876</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1736941597876</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -675,7 +678,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="指定した区切り文字で複数の文字列を連結し新しい文字列を作成するサンプル。" />
     <MESSAGE value="文字列の中で指定した文字または文字列が出現するインデックスを取得するサンプル。" />
     <MESSAGE value="文字列全体が正規表現パターンとマッチするか調べるサンプル。" />
     <MESSAGE value="文字列を正規表現パターンを使って分割するサンプル。" />
@@ -700,7 +702,8 @@
     <MESSAGE value="パターンとマッチした部分文字列の情報を取得するサンプル。" />
     <MESSAGE value="リージョン(対象文字列の中のパターンと比較する範囲)を設定するサンプル。" />
     <MESSAGE value="Matcherオブジェクトをリセットして位置情報をゼロへ戻すサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="Matcherオブジェクトをリセットして位置情報をゼロへ戻すサンプル。" />
+    <MESSAGE value="文字クラスを使って色々な文字にマッチするパターンを記述するサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="文字クラスを使って色々な文字にマッチするパターンを記述するサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

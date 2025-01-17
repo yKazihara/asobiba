@@ -35,9 +35,5 @@ public class RegexSample {
         if (m3.find()){
             System.out.println(m3.group()); // ABBB
         }
-
-        System.out.println("-----");
-
-
     }
 }

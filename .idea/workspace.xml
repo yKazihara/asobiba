@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="正規表現 最長一致数量子、最短一致数量子、強欲な数量子のサンプル。" />
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="いらない行を削除。">
+      <change afterPath="$PROJECT_DIR$/src/com/example/RegexSample02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/RegexSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/RegexSample01.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -104,6 +108,7 @@
     "アプリケーション.PatternSample.executor": "Run",
     "アプリケーション.PatternSample02.executor": "Run",
     "アプリケーション.RegexSample.executor": "Run",
+    "アプリケーション.RegexSample02.executor": "Run",
     "アプリケーション.RelationalAndEqualityOperatorsSample.executor": "Run",
     "アプリケーション.ReturnSample.executor": "Run",
     "アプリケーション.Robot.executor": "Run",
@@ -146,20 +151,7 @@
       <recent name="com" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.RegexSample">
-    <configuration name="MatcherRegionSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.MatcherRegionSample" />
-      <module name="asobiba" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="アプリケーション.RegexSample02">
     <configuration name="MatcherResetSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.MatcherResetSample" />
       <module name="asobiba" />
@@ -199,8 +191,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegexSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.RegexSample" />
+    <configuration name="RegexSample01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.RegexSample01" />
+      <module name="asobiba" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegexSample02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.RegexSample02" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
@@ -214,11 +219,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="アプリケーション.RegexSample" />
+        <item itemvalue="アプリケーション.RegexSample02" />
+        <item itemvalue="アプリケーション.RegexSample01" />
         <item itemvalue="アプリケーション.PatternSample02" />
         <item itemvalue="アプリケーション.PatternSample01" />
         <item itemvalue="アプリケーション.MatcherResetSample" />
-        <item itemvalue="アプリケーション.MatcherRegionSample" />
       </list>
     </recent_temporary>
   </component>
@@ -265,14 +270,7 @@
       <workItem from="1735684735159" duration="13978000" />
       <workItem from="1736974760283" duration="1593000" />
       <workItem from="1737030482321" duration="1017000" />
-    </task>
-    <task id="LOCAL-00041" summary="配列のコピーのサンプル。">
-      <option name="closed" value="true" />
-      <created>1733663602414</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1733663602414</updated>
+      <workItem from="1737118390870" duration="1353000" />
     </task>
     <task id="LOCAL-00042" summary="Arrays.copyOfRangeのサンプル。">
       <option name="closed" value="true" />
@@ -658,7 +656,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737080065755</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="いらない行を削除。">
+      <option name="closed" value="true" />
+      <created>1737118437892</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1737118437892</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -676,7 +682,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="文字列を正規表現パターンを使って分割するサンプル。" />
     <MESSAGE value="文字列の中の正規表現パターンとマッチする部分を置換するサンプルを追記。" />
     <MESSAGE value="メソッドのサンプル。" />
     <MESSAGE value="引数を使ってメソッドに値を渡すサンプル。" />
@@ -701,7 +706,8 @@
     <MESSAGE value="文字クラスを使って色々な文字にマッチするパターンを記述するサンプル。" />
     <MESSAGE value="文字列の先頭や末尾などの位置にマッチするパターンを記述するサンプル。" />
     <MESSAGE value="正規表現 最長一致数量子、最短一致数量子、強欲な数量子のサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="正規表現 最長一致数量子、最短一致数量子、強欲な数量子のサンプル。" />
+    <MESSAGE value="いらない行を削除。" />
+    <option name="LAST_COMMIT_MESSAGE" value="いらない行を削除。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

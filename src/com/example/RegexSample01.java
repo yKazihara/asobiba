@@ -3,7 +3,7 @@ package com.example;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class RegexSample {
+public class RegexSample01 {
     public static void main(String[] args) {
         // A のあとに B が 1 回以上続くパターンにマッチ 最長一致数量子
         String regex1 = "AB+";

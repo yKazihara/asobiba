@@ -1,6 +1,7 @@
 package com.example;
 
-import java.util.regex.*;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 public class RegexSample03 {
     public static void main(String[] args) {
         // blue または Blue とマッチ

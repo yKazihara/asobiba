@@ -3,7 +3,7 @@ package com.example;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class RegexSample07 {
+public class RegexCaseInsensitiveSample {
     public static void main(String[] args) {
         String[] target = {"apple", "Apple", "APPLE"};
         String regex = "apple";

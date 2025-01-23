@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="大文字と小文字を区別しない正規表現フラグのサンプル。">
-      <change afterPath="$PROJECT_DIR$/src/com/example/RegexMultilineSample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/RegexSample07.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/RegexCaseInsensitiveSample.java" afterDir="false" />
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="複数行モードを有効にするサンプル。">
+      <change afterPath="$PROJECT_DIR$/src/com/example/RegexDotallSample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,6 +106,7 @@
     "アプリケーション.OverloadsSample.executor": "Run",
     "アプリケーション.PatternSample.executor": "Run",
     "アプリケーション.PatternSample02.executor": "Run",
+    "アプリケーション.RegexDotallSample.executor": "Run",
     "アプリケーション.RegexMultilineSample.executor": "Run",
     "アプリケーション.RegexSample.executor": "Run",
     "アプリケーション.RegexSample02.executor": "Run",
@@ -156,7 +157,7 @@
       <recent name="com" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.RegexMultilineSample">
+  <component name="RunManager" selected="アプリケーション.RegexDotallSample">
     <configuration name="RegexCaseInsensitiveSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.RegexCaseInsensitiveSample" />
       <module name="asobiba" />
@@ -170,8 +171,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegexMultilineSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.RegexMultilineSample" />
+    <configuration name="RegexDotallSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.RegexDotallSample" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
@@ -183,8 +184,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegexSample04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.RegexSample04" />
+    <configuration name="RegexMultilineSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.RegexMultilineSample" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
@@ -224,11 +225,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.RegexDotallSample" />
         <item itemvalue="アプリケーション.RegexMultilineSample" />
         <item itemvalue="アプリケーション.RegexCaseInsensitiveSample" />
         <item itemvalue="アプリケーション.RegexSample06" />
         <item itemvalue="アプリケーション.RegexSample05" />
-        <item itemvalue="アプリケーション.RegexSample04" />
       </list>
     </recent_temporary>
   </component>
@@ -278,15 +279,9 @@
       <workItem from="1737118390870" duration="2179000" />
       <workItem from="1737280923190" duration="1731000" />
       <workItem from="1737428187240" duration="1302000" />
-      <workItem from="1737505675875" duration="1416000" />
-    </task>
-    <task id="LOCAL-00048" summary="Stringサンプルに追記。">
-      <option name="closed" value="true" />
-      <created>1734260946475</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1734260946475</updated>
+      <workItem from="1737505675875" duration="1897000" />
+      <workItem from="1737512401405" duration="117000" />
+      <workItem from="1737593110191" duration="303000" />
     </task>
     <task id="LOCAL-00049" summary="数値を文字列に変換するサンプル。">
       <option name="closed" value="true" />
@@ -672,7 +667,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737507039292</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="複数行モードを有効にするサンプル。">
+      <option name="closed" value="true" />
+      <created>1737508599674</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1737508599674</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -690,7 +693,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="returnのサンプル。" />
     <MESSAGE value="メソッドのオーバーロードのサンプル。" />
     <MESSAGE value="可変引数のサンプル。" />
     <MESSAGE value="固定引数と可変引数の組み合わせのサンプル。" />
@@ -715,7 +717,8 @@
     <MESSAGE value="名前付き正規表現グループのサンプル。" />
     <MESSAGE value="先読みと後読みを使ったパターンの記述のサンプル。" />
     <MESSAGE value="大文字と小文字を区別しない正規表現フラグのサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="大文字と小文字を区別しない正規表現フラグのサンプル。" />
+    <MESSAGE value="複数行モードを有効にするサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="複数行モードを有効にするサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

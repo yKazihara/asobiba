@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="パターンの中にコメントを記述するサンプル。">
-      <change afterPath="$PROJECT_DIR$/src/com/example/RegexUnicodeCaseSample.java" afterDir="false" />
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="Unicode準拠の文字でも大文字と小文字を区別しないサンプル。">
+      <change afterPath="$PROJECT_DIR$/src/com/example/RegexLiteralSample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,6 +107,7 @@
     "アプリケーション.PatternSample02.executor": "Run",
     "アプリケーション.RegexCommentsSample.executor": "Run",
     "アプリケーション.RegexDotallSample.executor": "Run",
+    "アプリケーション.RegexLiteralSample.executor": "Run",
     "アプリケーション.RegexMultilineSample.executor": "Run",
     "アプリケーション.RegexSample.executor": "Run",
     "アプリケーション.RegexSample02.executor": "Run",
@@ -159,7 +160,7 @@
       <recent name="com" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.RegexUnicodeCaseSample">
+  <component name="RunManager" selected="アプリケーション.RegexLiteralSample">
     <configuration name="RegexCommentsSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.RegexCommentsSample" />
       <module name="asobiba" />
@@ -186,8 +187,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegexMultilineSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.RegexMultilineSample" />
+    <configuration name="RegexLiteralSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.RegexLiteralSample" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
@@ -227,11 +228,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.RegexLiteralSample" />
         <item itemvalue="アプリケーション.RegexUnicodeCaseSample" />
         <item itemvalue="アプリケーション.RegexCommentsSample" />
         <item itemvalue="アプリケーション.RegexUnixLinesSample" />
         <item itemvalue="アプリケーション.RegexDotallSample" />
-        <item itemvalue="アプリケーション.RegexMultilineSample" />
       </list>
     </recent_temporary>
   </component>
@@ -288,15 +289,7 @@
       <workItem from="1737700600152" duration="36000" />
       <workItem from="1737722273596" duration="126000" />
       <workItem from="1737800813701" duration="28000" />
-      <workItem from="1737802230791" duration="821000" />
-    </task>
-    <task id="LOCAL-00052" summary="文字列と文字列の大きさを比較するサンプル。">
-      <option name="closed" value="true" />
-      <created>1734607953426</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1734607953426</updated>
+      <workItem from="1737802230791" duration="1615000" />
     </task>
     <task id="LOCAL-00053" summary="文字列の長さを取得するサンプル。">
       <option name="closed" value="true" />
@@ -682,7 +675,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737880441845</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <task id="LOCAL-00101" summary="Unicode準拠の文字でも大文字と小文字を区別しないサンプル。">
+      <option name="closed" value="true" />
+      <created>1737881228901</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1737881228901</updated>
+    </task>
+    <option name="localTasksCounter" value="102" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -700,7 +701,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="固定引数と可変引数の組み合わせのサンプル：修正。" />
     <MESSAGE value="try catchのサンプル。" />
     <MESSAGE value="try catch finallyのサンプル。" />
     <MESSAGE value="正規表現のサンプル。" />
@@ -725,7 +725,8 @@
     <MESSAGE value="ドット(.)が行末記号とマッチするサンプル。" />
     <MESSAGE value="nのみ行末記号として認識されるサンプル。" />
     <MESSAGE value="パターンの中にコメントを記述するサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="パターンの中にコメントを記述するサンプル。" />
+    <MESSAGE value="Unicode準拠の文字でも大文字と小文字を区別しないサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="Unicode準拠の文字でも大文字と小文字を区別しないサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

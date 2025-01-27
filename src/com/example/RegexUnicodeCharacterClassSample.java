@@ -19,7 +19,7 @@ public class RegexUnicodeCharacterClassSample {
         System.out.println(STR."\{target2}:\{m1_2.find()}");
         // A　B:false
 
-        System.out.println("---- ----");
+        System.out.println("-----");
 
         Pattern p2 = Pattern.compile(regex, Pattern.UNICODE_CHARACTER_CLASS);
 

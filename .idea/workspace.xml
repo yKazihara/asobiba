@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="パターンと対象の文字がUnicode正規等価であればマッチするサンプル。">
-      <change afterPath="$PROJECT_DIR$/src/com/example/RegexUnicodeCharacterClassSample.java" afterDir="false" />
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="Unicodeバージョンの定義済み文字クラスとPOSIX文字クラスを有効にするサンプル。">
+      <change afterPath="$PROJECT_DIR$/src/com/example/ReplaceSample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,6 +121,7 @@
     "アプリケーション.RegexUnicodeCharacterClassSample.executor": "Run",
     "アプリケーション.RegexUnixLinesSample.executor": "Run",
     "アプリケーション.RelationalAndEqualityOperatorsSample.executor": "Run",
+    "アプリケーション.ReplaceSample.executor": "Run",
     "アプリケーション.ReturnSample.executor": "Run",
     "アプリケーション.Robot.executor": "Run",
     "アプリケーション.SettingValuesToArraySample.executor": "Run",
@@ -162,22 +163,9 @@
       <recent name="com" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.RegexUnicodeCharacterClassSample">
+  <component name="RunManager" selected="アプリケーション.ReplaceSample">
     <configuration name="RegexCanonEqSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.RegexCanonEqSample" />
-      <module name="asobiba" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RegexCommentsSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.RegexCommentsSample" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
@@ -228,13 +216,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReplaceSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.ReplaceSample" />
+      <module name="asobiba" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.ReplaceSample" />
         <item itemvalue="アプリケーション.RegexUnicodeCharacterClassSample" />
         <item itemvalue="アプリケーション.RegexCanonEqSample" />
         <item itemvalue="アプリケーション.RegexLiteralSample" />
         <item itemvalue="アプリケーション.RegexUnicodeCaseSample" />
-        <item itemvalue="アプリケーション.RegexCommentsSample" />
       </list>
     </recent_temporary>
   </component>
@@ -291,15 +292,7 @@
       <workItem from="1737700600152" duration="36000" />
       <workItem from="1737722273596" duration="126000" />
       <workItem from="1737800813701" duration="28000" />
-      <workItem from="1737802230791" duration="2383000" />
-    </task>
-    <task id="LOCAL-00055" summary="文字列から指定したインデックスの文字を取得するサンプル。">
-      <option name="closed" value="true" />
-      <created>1734863058461</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1734863058461</updated>
+      <workItem from="1737802230791" duration="2852000" />
     </task>
     <task id="LOCAL-00056" summary="文字列から指定したインデックスのUnicodeコードポイントを取得するサンプル。">
       <option name="closed" value="true" />
@@ -685,7 +678,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737951507215</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="Unicodeバージョンの定義済み文字クラスとPOSIX文字クラスを有効にするサンプル。">
+      <option name="closed" value="true" />
+      <created>1737952060288</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1737952060288</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -703,7 +704,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="正規表現のサンプル。" />
     <MESSAGE value="正規表現のエスケープサンプルを追記。" />
     <MESSAGE value="文字列の全体がパターンとマッチするか調べるサンプル。" />
     <MESSAGE value="文字列の先頭からパターンとマッチするか調べるサンプル。" />
@@ -728,7 +728,8 @@
     <MESSAGE value="Unicode準拠の文字でも大文字と小文字を区別しないサンプル。" />
     <MESSAGE value="パターンの中のメタ文字が特別な意味を持たなくなるサンプル。" />
     <MESSAGE value="パターンと対象の文字がUnicode正規等価であればマッチするサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="パターンと対象の文字がUnicode正規等価であればマッチするサンプル。" />
+    <MESSAGE value="Unicodeバージョンの定義済み文字クラスとPOSIX文字クラスを有効にするサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="Unicodeバージョンの定義済み文字クラスとPOSIX文字クラスを有効にするサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

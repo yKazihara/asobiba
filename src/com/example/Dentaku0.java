@@ -1,8 +1,8 @@
 package com.example;
 
-public class Dentaku {
+public class Dentaku0 {
     public static void main(String[] args) {
-        Dentaku dentaku = new Dentaku();
+        Dentaku0 dentaku = new Dentaku0();
         dentaku.plus(10,5); // plus = 15
         dentaku.minus(9,2); // minus = 7
     }

@@ -28,5 +28,32 @@ public class ReplaceSample {
         Matcher m2 = p2.matcher(target2);
         System.out.println(m2.replaceAll("FF"));
         // DD FF CC FF EE
+
+        System.out.println("-----");
+
+        // パターンとマッチした文字列全体を、置換する文字列の中から参照
+        String target3 = "BB AA CC BB";
+        System.out.println(target3); // BB AA CC BB
+
+        String regex3 = "\\b[^ ]+\\b";
+        Pattern p3 = Pattern.compile(regex3);
+
+        Matcher m3 = p3.matcher(target3);
+        System.out.println(m3.replaceAll("[$0]"));
+        // [BB] [AA] [CC] [BB]
+
+        System.out.println("-----");
+
+        // 文字列にマッチした場合、 1 番目の正規表現グループでキャプチャした値と
+        // 2 番目の正規表現グループでキャプチャした値を入れ替えて置換
+        String target4 = "XA-07 BG-74 AT-35";
+        System.out.println(target4); // XA-07 BG-74 AT-35
+
+        String regex4 = "([A-Z]{2})-([0-9]{2})";
+        Pattern p4 = Pattern.compile(regex4);
+
+        Matcher m4 = p4.matcher(target4);
+        System.out.println(m4.replaceAll("$2:$1"));
+        // 07:XA 74:BG 35:AT
     }
 }

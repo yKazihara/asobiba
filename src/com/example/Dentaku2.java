@@ -1,6 +1,7 @@
 package com.example;
 
 public class Dentaku2 {
+
     public static void main(String[] args) {
         String val1 = "5";
         String val2 = "8";
@@ -14,7 +15,7 @@ public class Dentaku2 {
 
         boolean hasOpeErr = hasOpeParamError(ope);
         if (hasOpeErr) {
-            System.out.println("エラー：第三引数の演算子は、「kakeru」「waru」「tasu」「hiku」 の4つのみ入力可能です。");
+            System.out.println("エラー：第三引数の演算子は、「tasu」「hiku」「kakeru」「waru」 の4つのみ入力可能です。");
             System.exit(0);
         }
 

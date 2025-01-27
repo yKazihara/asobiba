@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="電卓 入力値の出力。">
-      <change afterPath="$PROJECT_DIR$/src/com/example/Dentaku2.java" afterDir="false" />
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="電卓 入力チェックの実装。">
+      <change afterPath="$PROJECT_DIR$/src/com/example/Dentaku3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/Dentaku1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/Dentaku1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/Dentaku2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/Dentaku2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +79,7 @@
     "アプリケーション.Dentaku0.executor": "Run",
     "アプリケーション.Dentaku1.executor": "Run",
     "アプリケーション.Dentaku2.executor": "Run",
+    "アプリケーション.Dentaku3.executor": "Run",
     "アプリケーション.DoWhileSample.executor": "Run",
     "アプリケーション.EscapeSequencesSample.executor": "Run",
     "アプリケーション.FinalSample.executor": "Run",
@@ -172,7 +173,7 @@
       <recent name="com.example" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.Dentaku2">
+  <component name="RunManager" selected="アプリケーション.Dentaku3">
     <configuration name="Dentaku0" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.Dentaku0" />
       <module name="asobiba" />
@@ -212,6 +213,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Dentaku3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.Dentaku3" />
+      <module name="asobiba" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PatternSplitSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.PatternSplitSample" />
       <module name="asobiba" />
@@ -225,26 +239,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReplaceSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.ReplaceSample" />
-      <module name="asobiba" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.Dentaku3" />
         <item itemvalue="アプリケーション.Dentaku2" />
         <item itemvalue="アプリケーション.Dentaku1" />
         <item itemvalue="アプリケーション.Dentaku0" />
         <item itemvalue="アプリケーション.PatternSplitSample" />
-        <item itemvalue="アプリケーション.ReplaceSample" />
       </list>
     </recent_temporary>
   </component>
@@ -301,15 +302,7 @@
       <workItem from="1737700600152" duration="36000" />
       <workItem from="1737722273596" duration="126000" />
       <workItem from="1737800813701" duration="28000" />
-      <workItem from="1737802230791" duration="7183000" />
-    </task>
-    <task id="LOCAL-00060" summary="文字列の最後に別の文字列を連結するサンプル。">
-      <option name="closed" value="true" />
-      <created>1735308152559</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1735308152559</updated>
+      <workItem from="1737802230791" duration="10579000" />
     </task>
     <task id="LOCAL-00061" summary="文字列の一部を別の文字や文字列に置換するサンプル。">
       <option name="closed" value="true" />
@@ -695,7 +688,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737957216410</updated>
     </task>
-    <option name="localTasksCounter" value="109" />
+    <task id="LOCAL-00109" summary="電卓 入力チェックの実装。">
+      <option name="closed" value="true" />
+      <created>1737959652920</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1737959652920</updated>
+    </task>
+    <option name="localTasksCounter" value="110" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -713,7 +714,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="パターンとマッチした部分文字列の情報を取得するサンプル。" />
     <MESSAGE value="リージョン(対象文字列の中のパターンと比較する範囲)を設定するサンプル。" />
     <MESSAGE value="Matcherオブジェクトをリセットして位置情報をゼロへ戻すサンプル。" />
     <MESSAGE value="文字クラスを使って色々な文字にマッチするパターンを記述するサンプル。" />
@@ -738,7 +738,8 @@
     <MESSAGE value="パターンとマッチした部分文字列を置換する文字列の中で参照するサンプル。" />
     <MESSAGE value="文字列をパターンとマッチする部分で分割するサンプル。" />
     <MESSAGE value="電卓 入力値の出力。" />
-    <option name="LAST_COMMIT_MESSAGE" value="電卓 入力値の出力。" />
+    <MESSAGE value="電卓 入力チェックの実装。" />
+    <option name="LAST_COMMIT_MESSAGE" value="電卓 入力チェックの実装。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

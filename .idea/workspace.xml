@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="電卓 完成版。">
-      <change afterPath="$PROJECT_DIR$/src/com/example/PathSample.java" afterDir="false" />
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="Pathオブジェクトを使ってファイルやディレクトリを表すサンプル。">
+      <change afterPath="$PROJECT_DIR$/src/com/example/PathToAbsolutePathSample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,6 +108,7 @@
     "アプリケーション.OperatorPrecedenceSample.executor": "Run",
     "アプリケーション.OverloadsSample.executor": "Run",
     "アプリケーション.PathSample.executor": "Run",
+    "アプリケーション.PathToAbsolutePathSample.executor": "Run",
     "アプリケーション.PatternSample.executor": "Run",
     "アプリケーション.PatternSample02.executor": "Run",
     "アプリケーション.PatternSplitSample.executor": "Run",
@@ -172,20 +173,7 @@
       <recent name="com.example" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.PathSample">
-    <configuration name="Dentaku0" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.Dentaku0" />
-      <module name="asobiba" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="アプリケーション.PathToAbsolutePathSample">
     <configuration name="Dentaku1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.Dentaku1" />
       <module name="asobiba" />
@@ -238,13 +226,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PathToAbsolutePathSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.PathToAbsolutePathSample" />
+      <module name="asobiba" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.PathToAbsolutePathSample" />
         <item itemvalue="アプリケーション.PathSample" />
         <item itemvalue="アプリケーション.Dentaku3" />
         <item itemvalue="アプリケーション.Dentaku2" />
         <item itemvalue="アプリケーション.Dentaku1" />
-        <item itemvalue="アプリケーション.Dentaku0" />
       </list>
     </recent_temporary>
   </component>
@@ -301,15 +302,7 @@
       <workItem from="1737700600152" duration="36000" />
       <workItem from="1737722273596" duration="126000" />
       <workItem from="1737800813701" duration="28000" />
-      <workItem from="1737802230791" duration="11608000" />
-    </task>
-    <task id="LOCAL-00062" summary="指定した区切り文字で複数の文字列を連結し新しい文字列を作成するサンプル。">
-      <option name="closed" value="true" />
-      <created>1735473312814</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1735473312814</updated>
+      <workItem from="1737802230791" duration="11911000" />
     </task>
     <task id="LOCAL-00063" summary="文字列の中で指定した文字または文字列が出現するインデックスを取得するサンプル。">
       <option name="closed" value="true" />
@@ -695,7 +688,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737963814042</updated>
     </task>
-    <option name="localTasksCounter" value="111" />
+    <task id="LOCAL-00111" summary="Pathオブジェクトを使ってファイルやディレクトリを表すサンプル。">
+      <option name="closed" value="true" />
+      <created>1738039608703</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1738039608703</updated>
+    </task>
+    <option name="localTasksCounter" value="112" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -713,7 +714,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Matcherオブジェクトをリセットして位置情報をゼロへ戻すサンプル。" />
     <MESSAGE value="文字クラスを使って色々な文字にマッチするパターンを記述するサンプル。" />
     <MESSAGE value="文字列の先頭や末尾などの位置にマッチするパターンを記述するサンプル。" />
     <MESSAGE value="正規表現 最長一致数量子、最短一致数量子、強欲な数量子のサンプル。" />
@@ -738,7 +738,8 @@
     <MESSAGE value="電卓 入力値の出力。" />
     <MESSAGE value="電卓 入力チェックの実装。" />
     <MESSAGE value="電卓 完成版。" />
-    <option name="LAST_COMMIT_MESSAGE" value="電卓 完成版。" />
+    <MESSAGE value="Pathオブジェクトを使ってファイルやディレクトリを表すサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pathオブジェクトを使ってファイルやディレクトリを表すサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -4,7 +4,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 
 public class PathResolveSample {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Path p1 = Paths.get("C:/data/image");
         Path p2 = Paths.get("photo/profile.jpg");
         Path p3 = p1.resolve(p2);

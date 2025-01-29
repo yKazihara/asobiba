@@ -4,7 +4,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 
 public class PathNormalizeSample {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Path p1 = Paths.get("./doc/report.txt");
         Path p2 = Paths.get("C:/document/doc/../pdf");
 

@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="「.」や「..」などのパスの中の冗長な部分を取り除くサンプル。">
-      <change afterPath="$PROJECT_DIR$/src/com/example/PathResolveSample.java" afterDir="false" />
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="2つのパスを結合するサンプル。">
+      <change afterPath="$PROJECT_DIR$/src/com/example/PathGetCurrentDirSample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/PathNormalizeSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/PathNormalizeSample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/PathResolveSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/PathResolveSample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,6 +109,7 @@
     "アプリケーション.NumberLiteralsSample.executor": "Run",
     "アプリケーション.OperatorPrecedenceSample.executor": "Run",
     "アプリケーション.OverloadsSample.executor": "Run",
+    "アプリケーション.PathGetCurrentDirSample.executor": "Run",
     "アプリケーション.PathGetElementsSample.executor": "Run",
     "アプリケーション.PathNormalizeSample.executor": "Run",
     "アプリケーション.PathResolveSample.executor": "Run",
@@ -176,7 +179,20 @@
       <recent name="com.example" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.PathResolveSample">
+  <component name="RunManager" selected="アプリケーション.PathGetCurrentDirSample">
+    <configuration name="PathGetCurrentDirSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.PathGetCurrentDirSample" />
+      <module name="asobiba" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PathGetElementsSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.PathGetElementsSample" />
       <module name="asobiba" />
@@ -216,19 +232,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PathSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.PathSample" />
-      <module name="asobiba" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PathToAbsolutePathSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.PathToAbsolutePathSample" />
       <module name="asobiba" />
@@ -244,11 +247,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.PathGetCurrentDirSample" />
         <item itemvalue="アプリケーション.PathResolveSample" />
         <item itemvalue="アプリケーション.PathNormalizeSample" />
         <item itemvalue="アプリケーション.PathGetElementsSample" />
         <item itemvalue="アプリケーション.PathToAbsolutePathSample" />
-        <item itemvalue="アプリケーション.PathSample" />
       </list>
     </recent_temporary>
   </component>
@@ -305,15 +308,7 @@
       <workItem from="1737700600152" duration="36000" />
       <workItem from="1737722273596" duration="126000" />
       <workItem from="1737800813701" duration="28000" />
-      <workItem from="1737802230791" duration="14071000" />
-    </task>
-    <task id="LOCAL-00066" summary="文字列の中の正規表現パターンとマッチする部分を置換するサンプルを追記。">
-      <option name="closed" value="true" />
-      <created>1735738465933</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1735738465934</updated>
+      <workItem from="1737802230791" duration="14575000" />
     </task>
     <task id="LOCAL-00067" summary="メソッドのサンプル。">
       <option name="closed" value="true" />
@@ -699,7 +694,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738111444121</updated>
     </task>
-    <option name="localTasksCounter" value="115" />
+    <task id="LOCAL-00115" summary="2つのパスを結合するサンプル。">
+      <option name="closed" value="true" />
+      <created>1738112445374</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1738112445374</updated>
+    </task>
+    <option name="localTasksCounter" value="116" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -717,7 +720,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="いらない行を削除。" />
     <MESSAGE value="直前の文字を繰り返す文字列にマッチするパターンを記述するサンプル。" />
     <MESSAGE value="複数の文字列のいずれかにマッチするパターンを記述するサンプル。" />
     <MESSAGE value="正規表現グループを設定してパターンの一部にマッチした文字列を取得するサンプル。" />
@@ -742,7 +744,8 @@
     <MESSAGE value="相対パスを絶対パスに変換するサンプル。" />
     <MESSAGE value="Pathオブジェクトに含まれるパスの各要素を取得するサンプル。" />
     <MESSAGE value="「.」や「..」などのパスの中の冗長な部分を取り除くサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="「.」や「..」などのパスの中の冗長な部分を取り除くサンプル。" />
+    <MESSAGE value="2つのパスを結合するサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="2つのパスを結合するサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

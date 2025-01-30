@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="ディレクトリを作成するサンプル。">
-      <change afterPath="$PROJECT_DIR$/src/com/example/FilesDeleteSample.java" afterDir="false" />
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="ファイルやディレクトリを削除するサンプル。">
+      <change afterPath="$PROJECT_DIR$/src/com/example/FilesExistsSample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +83,7 @@
     "アプリケーション.FilesCreateDirectorySample.executor": "Run",
     "アプリケーション.FilesCreateFileSample.executor": "Run",
     "アプリケーション.FilesDeleteSample.executor": "Run",
+    "アプリケーション.FilesExistsSample.executor": "Run",
     "アプリケーション.FinalSample.executor": "Run",
     "アプリケーション.ForLoopSample.executor": "Run",
     "アプリケーション.HelloWorld.executor": "Run",
@@ -180,7 +181,7 @@
       <recent name="com.example" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.FilesDeleteSample">
+  <component name="RunManager" selected="アプリケーション.FilesExistsSample">
     <configuration name="FilesCreateDirectorySample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.FilesCreateDirectorySample" />
       <module name="asobiba" />
@@ -220,6 +221,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FilesExistsSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.FilesExistsSample" />
+      <module name="asobiba" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PathGetCurrentDirSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.PathGetCurrentDirSample" />
       <module name="asobiba" />
@@ -233,26 +247,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PathResolveSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.PathResolveSample" />
-      <module name="asobiba" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.FilesExistsSample" />
         <item itemvalue="アプリケーション.FilesDeleteSample" />
         <item itemvalue="アプリケーション.FilesCreateDirectorySample" />
         <item itemvalue="アプリケーション.FilesCreateFileSample" />
         <item itemvalue="アプリケーション.PathGetCurrentDirSample" />
-        <item itemvalue="アプリケーション.PathResolveSample" />
       </list>
     </recent_temporary>
   </component>
@@ -309,15 +310,7 @@
       <workItem from="1737700600152" duration="36000" />
       <workItem from="1737722273596" duration="126000" />
       <workItem from="1737800813701" duration="28000" />
-      <workItem from="1737802230791" duration="16187000" />
-    </task>
-    <task id="LOCAL-00070" summary="戻り値を使ってメソッドから値を返すサンプル。">
-      <option name="closed" value="true" />
-      <created>1736063689408</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1736063689408</updated>
+      <workItem from="1737802230791" duration="16581000" />
     </task>
     <task id="LOCAL-00071" summary="戻り値を使ってメソッドから配列を返すサンプル。">
       <option name="closed" value="true" />
@@ -703,7 +696,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738205591078</updated>
     </task>
-    <option name="localTasksCounter" value="119" />
+    <task id="LOCAL-00119" summary="ファイルやディレクトリを削除するサンプル。">
+      <option name="closed" value="true" />
+      <created>1738211648892</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1738211648892</updated>
+    </task>
+    <option name="localTasksCounter" value="120" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -721,7 +722,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="名前付き正規表現グループのサンプル。" />
     <MESSAGE value="先読みと後読みを使ったパターンの記述のサンプル。" />
     <MESSAGE value="大文字と小文字を区別しない正規表現フラグのサンプル。" />
     <MESSAGE value="複数行モードを有効にするサンプル。" />
@@ -746,7 +746,8 @@
     <MESSAGE value="カレントディレクトリを取得するサンプル。" />
     <MESSAGE value="ファイルを作成するサンプル。" />
     <MESSAGE value="ディレクトリを作成するサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="ディレクトリを作成するサンプル。" />
+    <MESSAGE value="ファイルやディレクトリを削除するサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="ファイルやディレクトリを削除するサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

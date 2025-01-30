@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="カレントディレクトリを取得するサンプル。">
-      <change afterPath="$PROJECT_DIR$/src/com/example/FilesCreateFileSample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="ファイルを作成するサンプル。">
+      <change afterPath="$PROJECT_DIR$/src/com/example/FilesCreateDirectorySample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +80,7 @@
     "アプリケーション.Dentaku3.executor": "Run",
     "アプリケーション.DoWhileSample.executor": "Run",
     "アプリケーション.EscapeSequencesSample.executor": "Run",
+    "アプリケーション.FilesCreateDirectorySample.executor": "Run",
     "アプリケーション.FilesCreateFileSample.executor": "Run",
     "アプリケーション.FinalSample.executor": "Run",
     "アプリケーション.ForLoopSample.executor": "Run",
@@ -179,7 +179,20 @@
       <recent name="com.example" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.FilesCreateFileSample">
+  <component name="RunManager" selected="アプリケーション.FilesCreateDirectorySample">
+    <configuration name="FilesCreateDirectorySample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.FilesCreateDirectorySample" />
+      <module name="asobiba" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FilesCreateFileSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.FilesCreateFileSample" />
       <module name="asobiba" />
@@ -195,19 +208,6 @@
     </configuration>
     <configuration name="PathGetCurrentDirSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.PathGetCurrentDirSample" />
-      <module name="asobiba" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PathGetElementsSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.PathGetElementsSample" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
@@ -247,11 +247,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.FilesCreateDirectorySample" />
         <item itemvalue="アプリケーション.FilesCreateFileSample" />
         <item itemvalue="アプリケーション.PathGetCurrentDirSample" />
         <item itemvalue="アプリケーション.PathResolveSample" />
         <item itemvalue="アプリケーション.PathNormalizeSample" />
-        <item itemvalue="アプリケーション.PathGetElementsSample" />
       </list>
     </recent_temporary>
   </component>
@@ -308,15 +308,7 @@
       <workItem from="1737700600152" duration="36000" />
       <workItem from="1737722273596" duration="126000" />
       <workItem from="1737800813701" duration="28000" />
-      <workItem from="1737802230791" duration="15416000" />
-    </task>
-    <task id="LOCAL-00068" summary="引数を使ってメソッドに値を渡すサンプル。">
-      <option name="closed" value="true" />
-      <created>1735894379446</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1735894379446</updated>
+      <workItem from="1737802230791" duration="15787000" />
     </task>
     <task id="LOCAL-00069" summary="引数を使ってメソッドに値を渡すサンプル その2。">
       <option name="closed" value="true" />
@@ -702,7 +694,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738125265285</updated>
     </task>
-    <option name="localTasksCounter" value="117" />
+    <task id="LOCAL-00117" summary="ファイルを作成するサンプル。">
+      <option name="closed" value="true" />
+      <created>1738200757883</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1738200757883</updated>
+    </task>
+    <option name="localTasksCounter" value="118" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -720,7 +720,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="複数の文字列のいずれかにマッチするパターンを記述するサンプル。" />
     <MESSAGE value="正規表現グループを設定してパターンの一部にマッチした文字列を取得するサンプル。" />
     <MESSAGE value="名前付き正規表現グループのサンプル。" />
     <MESSAGE value="先読みと後読みを使ったパターンの記述のサンプル。" />
@@ -745,7 +744,8 @@
     <MESSAGE value="「.」や「..」などのパスの中の冗長な部分を取り除くサンプル。" />
     <MESSAGE value="2つのパスを結合するサンプル。" />
     <MESSAGE value="カレントディレクトリを取得するサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="カレントディレクトリを取得するサンプル。" />
+    <MESSAGE value="ファイルを作成するサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="ファイルを作成するサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

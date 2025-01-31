@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="ファイルやディレクトリをコピーするサンプル。">
-      <change afterPath="$PROJECT_DIR$/src/com/example/FilesMoveSample.java" afterDir="false" />
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="ファイルやディレクトリを移動するサンプル。">
+      <change afterPath="$PROJECT_DIR$/src/com/example/FilesDetailsCheckSample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +86,7 @@
     "アプリケーション.FilesCreateDirectorySample.executor": "Run",
     "アプリケーション.FilesCreateFileSample.executor": "Run",
     "アプリケーション.FilesDeleteSample.executor": "Run",
+    "アプリケーション.FilesDetailsCheckSample.executor": "Run",
     "アプリケーション.FilesExistsSample.executor": "Run",
     "アプリケーション.FilesMoveSample.executor": "Run",
     "アプリケーション.FinalSample.executor": "Run",
@@ -187,7 +189,7 @@
       <recent name="com.example" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.FilesMoveSample">
+  <component name="RunManager" selected="アプリケーション.FilesDetailsCheckSample">
     <configuration name="FilesCopySample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.FilesCopySample" />
       <module name="asobiba" />
@@ -201,8 +203,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FilesCreateDirectorySample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.FilesCreateDirectorySample" />
+    <configuration name="FilesDeleteSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.FilesDeleteSample" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
@@ -214,8 +216,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FilesDeleteSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.FilesDeleteSample" />
+    <configuration name="FilesDetailsCheckSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.FilesDetailsCheckSample" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
@@ -255,11 +257,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.FilesDetailsCheckSample" />
         <item itemvalue="アプリケーション.FilesMoveSample" />
         <item itemvalue="アプリケーション.FilesCopySample" />
         <item itemvalue="アプリケーション.FilesExistsSample" />
         <item itemvalue="アプリケーション.FilesDeleteSample" />
-        <item itemvalue="アプリケーション.FilesCreateDirectorySample" />
       </list>
     </recent_temporary>
   </component>
@@ -316,15 +318,7 @@
       <workItem from="1737700600152" duration="36000" />
       <workItem from="1737722273596" duration="126000" />
       <workItem from="1737800813701" duration="28000" />
-      <workItem from="1737802230791" duration="19520000" />
-    </task>
-    <task id="LOCAL-00073" summary="メソッドのオーバーロードのサンプル。">
-      <option name="closed" value="true" />
-      <created>1736230626713</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1736230626713</updated>
+      <workItem from="1737802230791" duration="21818000" />
     </task>
     <task id="LOCAL-00074" summary="可変引数のサンプル。">
       <option name="closed" value="true" />
@@ -710,7 +704,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738220624628</updated>
     </task>
-    <option name="localTasksCounter" value="122" />
+    <task id="LOCAL-00122" summary="ファイルやディレクトリを移動するサンプル。">
+      <option name="closed" value="true" />
+      <created>1738288683021</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1738288683021</updated>
+    </task>
+    <option name="localTasksCounter" value="123" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -728,7 +730,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="複数行モードを有効にするサンプル。" />
     <MESSAGE value="ドット(.)が行末記号とマッチするサンプル。" />
     <MESSAGE value="nのみ行末記号として認識されるサンプル。" />
     <MESSAGE value="パターンの中にコメントを記述するサンプル。" />
@@ -753,7 +754,8 @@
     <MESSAGE value="ファイルやディレクトリを削除するサンプル。" />
     <MESSAGE value="ファイルやディレクトリが存在するか確認するサンプル。" />
     <MESSAGE value="ファイルやディレクトリをコピーするサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="ファイルやディレクトリをコピーするサンプル。" />
+    <MESSAGE value="ファイルやディレクトリを移動するサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="ファイルやディレクトリを移動するサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

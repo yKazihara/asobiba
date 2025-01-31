@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="ファイルやディレクトリを移動するサンプル。">
-      <change afterPath="$PROJECT_DIR$/src/com/example/FilesDetailsCheckSample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="ファイルの状態を調べる(実行可能/隠しファイル/読み取り/書き込み/シンボリック・リンク)サンプル。">
+      <change afterPath="$PROJECT_DIR$/src/com/example/FilesSizeSample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +88,7 @@
     "アプリケーション.FilesDetailsCheckSample.executor": "Run",
     "アプリケーション.FilesExistsSample.executor": "Run",
     "アプリケーション.FilesMoveSample.executor": "Run",
+    "アプリケーション.FilesSizeSample.executor": "Run",
     "アプリケーション.FinalSample.executor": "Run",
     "アプリケーション.ForLoopSample.executor": "Run",
     "アプリケーション.HelloWorld.executor": "Run",
@@ -189,22 +189,9 @@
       <recent name="com.example" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.FilesDetailsCheckSample">
+  <component name="RunManager" selected="アプリケーション.FilesSizeSample">
     <configuration name="FilesCopySample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.FilesCopySample" />
-      <module name="asobiba" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FilesDeleteSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.FilesDeleteSample" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
@@ -255,13 +242,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FilesSizeSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.FilesSizeSample" />
+      <module name="asobiba" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.FilesSizeSample" />
         <item itemvalue="アプリケーション.FilesDetailsCheckSample" />
         <item itemvalue="アプリケーション.FilesMoveSample" />
         <item itemvalue="アプリケーション.FilesCopySample" />
         <item itemvalue="アプリケーション.FilesExistsSample" />
-        <item itemvalue="アプリケーション.FilesDeleteSample" />
       </list>
     </recent_temporary>
   </component>
@@ -318,15 +318,7 @@
       <workItem from="1737700600152" duration="36000" />
       <workItem from="1737722273596" duration="126000" />
       <workItem from="1737800813701" duration="28000" />
-      <workItem from="1737802230791" duration="21818000" />
-    </task>
-    <task id="LOCAL-00074" summary="可変引数のサンプル。">
-      <option name="closed" value="true" />
-      <created>1736232520240</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1736232520240</updated>
+      <workItem from="1737802230791" duration="22500000" />
     </task>
     <task id="LOCAL-00075" summary="固定引数と可変引数の組み合わせのサンプル。">
       <option name="closed" value="true" />
@@ -712,7 +704,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738288683021</updated>
     </task>
-    <option name="localTasksCounter" value="123" />
+    <task id="LOCAL-00123" summary="ファイルの状態を調べる(実行可能/隠しファイル/読み取り/書き込み/シンボリック・リンク)サンプル。">
+      <option name="closed" value="true" />
+      <created>1738300288961</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1738300288961</updated>
+    </task>
+    <option name="localTasksCounter" value="124" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -730,7 +730,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ドット(.)が行末記号とマッチするサンプル。" />
     <MESSAGE value="nのみ行末記号として認識されるサンプル。" />
     <MESSAGE value="パターンの中にコメントを記述するサンプル。" />
     <MESSAGE value="Unicode準拠の文字でも大文字と小文字を区別しないサンプル。" />
@@ -755,7 +754,8 @@
     <MESSAGE value="ファイルやディレクトリが存在するか確認するサンプル。" />
     <MESSAGE value="ファイルやディレクトリをコピーするサンプル。" />
     <MESSAGE value="ファイルやディレクトリを移動するサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="ファイルやディレクトリを移動するサンプル。" />
+    <MESSAGE value="ファイルの状態を調べる(実行可能/隠しファイル/読み取り/書き込み/シンボリック・リンク)サンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="ファイルの状態を調べる(実行可能/隠しファイル/読み取り/書き込み/シンボリック・リンク)サンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

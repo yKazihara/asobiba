@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="ファイルの最終更新日時の取得と設定のサンプル。">
-      <change beforePath="$PROJECT_DIR$/src/com/example/FilesGetLastModifiedTimeSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/FilesGetLastModifiedTimeSample.java" afterDir="false" />
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="ファイルの最終更新日時の取得と設定のサンプルを修正。">
+      <change afterPath="$PROJECT_DIR$/src/com/example/FilesListSample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +89,7 @@
     "アプリケーション.FilesDetailsCheckSample.executor": "Run",
     "アプリケーション.FilesExistsSample.executor": "Run",
     "アプリケーション.FilesGetLastModifiedTimeSample.executor": "Run",
+    "アプリケーション.FilesListSample.executor": "Run",
     "アプリケーション.FilesMoveSample.executor": "Run",
     "アプリケーション.FilesSizeSample.executor": "Run",
     "アプリケーション.FinalSample.executor": "Run",
@@ -190,20 +192,7 @@
       <recent name="com.example" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.FilesGetLastModifiedTimeSample">
-    <configuration name="FilesCopySample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.FilesCopySample" />
-      <module name="asobiba" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="アプリケーション.FilesListSample">
     <configuration name="FilesDetailsCheckSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.FilesDetailsCheckSample" />
       <module name="asobiba" />
@@ -219,6 +208,19 @@
     </configuration>
     <configuration name="FilesGetLastModifiedTimeSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.FilesGetLastModifiedTimeSample" />
+      <module name="asobiba" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FilesListSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.FilesListSample" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
@@ -258,11 +260,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.FilesListSample" />
         <item itemvalue="アプリケーション.FilesGetLastModifiedTimeSample" />
         <item itemvalue="アプリケーション.FilesSizeSample" />
         <item itemvalue="アプリケーション.FilesDetailsCheckSample" />
         <item itemvalue="アプリケーション.FilesMoveSample" />
-        <item itemvalue="アプリケーション.FilesCopySample" />
       </list>
     </recent_temporary>
   </component>
@@ -319,15 +321,7 @@
       <workItem from="1737700600152" duration="36000" />
       <workItem from="1737722273596" duration="126000" />
       <workItem from="1737800813701" duration="28000" />
-      <workItem from="1737802230791" duration="23253000" />
-    </task>
-    <task id="LOCAL-00077" summary="try catchのサンプル。">
-      <option name="closed" value="true" />
-      <created>1736319563210</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1736319563210</updated>
+      <workItem from="1737802230791" duration="24411000" />
     </task>
     <task id="LOCAL-00078" summary="try catch finallyのサンプル。">
       <option name="closed" value="true" />
@@ -713,7 +707,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738308222473</updated>
     </task>
-    <option name="localTasksCounter" value="126" />
+    <task id="LOCAL-00126" summary="ファイルの最終更新日時の取得と設定のサンプルを修正。">
+      <option name="closed" value="true" />
+      <created>1738311687025</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1738311687025</updated>
+    </task>
+    <option name="localTasksCounter" value="127" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -731,7 +733,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Unicode準拠の文字でも大文字と小文字を区別しないサンプル。" />
     <MESSAGE value="パターンの中のメタ文字が特別な意味を持たなくなるサンプル。" />
     <MESSAGE value="パターンと対象の文字がUnicode正規等価であればマッチするサンプル。" />
     <MESSAGE value="Unicodeバージョンの定義済み文字クラスとPOSIX文字クラスを有効にするサンプル。" />
@@ -756,7 +757,8 @@
     <MESSAGE value="ファイルの状態を調べる(実行可能/隠しファイル/読み取り/書き込み/シンボリック・リンク)サンプル。" />
     <MESSAGE value="ファイルのサイズを取得するサンプル。" />
     <MESSAGE value="ファイルの最終更新日時の取得と設定のサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="ファイルの最終更新日時の取得と設定のサンプル。" />
+    <MESSAGE value="ファイルの最終更新日時の取得と設定のサンプルを修正。" />
+    <option name="LAST_COMMIT_MESSAGE" value="ファイルの最終更新日時の取得と設定のサンプルを修正。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

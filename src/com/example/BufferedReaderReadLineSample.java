@@ -1,23 +1,24 @@
 package com.example;
 
+import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class FileCheckBeforeReadingSample {
+public class BufferedReaderReadLineSample {
     public static void main(String[] args) {
         try {
             File file = new File("src/com/example/file_read_demo/fileReadSample01.txt");
 
             if (checkBeforeReadfile(file)) {
-                FileReader filereader = new FileReader(file);
+                BufferedReader br = new BufferedReader(new FileReader(file));
 
-                int ch;
-                while ((ch = filereader.read()) != -1) {
-                    System.out.print((char)ch);
+                String str;
+                while((str = br.readLine()) != null){
+                    System.out.println(str);
                 }
 
-                filereader.close();
+                br.close();
             } else {
                 System.out.println("ファイルが見つからないか開けません");
             }
@@ -30,7 +31,7 @@ public class FileCheckBeforeReadingSample {
 
     private static boolean checkBeforeReadfile(File file) {
         if (file.exists()) {
-            if (file.isFile() && file.canRead()) {
+            if (file.isFile() && file.canRead()){
                 return true;
             }
         }

@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="テキストファイル読み込みの事前確認サンプル。">
-      <change afterPath="$PROJECT_DIR$/src/com/example/BufferedReaderReadLineSample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/FileCheckBeforeReadingSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/FileCheckBeforeReadingSample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/FilereaderReadSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/FilereaderReadSample.java" afterDir="false" />
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="まとめてテキストを読むサンプル。">
+      <change afterPath="$PROJECT_DIR$/src/com/example/FilewriterWriteSample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +94,7 @@
     "アプリケーション.FilesListSample.executor": "Run",
     "アプリケーション.FilesMoveSample.executor": "Run",
     "アプリケーション.FilesSizeSample.executor": "Run",
+    "アプリケーション.FilewriterWriteSample.executor": "Run",
     "アプリケーション.FinalSample.executor": "Run",
     "アプリケーション.ForLoopSample.executor": "Run",
     "アプリケーション.HelloWorld.executor": "Run",
@@ -196,7 +195,7 @@
       <recent name="com.example" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.BufferedReaderReadLineSample">
+  <component name="RunManager" selected="アプリケーション.FilewriterWriteSample">
     <configuration name="BufferedReaderReadLineSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.BufferedReaderReadLineSample" />
       <module name="asobiba" />
@@ -236,19 +235,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FilesGetLastModifiedTimeSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.FilesGetLastModifiedTimeSample" />
-      <module name="asobiba" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FilesListSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.FilesListSample" />
       <module name="asobiba" />
@@ -262,13 +248,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FilewriterWriteSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.FilewriterWriteSample" />
+      <module name="asobiba" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.FilewriterWriteSample" />
         <item itemvalue="アプリケーション.BufferedReaderReadLineSample" />
         <item itemvalue="アプリケーション.FileCheckBeforeReadingSample" />
         <item itemvalue="アプリケーション.FilereaderReadSample" />
         <item itemvalue="アプリケーション.FilesListSample" />
-        <item itemvalue="アプリケーション.FilesGetLastModifiedTimeSample" />
       </list>
     </recent_temporary>
   </component>
@@ -327,15 +326,7 @@
       <workItem from="1737800813701" duration="28000" />
       <workItem from="1737802230791" duration="25044000" />
       <workItem from="1738415177658" duration="5000" />
-      <workItem from="1738479684690" duration="546000" />
-    </task>
-    <task id="LOCAL-00081" summary="文字列の全体がパターンとマッチするか調べるサンプル。">
-      <option name="closed" value="true" />
-      <created>1736513617475</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1736513617475</updated>
+      <workItem from="1738479684690" duration="909000" />
     </task>
     <task id="LOCAL-00082" summary="文字列の先頭からパターンとマッチするか調べるサンプル。">
       <option name="closed" value="true" />
@@ -721,7 +712,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738479987309</updated>
     </task>
-    <option name="localTasksCounter" value="130" />
+    <task id="LOCAL-00130" summary="まとめてテキストを読むサンプル。">
+      <option name="closed" value="true" />
+      <created>1738480298864</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1738480298864</updated>
+    </task>
+    <option name="localTasksCounter" value="131" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -739,7 +738,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="パターンにマッチした文字列を置換するサンプル。" />
     <MESSAGE value="パターンとマッチした部分文字列を置換する文字列の中で参照するサンプル。" />
     <MESSAGE value="文字列をパターンとマッチする部分で分割するサンプル。" />
     <MESSAGE value="電卓 入力値の出力。" />
@@ -764,7 +762,8 @@
     <MESSAGE value="ディレクトリに含まれるファイルやディレクトリの一覧を取得するサンプル。" />
     <MESSAGE value="テキストファイルを読むサンプル。" />
     <MESSAGE value="テキストファイル読み込みの事前確認サンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="テキストファイル読み込みの事前確認サンプル。" />
+    <MESSAGE value="まとめてテキストを読むサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="まとめてテキストを読むサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

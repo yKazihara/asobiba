@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="まとめてテキストを読むサンプル。">
-      <change afterPath="$PROJECT_DIR$/src/com/example/FilewriterWriteSample.java" afterDir="false" />
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="テキストをファイルに書き込むサンプル。">
+      <change afterPath="$PROJECT_DIR$/src/com/example/FilewriterWriteAddSample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/FilewriterWriteSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/FilewriterWriteSample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +95,7 @@
     "アプリケーション.FilesListSample.executor": "Run",
     "アプリケーション.FilesMoveSample.executor": "Run",
     "アプリケーション.FilesSizeSample.executor": "Run",
+    "アプリケーション.FilewriterWriteAddSample.executor": "Run",
     "アプリケーション.FilewriterWriteSample.executor": "Run",
     "アプリケーション.FinalSample.executor": "Run",
     "アプリケーション.ForLoopSample.executor": "Run",
@@ -195,7 +197,7 @@
       <recent name="com.example" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.FilewriterWriteSample">
+  <component name="RunManager" selected="アプリケーション.FilewriterWriteAddSample">
     <configuration name="BufferedReaderReadLineSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.BufferedReaderReadLineSample" />
       <module name="asobiba" />
@@ -235,8 +237,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FilesListSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.FilesListSample" />
+    <configuration name="FilewriterWriteAddSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.FilewriterWriteAddSample" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
@@ -263,11 +265,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.FilewriterWriteAddSample" />
         <item itemvalue="アプリケーション.FilewriterWriteSample" />
         <item itemvalue="アプリケーション.BufferedReaderReadLineSample" />
         <item itemvalue="アプリケーション.FileCheckBeforeReadingSample" />
         <item itemvalue="アプリケーション.FilereaderReadSample" />
-        <item itemvalue="アプリケーション.FilesListSample" />
       </list>
     </recent_temporary>
   </component>
@@ -326,15 +328,7 @@
       <workItem from="1737800813701" duration="28000" />
       <workItem from="1737802230791" duration="25044000" />
       <workItem from="1738415177658" duration="5000" />
-      <workItem from="1738479684690" duration="909000" />
-    </task>
-    <task id="LOCAL-00082" summary="文字列の先頭からパターンとマッチするか調べるサンプル。">
-      <option name="closed" value="true" />
-      <created>1736600038725</created>
-      <option name="number" value="00082" />
-      <option name="presentableId" value="LOCAL-00082" />
-      <option name="project" value="LOCAL" />
-      <updated>1736600038725</updated>
+      <workItem from="1738479684690" duration="1458000" />
     </task>
     <task id="LOCAL-00083" summary="文字列の中でパターンとマッチする部分を検索するサンプル。">
       <option name="closed" value="true" />
@@ -720,7 +714,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738480298864</updated>
     </task>
-    <option name="localTasksCounter" value="131" />
+    <task id="LOCAL-00131" summary="テキストをファイルに書き込むサンプル。">
+      <option name="closed" value="true" />
+      <created>1738549784918</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1738549784918</updated>
+    </task>
+    <option name="localTasksCounter" value="132" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -738,7 +740,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="パターンとマッチした部分文字列を置換する文字列の中で参照するサンプル。" />
     <MESSAGE value="文字列をパターンとマッチする部分で分割するサンプル。" />
     <MESSAGE value="電卓 入力値の出力。" />
     <MESSAGE value="電卓 入力チェックの実装。" />
@@ -763,7 +764,8 @@
     <MESSAGE value="テキストファイルを読むサンプル。" />
     <MESSAGE value="テキストファイル読み込みの事前確認サンプル。" />
     <MESSAGE value="まとめてテキストを読むサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="まとめてテキストを読むサンプル。" />
+    <MESSAGE value="テキストをファイルに書き込むサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="テキストをファイルに書き込むサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

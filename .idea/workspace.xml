@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="便利な書き込み用クラスのサンプル。">
-      <change afterPath="$PROJECT_DIR$/src/com/example/ArrayListSample.java" afterDir="false" />
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="ArrayListのサンプル。">
+      <change afterPath="$PROJECT_DIR$/src/com/example/LinkedListSample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,6 +108,7 @@
     "アプリケーション.IntStreamSample.executor": "Run",
     "アプリケーション.IntegerLiteralsSample.executor": "Run",
     "アプリケーション.IntegerToStringSample.executor": "Run",
+    "アプリケーション.LinkedListSample.executor": "Run",
     "アプリケーション.LocalDateSample.executor": "Run",
     "アプリケーション.LogicalOperatorsSample.executor": "Run",
     "アプリケーション.Main.executor": "Run",
@@ -201,7 +202,7 @@
       <recent name="com.example" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.ArrayListSample">
+  <component name="RunManager" selected="アプリケーション.LinkedListSample">
     <configuration name="ArrayListSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.ArrayListSample" />
       <module name="asobiba" />
@@ -241,8 +242,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FilewriterWriteSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.FilewriterWriteSample" />
+    <configuration name="LinkedListSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.LinkedListSample" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
@@ -269,11 +270,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.LinkedListSample" />
         <item itemvalue="アプリケーション.ArrayListSample" />
         <item itemvalue="アプリケーション.PrintWriterPrintlnSample" />
         <item itemvalue="アプリケーション.BufferedWriterWriteSample" />
         <item itemvalue="アプリケーション.FilewriterWriteAddSample" />
-        <item itemvalue="アプリケーション.FilewriterWriteSample" />
       </list>
     </recent_temporary>
   </component>
@@ -332,15 +333,7 @@
       <workItem from="1737800813701" duration="28000" />
       <workItem from="1737802230791" duration="25044000" />
       <workItem from="1738415177658" duration="5000" />
-      <workItem from="1738479684690" duration="3129000" />
-    </task>
-    <task id="LOCAL-00086" summary="Matcherオブジェクトをリセットして位置情報をゼロへ戻すサンプル。">
-      <option name="closed" value="true" />
-      <created>1736829338164</created>
-      <option name="number" value="00086" />
-      <option name="presentableId" value="LOCAL-00086" />
-      <option name="project" value="LOCAL" />
-      <updated>1736829338164</updated>
+      <workItem from="1738479684690" duration="4161000" />
     </task>
     <task id="LOCAL-00087" summary="文字クラスを使って色々な文字にマッチするパターンを記述するサンプル。">
       <option name="closed" value="true" />
@@ -726,7 +719,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738636470082</updated>
     </task>
-    <option name="localTasksCounter" value="135" />
+    <task id="LOCAL-00135" summary="ArrayListのサンプル。">
+      <option name="closed" value="true" />
+      <created>1738645955329</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1738645955329</updated>
+    </task>
+    <option name="localTasksCounter" value="136" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -744,7 +745,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="電卓 完成版。" />
     <MESSAGE value="Pathオブジェクトを使ってファイルやディレクトリを表すサンプル。" />
     <MESSAGE value="相対パスを絶対パスに変換するサンプル。" />
     <MESSAGE value="Pathオブジェクトに含まれるパスの各要素を取得するサンプル。" />
@@ -769,7 +769,8 @@
     <MESSAGE value="ファイルに追加で書き込むサンプル。" />
     <MESSAGE value="まとめてファイルに書き込むサンプル。" />
     <MESSAGE value="便利な書き込み用クラスのサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="便利な書き込み用クラスのサンプル。" />
+    <MESSAGE value="ArrayListのサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="ArrayListのサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

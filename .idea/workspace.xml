@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="HashMapのサンプル。">
-      <change afterPath="$PROJECT_DIR$/src/com/example/ClassSample.java" afterDir="false" />
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="クラスのサンプル。">
+      <change beforePath="$PROJECT_DIR$/src/com/example/ClassSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/ClassSample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -334,15 +334,7 @@
       <workItem from="1737800813701" duration="28000" />
       <workItem from="1737802230791" duration="25044000" />
       <workItem from="1738415177658" duration="5000" />
-      <workItem from="1738479684690" duration="6714000" />
-    </task>
-    <task id="LOCAL-00089" summary="正規表現 最長一致数量子、最短一致数量子、強欲な数量子のサンプル。">
-      <option name="closed" value="true" />
-      <created>1737080065755</created>
-      <option name="number" value="00089" />
-      <option name="presentableId" value="LOCAL-00089" />
-      <option name="project" value="LOCAL" />
-      <updated>1737080065755</updated>
+      <workItem from="1738479684690" duration="7245000" />
     </task>
     <task id="LOCAL-00090" summary="いらない行を削除。">
       <option name="closed" value="true" />
@@ -728,7 +720,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738656669382</updated>
     </task>
-    <option name="localTasksCounter" value="138" />
+    <task id="LOCAL-00138" summary="クラスのサンプル。">
+      <option name="closed" value="true" />
+      <created>1738717052020</created>
+      <option name="number" value="00138" />
+      <option name="presentableId" value="LOCAL-00138" />
+      <option name="project" value="LOCAL" />
+      <updated>1738717052020</updated>
+    </task>
+    <option name="localTasksCounter" value="139" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -746,7 +746,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Pathオブジェクトに含まれるパスの各要素を取得するサンプル。" />
     <MESSAGE value="「.」や「..」などのパスの中の冗長な部分を取り除くサンプル。" />
     <MESSAGE value="2つのパスを結合するサンプル。" />
     <MESSAGE value="カレントディレクトリを取得するサンプル。" />
@@ -771,7 +770,8 @@
     <MESSAGE value="ArrayListのサンプル。" />
     <MESSAGE value="LinkedListのサンプル。" />
     <MESSAGE value="HashMapのサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="HashMapのサンプル。" />
+    <MESSAGE value="クラスのサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="クラスのサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

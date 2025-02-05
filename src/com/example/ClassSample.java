@@ -18,8 +18,8 @@ public class ClassSample {
 }
 
 class Television {
-    int channelNo;
-    String place;
+    private int channelNo;
+    private String place;
 
     void setChannel(int newChannelNo) {
         channelNo = newChannelNo;

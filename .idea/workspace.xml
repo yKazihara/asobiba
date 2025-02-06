@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="引数が異なるコンストラクタのサンプル。">
-      <change afterPath="$PROJECT_DIR$/src/com/example/ExtendsSample.java" afterDir="false" />
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="スーパークラスのメンバへのアクセスのサンプル。">
+      <change afterPath="$PROJECT_DIR$/src/com/example/MathAbsSample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,6 +124,7 @@
     "アプリケーション.MatcherResetSample.executor": "Run",
     "アプリケーション.MatcherSample.executor": "Run",
     "アプリケーション.MatcherStartEndGroupSample.executor": "Run",
+    "アプリケーション.MathAbsSample.executor": "Run",
     "アプリケーション.MethodOverloadSample.executor": "Run",
     "アプリケーション.MethodParamSample.executor": "Run",
     "アプリケーション.MethodParamSample2.executor": "Run",
@@ -208,7 +209,7 @@
       <recent name="com.example" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.ExtendsSample">
+  <component name="RunManager" selected="アプリケーション.MathAbsSample">
     <configuration name="ConstructorSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.ConstructorSample" />
       <module name="asobiba" />
@@ -261,8 +262,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodOverloadSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.MethodOverloadSample" />
+    <configuration name="MathAbsSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.MathAbsSample" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
@@ -276,11 +277,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.MathAbsSample" />
         <item itemvalue="アプリケーション.ExtendsSample" />
         <item itemvalue="アプリケーション.ConstructorWithDifferentParamSample" />
         <item itemvalue="アプリケーション.ConstructorWithParamSample" />
         <item itemvalue="アプリケーション.ConstructorSample" />
-        <item itemvalue="アプリケーション.MethodOverloadSample" />
       </list>
     </recent_temporary>
   </component>
@@ -339,15 +340,7 @@
       <workItem from="1737800813701" duration="28000" />
       <workItem from="1737802230791" duration="25044000" />
       <workItem from="1738415177658" duration="5000" />
-      <workItem from="1738479684690" duration="10601000" />
-    </task>
-    <task id="LOCAL-00095" summary="先読みと後読みを使ったパターンの記述のサンプル。">
-      <option name="closed" value="true" />
-      <created>1737443226567</created>
-      <option name="number" value="00095" />
-      <option name="presentableId" value="LOCAL-00095" />
-      <option name="project" value="LOCAL" />
-      <updated>1737443226567</updated>
+      <workItem from="1738479684690" duration="10960000" />
     </task>
     <task id="LOCAL-00096" summary="大文字と小文字を区別しない正規表現フラグのサンプル。">
       <option name="closed" value="true" />
@@ -733,7 +726,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738803380545</updated>
     </task>
-    <option name="localTasksCounter" value="144" />
+    <task id="LOCAL-00144" summary="スーパークラスのメンバへのアクセスのサンプル。">
+      <option name="closed" value="true" />
+      <created>1738808702562</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1738808702562</updated>
+    </task>
+    <option name="localTasksCounter" value="145" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -751,7 +752,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ファイルやディレクトリを削除するサンプル。" />
     <MESSAGE value="ファイルやディレクトリが存在するか確認するサンプル。" />
     <MESSAGE value="ファイルやディレクトリをコピーするサンプル。" />
     <MESSAGE value="ファイルやディレクトリを移動するサンプル。" />
@@ -776,7 +776,8 @@
     <MESSAGE value="コンストラクタのサンプル。" />
     <MESSAGE value="引数があるコンストラクタのサンプル。" />
     <MESSAGE value="引数が異なるコンストラクタのサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="引数が異なるコンストラクタのサンプル。" />
+    <MESSAGE value="スーパークラスのメンバへのアクセスのサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="スーパークラスのメンバへのアクセスのサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -1,26 +1,33 @@
 package com.example;
 
-public class ConstructorWithParamSample {
+public class ConstructorWithDifferentParamSample {
     public static void main(String[] args) {
-        Television03 tv1 = new Television03("居間");
+        // コンストラクタ 引数あり
+        Television04 tv1 = new Television04("居間");
         tv1.dispChannel();
         //現在のチャンネルは1です
         //設置してある場所は居間です
 
         System.out.println("-----");
 
-        Television03 tv2 = new Television03("台所");
+        // コンストラクタ 引数なし
+        Television04 tv2 = new Television04();
         tv2.dispChannel();
         //現在のチャンネルは1です
-        //設置してある場所は台所です
+        //設置してある場所は未定です
     }
 }
 
-class Television03{
+class Television04{
     private int channelNo;
     private String place;
 
-    Television03(String newPlace){
+    Television04(){
+        channelNo = 1;
+        place = "未定";
+    }
+
+    Television04(String newPlace){
         channelNo = 1;
         place = newPlace;
     }

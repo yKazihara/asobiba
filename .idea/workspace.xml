@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="引数があるコンストラクタのサンプル。">
-      <change afterPath="$PROJECT_DIR$/src/com/example/ConstructorWithDifferentParamSample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/ConstructorWithParamSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/ConstructorWithParamSample.java" afterDir="false" />
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="引数が異なるコンストラクタのサンプル。">
+      <change afterPath="$PROJECT_DIR$/src/com/example/ExtendsSample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +88,7 @@
     "アプリケーション.Dentaku3.executor": "Run",
     "アプリケーション.DoWhileSample.executor": "Run",
     "アプリケーション.EscapeSequencesSample.executor": "Run",
+    "アプリケーション.ExtendsSample.executor": "Run",
     "アプリケーション.FileCheckBeforeReadingSample.executor": "Run",
     "アプリケーション.FilereaderReadSample.executor": "Run",
     "アプリケーション.FilesCopySample.executor": "Run",
@@ -208,20 +208,7 @@
       <recent name="com.example" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.ConstructorWithDifferentParamSample">
-    <configuration name="ClassSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.ClassSample" />
-      <module name="asobiba" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="アプリケーション.ExtendsSample">
     <configuration name="ConstructorSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.ConstructorSample" />
       <module name="asobiba" />
@@ -261,6 +248,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ExtendsSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.ExtendsSample" />
+      <module name="asobiba" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MethodOverloadSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.MethodOverloadSample" />
       <module name="asobiba" />
@@ -276,11 +276,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.ExtendsSample" />
         <item itemvalue="アプリケーション.ConstructorWithDifferentParamSample" />
         <item itemvalue="アプリケーション.ConstructorWithParamSample" />
         <item itemvalue="アプリケーション.ConstructorSample" />
         <item itemvalue="アプリケーション.MethodOverloadSample" />
-        <item itemvalue="アプリケーション.ClassSample" />
       </list>
     </recent_temporary>
   </component>
@@ -339,15 +339,7 @@
       <workItem from="1737800813701" duration="28000" />
       <workItem from="1737802230791" duration="25044000" />
       <workItem from="1738415177658" duration="5000" />
-      <workItem from="1738479684690" duration="10165000" />
-    </task>
-    <task id="LOCAL-00094" summary="名前付き正規表現グループのサンプル。">
-      <option name="closed" value="true" />
-      <created>1737434249287</created>
-      <option name="number" value="00094" />
-      <option name="presentableId" value="LOCAL-00094" />
-      <option name="project" value="LOCAL" />
-      <updated>1737434249287</updated>
+      <workItem from="1738479684690" duration="10601000" />
     </task>
     <task id="LOCAL-00095" summary="先読みと後読みを使ったパターンの記述のサンプル。">
       <option name="closed" value="true" />
@@ -733,7 +725,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738802890629</updated>
     </task>
-    <option name="localTasksCounter" value="143" />
+    <task id="LOCAL-00143" summary="引数が異なるコンストラクタのサンプル。">
+      <option name="closed" value="true" />
+      <created>1738803380545</created>
+      <option name="number" value="00143" />
+      <option name="presentableId" value="LOCAL-00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1738803380545</updated>
+    </task>
+    <option name="localTasksCounter" value="144" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -751,7 +751,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ディレクトリを作成するサンプル。" />
     <MESSAGE value="ファイルやディレクトリを削除するサンプル。" />
     <MESSAGE value="ファイルやディレクトリが存在するか確認するサンプル。" />
     <MESSAGE value="ファイルやディレクトリをコピーするサンプル。" />
@@ -776,7 +775,8 @@
     <MESSAGE value="メソッドのオーバーロードのサンプル。" />
     <MESSAGE value="コンストラクタのサンプル。" />
     <MESSAGE value="引数があるコンストラクタのサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="引数があるコンストラクタのサンプル。" />
+    <MESSAGE value="引数が異なるコンストラクタのサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="引数が異なるコンストラクタのサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

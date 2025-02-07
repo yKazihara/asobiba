@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="切り上げ/切捨て/四捨五入を取得するサンプル。">
-      <change afterPath="$PROJECT_DIR$/src/com/example/MathRandomSample.java" afterDir="false" />
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="乱数を生成するサンプル。">
+      <change afterPath="$PROJECT_DIR$/src/com/example/StringBuilderAppendSample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,6 +169,7 @@
     "アプリケーション.ReturnSample.executor": "Run",
     "アプリケーション.Robot.executor": "Run",
     "アプリケーション.SettingValuesToArraySample.executor": "Run",
+    "アプリケーション.StringBuilderAppendSample.executor": "Run",
     "アプリケーション.StringCharAtSample.executor": "Run",
     "アプリケーション.StringCodePointAtSample.executor": "Run",
     "アプリケーション.StringCodePointCountSample.executor": "Run",
@@ -214,22 +215,9 @@
       <recent name="com.example" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.MathRandomSample">
+  <component name="RunManager" selected="アプリケーション.StringBuilderAppendSample">
     <configuration name="MathCeilFloorRoundSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.MathCeilFloorRoundSample" />
-      <module name="asobiba" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MathMinMaxSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.MathMinMaxSample" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
@@ -280,13 +268,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringBuilderAppendSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.StringBuilderAppendSample" />
+      <module name="asobiba" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.StringBuilderAppendSample" />
         <item itemvalue="アプリケーション.MathRandomSample" />
         <item itemvalue="アプリケーション.MathCeilFloorRoundSample" />
         <item itemvalue="アプリケーション.MathSqrtCbrtSample" />
         <item itemvalue="アプリケーション.MathPowSample" />
-        <item itemvalue="アプリケーション.MathMinMaxSample" />
       </list>
     </recent_temporary>
   </component>
@@ -345,15 +346,7 @@
       <workItem from="1737800813701" duration="28000" />
       <workItem from="1737802230791" duration="25044000" />
       <workItem from="1738415177658" duration="5000" />
-      <workItem from="1738479684690" duration="13960000" />
-    </task>
-    <task id="LOCAL-00101" summary="Unicode準拠の文字でも大文字と小文字を区別しないサンプル。">
-      <option name="closed" value="true" />
-      <created>1737881228901</created>
-      <option name="number" value="00101" />
-      <option name="presentableId" value="LOCAL-00101" />
-      <option name="project" value="LOCAL" />
-      <updated>1737881228901</updated>
+      <workItem from="1738479684690" duration="14374000" />
     </task>
     <task id="LOCAL-00102" summary="パターンの中のメタ文字が特別な意味を持たなくなるサンプル。">
       <option name="closed" value="true" />
@@ -739,7 +732,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738891808920</updated>
     </task>
-    <option name="localTasksCounter" value="150" />
+    <task id="LOCAL-00150" summary="乱数を生成するサンプル。">
+      <option name="closed" value="true" />
+      <created>1738968705686</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1738968705686</updated>
+    </task>
+    <option name="localTasksCounter" value="151" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -757,7 +758,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ファイルの最終更新日時の取得と設定のサンプル。" />
     <MESSAGE value="ファイルの最終更新日時の取得と設定のサンプルを修正。" />
     <MESSAGE value="ディレクトリに含まれるファイルやディレクトリの一覧を取得するサンプル。" />
     <MESSAGE value="テキストファイルを読むサンプル。" />
@@ -782,7 +782,8 @@
     <MESSAGE value="累乗した値を取得するサンプル。" />
     <MESSAGE value="平方根と立方根を取得するサンプル。" />
     <MESSAGE value="切り上げ/切捨て/四捨五入を取得するサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="切り上げ/切捨て/四捨五入を取得するサンプル。" />
+    <MESSAGE value="乱数を生成するサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="乱数を生成するサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

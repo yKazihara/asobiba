@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="累乗した値を取得するサンプル。">
-      <change afterPath="$PROJECT_DIR$/src/com/example/MathSqrtCbrtSample.java" afterDir="false" />
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="平方根と立方根を取得するサンプル。">
+      <change afterPath="$PROJECT_DIR$/src/com/example/MathCeilFloorRoundSample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,6 +125,7 @@
     "アプリケーション.MatcherSample.executor": "Run",
     "アプリケーション.MatcherStartEndGroupSample.executor": "Run",
     "アプリケーション.MathAbsSample.executor": "Run",
+    "アプリケーション.MathCeilFloorRoundSample.executor": "Run",
     "アプリケーション.MathMinMaxSample.executor": "Run",
     "アプリケーション.MathPowSample.executor": "Run",
     "アプリケーション.MathSqrtCbrtSample.executor": "Run",
@@ -212,9 +213,9 @@
       <recent name="com.example" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.MathSqrtCbrtSample">
-    <configuration name="ExtendsSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.ExtendsSample" />
+  <component name="RunManager" selected="アプリケーション.MathCeilFloorRoundSample">
+    <configuration name="MathAbsSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.MathAbsSample" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
@@ -226,8 +227,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MathAbsSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.MathAbsSample" />
+    <configuration name="MathCeilFloorRoundSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.MathCeilFloorRoundSample" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
@@ -280,11 +281,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.MathCeilFloorRoundSample" />
         <item itemvalue="アプリケーション.MathSqrtCbrtSample" />
         <item itemvalue="アプリケーション.MathPowSample" />
         <item itemvalue="アプリケーション.MathMinMaxSample" />
         <item itemvalue="アプリケーション.MathAbsSample" />
-        <item itemvalue="アプリケーション.ExtendsSample" />
       </list>
     </recent_temporary>
   </component>
@@ -343,15 +344,7 @@
       <workItem from="1737800813701" duration="28000" />
       <workItem from="1737802230791" duration="25044000" />
       <workItem from="1738415177658" duration="5000" />
-      <workItem from="1738479684690" duration="11902000" />
-    </task>
-    <task id="LOCAL-00099" summary="nのみ行末記号として認識されるサンプル。">
-      <option name="closed" value="true" />
-      <created>1737700629309</created>
-      <option name="number" value="00099" />
-      <option name="presentableId" value="LOCAL-00099" />
-      <option name="project" value="LOCAL" />
-      <updated>1737700629309</updated>
+      <workItem from="1738479684690" duration="12753000" />
     </task>
     <task id="LOCAL-00100" summary="パターンの中にコメントを記述するサンプル。">
       <option name="closed" value="true" />
@@ -737,7 +730,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738888375941</updated>
     </task>
-    <option name="localTasksCounter" value="148" />
+    <task id="LOCAL-00148" summary="平方根と立方根を取得するサンプル。">
+      <option name="closed" value="true" />
+      <created>1738889613475</created>
+      <option name="number" value="00148" />
+      <option name="presentableId" value="LOCAL-00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1738889613475</updated>
+    </task>
+    <option name="localTasksCounter" value="149" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -755,7 +756,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ファイルの状態を調べる(実行可能/隠しファイル/読み取り/書き込み/シンボリック・リンク)サンプル。" />
     <MESSAGE value="ファイルのサイズを取得するサンプル。" />
     <MESSAGE value="ファイルの最終更新日時の取得と設定のサンプル。" />
     <MESSAGE value="ファイルの最終更新日時の取得と設定のサンプルを修正。" />
@@ -780,7 +780,8 @@
     <MESSAGE value="絶対値を取得するサンプル。" />
     <MESSAGE value="どちらか大きい値または小さい値を取得するサンプル。" />
     <MESSAGE value="累乗した値を取得するサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="累乗した値を取得するサンプル。" />
+    <MESSAGE value="平方根と立方根を取得するサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="平方根と立方根を取得するサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

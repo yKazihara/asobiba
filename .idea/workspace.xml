@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="StringBuilderの格納されている文字列の長さや容量を取得するサンプル。">
-      <change afterPath="$PROJECT_DIR$/src/com/example/StringBuilderSetLengthSample.java" afterDir="false" />
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="StringBuilderの格納されている文字列の長さを変更するサンプル。">
+      <change afterPath="$PROJECT_DIR$/src/com/example/StringBuilderInsertSample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,6 +171,7 @@
     "アプリケーション.Robot.executor": "Run",
     "アプリケーション.SettingValuesToArraySample.executor": "Run",
     "アプリケーション.StringBuilderAppendSample.executor": "Run",
+    "アプリケーション.StringBuilderInsertSample.executor": "Run",
     "アプリケーション.StringBuilderLengthSample.executor": "Run",
     "アプリケーション.StringBuilderSetLengthSample.executor": "Run",
     "アプリケーション.StringCharAtSample.executor": "Run",
@@ -217,20 +219,7 @@
       <recent name="com.example" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.StringBuilderSetLengthSample">
-    <configuration name="MathCeilFloorRoundSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.MathCeilFloorRoundSample" />
-      <module name="asobiba" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="アプリケーション.StringBuilderInsertSample">
     <configuration name="MathRandomSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.MathRandomSample" />
       <module name="asobiba" />
@@ -246,6 +235,19 @@
     </configuration>
     <configuration name="StringBuilderAppendSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.StringBuilderAppendSample" />
+      <module name="asobiba" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringBuilderInsertSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.StringBuilderInsertSample" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
@@ -285,11 +287,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.StringBuilderInsertSample" />
         <item itemvalue="アプリケーション.StringBuilderSetLengthSample" />
         <item itemvalue="アプリケーション.StringBuilderLengthSample" />
         <item itemvalue="アプリケーション.StringBuilderAppendSample" />
         <item itemvalue="アプリケーション.MathRandomSample" />
-        <item itemvalue="アプリケーション.MathCeilFloorRoundSample" />
       </list>
     </recent_temporary>
   </component>
@@ -348,15 +350,7 @@
       <workItem from="1737800813701" duration="28000" />
       <workItem from="1737802230791" duration="25044000" />
       <workItem from="1738415177658" duration="5000" />
-      <workItem from="1738479684690" duration="15473000" />
-    </task>
-    <task id="LOCAL-00105" summary="パターンにマッチした文字列を置換するサンプル。">
-      <option name="closed" value="true" />
-      <created>1737953069595</created>
-      <option name="number" value="00105" />
-      <option name="presentableId" value="LOCAL-00105" />
-      <option name="project" value="LOCAL" />
-      <updated>1737953069595</updated>
+      <workItem from="1738479684690" duration="15834000" />
     </task>
     <task id="LOCAL-00106" summary="パターンとマッチした部分文字列を置換する文字列の中で参照するサンプル。">
       <option name="closed" value="true" />
@@ -742,7 +736,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739077554934</updated>
     </task>
-    <option name="localTasksCounter" value="154" />
+    <task id="LOCAL-00154" summary="StringBuilderの格納されている文字列の長さを変更するサンプル。">
+      <option name="closed" value="true" />
+      <created>1739077822118</created>
+      <option name="number" value="00154" />
+      <option name="presentableId" value="LOCAL-00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1739077822118</updated>
+    </task>
+    <option name="localTasksCounter" value="155" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -760,7 +762,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="テキストファイル読み込みの事前確認サンプル。" />
     <MESSAGE value="まとめてテキストを読むサンプル。" />
     <MESSAGE value="テキストをファイルに書き込むサンプル。" />
     <MESSAGE value="ファイルに追加で書き込むサンプル。" />
@@ -785,7 +786,8 @@
     <MESSAGE value="StringBuilderオブジェクトの作成と基本的な使い方サンプル。" />
     <MESSAGE value="StringBuilderの他のサンプルを追加。" />
     <MESSAGE value="StringBuilderの格納されている文字列の長さや容量を取得するサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="StringBuilderの格納されている文字列の長さや容量を取得するサンプル。" />
+    <MESSAGE value="StringBuilderの格納されている文字列の長さを変更するサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="StringBuilderの格納されている文字列の長さを変更するサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

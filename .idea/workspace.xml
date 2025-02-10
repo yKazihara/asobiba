@@ -221,7 +221,7 @@
       <recent name="com.example" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.StringBuilderDeleteSample">
+  <component name="RunManager" selected="アプリケーション.StringBuilderReverseSample">
     <configuration name="StringBuilderDeleteSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.StringBuilderDeleteSample" />
       <module name="asobiba" />
@@ -261,8 +261,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringBuilderSetLengthSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.StringBuilderSetLengthSample" />
+    <configuration name="StringBuilderReverseSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.StringBuilderReverseSample" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
@@ -289,11 +289,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.StringBuilderReverseSample" />
         <item itemvalue="アプリケーション.StringBuilderDeleteSample" />
         <item itemvalue="アプリケーション.StringBuilderReplaceSample" />
         <item itemvalue="アプリケーション.StringBuilderSubstringSample" />
         <item itemvalue="アプリケーション.StringBuilderInsertSample" />
-        <item itemvalue="アプリケーション.StringBuilderSetLengthSample" />
       </list>
     </recent_temporary>
   </component>

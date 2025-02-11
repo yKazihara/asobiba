@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="StringBuilderの格納されている文字列の並びを逆にするサンプル。">
-      <change afterPath="$PROJECT_DIR$/src/com/example/scannerNextSample.java" afterDir="false" />
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="Scannerの入力された値の中で区切り文字(デフォルトでは空白文字)までの値を受け取り次の処理へ進むサンプル。">
+      <change afterPath="$PROJECT_DIR$/src/com/example/ScannerNextSomeValuesSample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,6 +169,7 @@
     "アプリケーション.ReplaceSample.executor": "Run",
     "アプリケーション.ReturnSample.executor": "Run",
     "アプリケーション.Robot.executor": "Run",
+    "アプリケーション.ScannerNextSomeValuesSample.executor": "Run",
     "アプリケーション.SettingValuesToArraySample.executor": "Run",
     "アプリケーション.StringBuilderAppendSample.executor": "Run",
     "アプリケーション.StringBuilderDeleteSample.executor": "Run",
@@ -223,9 +225,22 @@
       <recent name="com.example" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.ScannerNextSample">
+  <component name="RunManager" selected="アプリケーション.ScannerNextSomeValuesSample">
     <configuration name="ScannerNextSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.ScannerNextSample" />
+      <module name="asobiba" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScannerNextSomeValuesSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.ScannerNextSomeValuesSample" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
@@ -276,26 +291,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringBuilderSubstringSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.StringBuilderSubstringSample" />
-      <module name="asobiba" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.ScannerNextSomeValuesSample" />
         <item itemvalue="アプリケーション.ScannerNextSample" />
         <item itemvalue="アプリケーション.StringBuilderReverseSample" />
         <item itemvalue="アプリケーション.StringBuilderDeleteSample" />
         <item itemvalue="アプリケーション.StringBuilderReplaceSample" />
-        <item itemvalue="アプリケーション.StringBuilderSubstringSample" />
       </list>
     </recent_temporary>
   </component>
@@ -354,15 +356,7 @@
       <workItem from="1737800813701" duration="28000" />
       <workItem from="1737802230791" duration="25044000" />
       <workItem from="1738415177658" duration="5000" />
-      <workItem from="1738479684690" duration="17079000" />
-    </task>
-    <task id="LOCAL-00111" summary="Pathオブジェクトを使ってファイルやディレクトリを表すサンプル。">
-      <option name="closed" value="true" />
-      <created>1738039608703</created>
-      <option name="number" value="00111" />
-      <option name="presentableId" value="LOCAL-00111" />
-      <option name="project" value="LOCAL" />
-      <updated>1738039608703</updated>
+      <workItem from="1738479684690" duration="17418000" />
     </task>
     <task id="LOCAL-00112" summary="相対パスを絶対パスに変換するサンプル。">
       <option name="closed" value="true" />
@@ -748,7 +742,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739145987536</updated>
     </task>
-    <option name="localTasksCounter" value="160" />
+    <task id="LOCAL-00160" summary="Scannerの入力された値の中で区切り文字(デフォルトでは空白文字)までの値を受け取り次の処理へ進むサンプル。">
+      <option name="closed" value="true" />
+      <created>1739232930027</created>
+      <option name="number" value="00160" />
+      <option name="presentableId" value="LOCAL-00160" />
+      <option name="project" value="LOCAL" />
+      <updated>1739232930027</updated>
+    </task>
+    <option name="localTasksCounter" value="161" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -766,7 +768,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ArrayListのサンプル。" />
     <MESSAGE value="LinkedListのサンプル。" />
     <MESSAGE value="HashMapのサンプル。" />
     <MESSAGE value="クラスのサンプル。" />
@@ -791,7 +792,8 @@
     <MESSAGE value="StringBuilderの指定範囲の部分文字列を別の文字列に置換するサンプル。" />
     <MESSAGE value="StringBuilderの指定範囲の部分文字列を削除するサンプル。" />
     <MESSAGE value="StringBuilderの格納されている文字列の並びを逆にするサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="StringBuilderの格納されている文字列の並びを逆にするサンプル。" />
+    <MESSAGE value="Scannerの入力された値の中で区切り文字(デフォルトでは空白文字)までの値を受け取り次の処理へ進むサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="Scannerの入力された値の中で区切り文字(デフォルトでは空白文字)までの値を受け取り次の処理へ進むサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

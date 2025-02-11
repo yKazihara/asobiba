@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="Scannerの入力された値の中で区切り文字(デフォルトでは空白文字)までの値を受け取り次の処理へ進むサンプル。">
-      <change afterPath="$PROJECT_DIR$/src/com/example/ScannerNextSomeValuesSample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="Scannerで区切り文字を無視して次の行までの値を受け取るサンプル。">
+      <change afterPath="$PROJECT_DIR$/src/com/example/ScannerNextLineAndSplitSample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,6 +168,8 @@
     "アプリケーション.ReplaceSample.executor": "Run",
     "アプリケーション.ReturnSample.executor": "Run",
     "アプリケーション.Robot.executor": "Run",
+    "アプリケーション.ScannerNextLineAndSplitSample.executor": "Run",
+    "アプリケーション.ScannerNextLineSample.executor": "Run",
     "アプリケーション.ScannerNextSomeValuesSample.executor": "Run",
     "アプリケーション.SettingValuesToArraySample.executor": "Run",
     "アプリケーション.StringBuilderAppendSample.executor": "Run",
@@ -225,7 +226,20 @@
       <recent name="com.example" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.ScannerNextLineSample">
+  <component name="RunManager" selected="アプリケーション.ScannerNextLineAndSplitSample">
+    <configuration name="ScannerNextLineAndSplitSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.ScannerNextLineAndSplitSample" />
+      <module name="asobiba" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ScannerNextLineSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.ScannerNextLineSample" />
       <module name="asobiba" />
@@ -265,19 +279,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringBuilderDeleteSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.StringBuilderDeleteSample" />
-      <module name="asobiba" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="StringBuilderReverseSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.StringBuilderReverseSample" />
       <module name="asobiba" />
@@ -293,11 +294,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.ScannerNextLineAndSplitSample" />
         <item itemvalue="アプリケーション.ScannerNextLineSample" />
         <item itemvalue="アプリケーション.ScannerNextSomeValuesSample" />
         <item itemvalue="アプリケーション.ScannerNextSample" />
         <item itemvalue="アプリケーション.StringBuilderReverseSample" />
-        <item itemvalue="アプリケーション.StringBuilderDeleteSample" />
       </list>
     </recent_temporary>
   </component>
@@ -356,23 +357,7 @@
       <workItem from="1737800813701" duration="28000" />
       <workItem from="1737802230791" duration="25044000" />
       <workItem from="1738415177658" duration="5000" />
-      <workItem from="1738479684690" duration="17418000" />
-    </task>
-    <task id="LOCAL-00112" summary="相対パスを絶対パスに変換するサンプル。">
-      <option name="closed" value="true" />
-      <created>1738041515139</created>
-      <option name="number" value="00112" />
-      <option name="presentableId" value="LOCAL-00112" />
-      <option name="project" value="LOCAL" />
-      <updated>1738041515139</updated>
-    </task>
-    <task id="LOCAL-00113" summary="Pathオブジェクトに含まれるパスの各要素を取得するサンプル。">
-      <option name="closed" value="true" />
-      <created>1738050546230</created>
-      <option name="number" value="00113" />
-      <option name="presentableId" value="LOCAL-00113" />
-      <option name="project" value="LOCAL" />
-      <updated>1738050546230</updated>
+      <workItem from="1738479684690" duration="17763000" />
     </task>
     <task id="LOCAL-00114" summary="「.」や「..」などのパスの中の冗長な部分を取り除くサンプル。">
       <option name="closed" value="true" />
@@ -750,7 +735,23 @@
       <option name="project" value="LOCAL" />
       <updated>1739232930027</updated>
     </task>
-    <option name="localTasksCounter" value="161" />
+    <task id="LOCAL-00161" summary="Scannerで区切り文字を挟んで入力した複数の値を順番に受け取るサンプル。">
+      <option name="closed" value="true" />
+      <created>1739233120204</created>
+      <option name="number" value="00161" />
+      <option name="presentableId" value="LOCAL-00161" />
+      <option name="project" value="LOCAL" />
+      <updated>1739233120204</updated>
+    </task>
+    <task id="LOCAL-00162" summary="Scannerで区切り文字を無視して次の行までの値を受け取るサンプル。">
+      <option name="closed" value="true" />
+      <created>1739233340622</created>
+      <option name="number" value="00162" />
+      <option name="presentableId" value="LOCAL-00162" />
+      <option name="project" value="LOCAL" />
+      <updated>1739233340622</updated>
+    </task>
+    <option name="localTasksCounter" value="163" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -768,8 +769,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="LinkedListのサンプル。" />
-    <MESSAGE value="HashMapのサンプル。" />
     <MESSAGE value="クラスのサンプル。" />
     <MESSAGE value="クラスの変数をprivateに変更。" />
     <MESSAGE value="メソッドのオーバーロードのサンプル。" />
@@ -793,7 +792,9 @@
     <MESSAGE value="StringBuilderの指定範囲の部分文字列を削除するサンプル。" />
     <MESSAGE value="StringBuilderの格納されている文字列の並びを逆にするサンプル。" />
     <MESSAGE value="Scannerの入力された値の中で区切り文字(デフォルトでは空白文字)までの値を受け取り次の処理へ進むサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="Scannerの入力された値の中で区切り文字(デフォルトでは空白文字)までの値を受け取り次の処理へ進むサンプル。" />
+    <MESSAGE value="Scannerで区切り文字を挟んで入力した複数の値を順番に受け取るサンプル。" />
+    <MESSAGE value="Scannerで区切り文字を無視して次の行までの値を受け取るサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="Scannerで区切り文字を無視して次の行までの値を受け取るサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

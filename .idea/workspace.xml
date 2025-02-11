@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="StringBuilderの指定範囲の部分文字列を別の文字列に置換するサンプル。">
-      <change afterPath="$PROJECT_DIR$/src/com/example/StringBuilderDeleteSample.java" afterDir="false" />
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="StringBuilderの格納されている文字列の並びを逆にするサンプル。">
+      <change afterPath="$PROJECT_DIR$/src/com/example/scannerNextSample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,6 +174,7 @@
     "アプリケーション.StringBuilderInsertSample.executor": "Run",
     "アプリケーション.StringBuilderLengthSample.executor": "Run",
     "アプリケーション.StringBuilderReplaceSample.executor": "Run",
+    "アプリケーション.StringBuilderReverseSample.executor": "Run",
     "アプリケーション.StringBuilderSetLengthSample.executor": "Run",
     "アプリケーション.StringBuilderSubstringSample.executor": "Run",
     "アプリケーション.StringCharAtSample.executor": "Run",
@@ -202,6 +203,7 @@
     "アプリケーション.WhileLoopSample.executor": "Run",
     "アプリケーション.WrapperClassSample.executor": "Run",
     "アプリケーション.forEachSample.executor": "Run",
+    "アプリケーション.scannerNextSample.executor": "Run",
     "アプリケーション.tryCatchFinallySample.executor": "Run",
     "アプリケーション.tryCatchSample.executor": "Run"
   }
@@ -221,9 +223,9 @@
       <recent name="com.example" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.StringBuilderReverseSample">
-    <configuration name="StringBuilderDeleteSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.StringBuilderDeleteSample" />
+  <component name="RunManager" selected="アプリケーション.ScannerNextSample">
+    <configuration name="ScannerNextSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.ScannerNextSample" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
@@ -235,8 +237,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringBuilderInsertSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.StringBuilderInsertSample" />
+    <configuration name="StringBuilderDeleteSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.StringBuilderDeleteSample" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
@@ -289,11 +291,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.ScannerNextSample" />
         <item itemvalue="アプリケーション.StringBuilderReverseSample" />
         <item itemvalue="アプリケーション.StringBuilderDeleteSample" />
         <item itemvalue="アプリケーション.StringBuilderReplaceSample" />
         <item itemvalue="アプリケーション.StringBuilderSubstringSample" />
-        <item itemvalue="アプリケーション.StringBuilderInsertSample" />
       </list>
     </recent_temporary>
   </component>
@@ -352,23 +354,7 @@
       <workItem from="1737800813701" duration="28000" />
       <workItem from="1737802230791" duration="25044000" />
       <workItem from="1738415177658" duration="5000" />
-      <workItem from="1738479684690" duration="16557000" />
-    </task>
-    <task id="LOCAL-00109" summary="電卓 入力チェックの実装。">
-      <option name="closed" value="true" />
-      <created>1737959652920</created>
-      <option name="number" value="00109" />
-      <option name="presentableId" value="LOCAL-00109" />
-      <option name="project" value="LOCAL" />
-      <updated>1737959652920</updated>
-    </task>
-    <task id="LOCAL-00110" summary="電卓 完成版。">
-      <option name="closed" value="true" />
-      <created>1737963814042</created>
-      <option name="number" value="00110" />
-      <option name="presentableId" value="LOCAL-00110" />
-      <option name="project" value="LOCAL" />
-      <updated>1737963814042</updated>
+      <workItem from="1738479684690" duration="17079000" />
     </task>
     <task id="LOCAL-00111" summary="Pathオブジェクトを使ってファイルやディレクトリを表すサンプル。">
       <option name="closed" value="true" />
@@ -746,7 +732,23 @@
       <option name="project" value="LOCAL" />
       <updated>1739145638825</updated>
     </task>
-    <option name="localTasksCounter" value="158" />
+    <task id="LOCAL-00158" summary="StringBuilderの指定範囲の部分文字列を削除するサンプル。">
+      <option name="closed" value="true" />
+      <created>1739145816876</created>
+      <option name="number" value="00158" />
+      <option name="presentableId" value="LOCAL-00158" />
+      <option name="project" value="LOCAL" />
+      <updated>1739145816876</updated>
+    </task>
+    <task id="LOCAL-00159" summary="StringBuilderの格納されている文字列の並びを逆にするサンプル。">
+      <option name="closed" value="true" />
+      <created>1739145987536</created>
+      <option name="number" value="00159" />
+      <option name="presentableId" value="LOCAL-00159" />
+      <option name="project" value="LOCAL" />
+      <updated>1739145987536</updated>
+    </task>
+    <option name="localTasksCounter" value="160" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -764,8 +766,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="まとめてファイルに書き込むサンプル。" />
-    <MESSAGE value="便利な書き込み用クラスのサンプル。" />
     <MESSAGE value="ArrayListのサンプル。" />
     <MESSAGE value="LinkedListのサンプル。" />
     <MESSAGE value="HashMapのサンプル。" />
@@ -789,7 +789,9 @@
     <MESSAGE value="StringBuilderの指定した位置に文字列を挿入するサンプル。" />
     <MESSAGE value="StringBuilderの指定範囲の部分文字列を取得するサンプル。" />
     <MESSAGE value="StringBuilderの指定範囲の部分文字列を別の文字列に置換するサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="StringBuilderの指定範囲の部分文字列を別の文字列に置換するサンプル。" />
+    <MESSAGE value="StringBuilderの指定範囲の部分文字列を削除するサンプル。" />
+    <MESSAGE value="StringBuilderの格納されている文字列の並びを逆にするサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="StringBuilderの格納されている文字列の並びを逆にするサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

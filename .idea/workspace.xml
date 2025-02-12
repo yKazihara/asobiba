@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="Scannerでファイルからの入力を行うスキャナを作成するサンプル。">
-      <change afterPath="$PROJECT_DIR$/src/com/example/ScannerHasNextSample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="Scannerでスキャナの入力ストリームにまだ値が残っているか確認するサンプル。">
+      <change afterPath="$PROJECT_DIR$/src/com/example/ScannerUseDelimiterSample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -230,7 +229,7 @@
       <recent name="com.example" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.ScannerHasNextSample">
+  <component name="RunManager" selected="アプリケーション.ScannerUseDelimiterSample">
     <configuration name="ScannerHasNextSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.ScannerHasNextSample" />
       <module name="asobiba" />
@@ -270,19 +269,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScannerNextLineSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.ScannerNextLineSample" />
-      <module name="asobiba" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ScannerReadFromFileSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.ScannerReadFromFileSample" />
       <module name="asobiba" />
@@ -296,13 +282,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ScannerUseDelimiterSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.ScannerUseDelimiterSample" />
+      <module name="asobiba" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.ScannerUseDelimiterSample" />
         <item itemvalue="アプリケーション.ScannerHasNextSample" />
         <item itemvalue="アプリケーション.ScannerReadFromFileSample" />
         <item itemvalue="アプリケーション.ScannerNextIntSample" />
         <item itemvalue="アプリケーション.ScannerNextLineAndSplitSample" />
-        <item itemvalue="アプリケーション.ScannerNextLineSample" />
       </list>
     </recent_temporary>
   </component>
@@ -362,15 +361,7 @@
       <workItem from="1737802230791" duration="25044000" />
       <workItem from="1738415177658" duration="5000" />
       <workItem from="1738479684690" duration="18056000" />
-      <workItem from="1739235619517" duration="1242000" />
-    </task>
-    <task id="LOCAL-00117" summary="ファイルを作成するサンプル。">
-      <option name="closed" value="true" />
-      <created>1738200757883</created>
-      <option name="number" value="00117" />
-      <option name="presentableId" value="LOCAL-00117" />
-      <option name="project" value="LOCAL" />
-      <updated>1738200757883</updated>
+      <workItem from="1739235619517" duration="1540000" />
     </task>
     <task id="LOCAL-00118" summary="ディレクトリを作成するサンプル。">
       <option name="closed" value="true" />
@@ -756,7 +747,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739333512617</updated>
     </task>
-    <option name="localTasksCounter" value="166" />
+    <task id="LOCAL-00166" summary="Scannerでスキャナの入力ストリームにまだ値が残っているか確認するサンプル。">
+      <option name="closed" value="true" />
+      <created>1739334206029</created>
+      <option name="number" value="00166" />
+      <option name="presentableId" value="LOCAL-00166" />
+      <option name="project" value="LOCAL" />
+      <updated>1739334206029</updated>
+    </task>
+    <option name="localTasksCounter" value="167" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -774,7 +773,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="コンストラクタのサンプル。" />
     <MESSAGE value="引数があるコンストラクタのサンプル。" />
     <MESSAGE value="引数が異なるコンストラクタのサンプル。" />
     <MESSAGE value="スーパークラスのメンバへのアクセスのサンプル。" />
@@ -799,7 +797,8 @@
     <MESSAGE value="Scannerで区切り文字を無視して次の行までの値を受け取って分割するサンプル。" />
     <MESSAGE value="Scannerで取得した値を指定したデータ型の値として取得するサンプル。" />
     <MESSAGE value="Scannerでファイルからの入力を行うスキャナを作成するサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="Scannerでファイルからの入力を行うスキャナを作成するサンプル。" />
+    <MESSAGE value="Scannerでスキャナの入力ストリームにまだ値が残っているか確認するサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="Scannerでスキャナの入力ストリームにまだ値が残っているか確認するサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

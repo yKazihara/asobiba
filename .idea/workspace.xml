@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="HTMLファイルやXMLファイルを読み込むサンプル。">
-      <change afterPath="$PROJECT_DIR$/src/com/sample/convertalphabet/ZenkakuAlphabetToHankakuAlphabet.java" afterDir="false" />
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="全角アルファベットを半角アルファベットに変換するサンプル。">
+      <change afterPath="$PROJECT_DIR$/src/com/sample/convertalphabet/HankakuAlphabetToZenkakuAlphabet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -107,6 +107,7 @@
     "アプリケーション.FinalSample.executor": "Run",
     "アプリケーション.ForLoopSample.executor": "Run",
     "アプリケーション.HTMLParser.executor": "Run",
+    "アプリケーション.HankakuAlphabetToZenkakuAlphabet.executor": "Run",
     "アプリケーション.HashMapSample.executor": "Run",
     "アプリケーション.HelloWorld.executor": "Run",
     "アプリケーション.IncrementAndDecrementSample.executor": "Run",
@@ -233,7 +234,7 @@
       <recent name="com.example" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.ZenkakuAlphabetToHankakuAlphabet">
+  <component name="RunManager" selected="アプリケーション.HankakuAlphabetToZenkakuAlphabet">
     <configuration name="HTMLParser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sample.htmlparser.HTMLParser" />
       <module name="asobiba" />
@@ -247,12 +248,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScannerHasNextSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.ScannerHasNextSample" />
+    <configuration name="HankakuAlphabetToZenkakuAlphabet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sample.convertalphabet.HankakuAlphabetToZenkakuAlphabet" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.*" />
+          <option name="PATTERN" value="com.sample.convertalphabet.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -260,8 +261,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScannerReadFromFileSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.ScannerReadFromFileSample" />
+    <configuration name="ScannerHasNextSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.ScannerHasNextSample" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
@@ -301,11 +302,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.HankakuAlphabetToZenkakuAlphabet" />
         <item itemvalue="アプリケーション.ZenkakuAlphabetToHankakuAlphabet" />
         <item itemvalue="アプリケーション.HTMLParser" />
         <item itemvalue="アプリケーション.ScannerUseDelimiterSample" />
         <item itemvalue="アプリケーション.ScannerHasNextSample" />
-        <item itemvalue="アプリケーション.ScannerReadFromFileSample" />
       </list>
     </recent_temporary>
   </component>
@@ -366,15 +367,7 @@
       <workItem from="1738415177658" duration="5000" />
       <workItem from="1738479684690" duration="18056000" />
       <workItem from="1739235619517" duration="1967000" />
-      <workItem from="1747473906048" duration="2735000" />
-    </task>
-    <task id="LOCAL-00120" summary="ファイルやディレクトリが存在するか確認するサンプル。">
-      <option name="closed" value="true" />
-      <created>1738215340779</created>
-      <option name="number" value="00120" />
-      <option name="presentableId" value="LOCAL-00120" />
-      <option name="project" value="LOCAL" />
-      <updated>1738215340779</updated>
+      <workItem from="1747473906048" duration="3434000" />
     </task>
     <task id="LOCAL-00121" summary="ファイルやディレクトリをコピーするサンプル。">
       <option name="closed" value="true" />
@@ -760,7 +753,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747522342847</updated>
     </task>
-    <option name="localTasksCounter" value="169" />
+    <task id="LOCAL-00169" summary="全角アルファベットを半角アルファベットに変換するサンプル。">
+      <option name="closed" value="true" />
+      <created>1747606656530</created>
+      <option name="number" value="00169" />
+      <option name="presentableId" value="LOCAL-00169" />
+      <option name="project" value="LOCAL" />
+      <updated>1747606656530</updated>
+    </task>
+    <option name="localTasksCounter" value="170" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -778,7 +779,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="スーパークラスのメンバへのアクセスのサンプル。" />
     <MESSAGE value="絶対値を取得するサンプル。" />
     <MESSAGE value="どちらか大きい値または小さい値を取得するサンプル。" />
     <MESSAGE value="累乗した値を取得するサンプル。" />
@@ -803,7 +803,8 @@
     <MESSAGE value="Scannerでスキャナの入力ストリームにまだ値が残っているか確認するサンプル。" />
     <MESSAGE value="Scannerで区切り文字を別の値に設定するサンプル。" />
     <MESSAGE value="HTMLファイルやXMLファイルを読み込むサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="HTMLファイルやXMLファイルを読み込むサンプル。" />
+    <MESSAGE value="全角アルファベットを半角アルファベットに変換するサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="全角アルファベットを半角アルファベットに変換するサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

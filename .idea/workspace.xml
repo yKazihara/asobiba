@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="全角アルファベットを半角アルファベットに変換するサンプル。">
-      <change afterPath="$PROJECT_DIR$/src/com/sample/convertalphabet/HankakuAlphabetToZenkakuAlphabet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="全角アルファベットを半角アルファベットに変換するサンプル。" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -108,6 +105,7 @@
     "アプリケーション.ForLoopSample.executor": "Run",
     "アプリケーション.HTMLParser.executor": "Run",
     "アプリケーション.HankakuAlphabetToZenkakuAlphabet.executor": "Run",
+    "アプリケーション.HankakuNumberToZenkakuNumber.executor": "Run",
     "アプリケーション.HashMapSample.executor": "Run",
     "アプリケーション.HelloWorld.executor": "Run",
     "アプリケーション.IncrementAndDecrementSample.executor": "Run",
@@ -234,7 +232,7 @@
       <recent name="com.example" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.HankakuAlphabetToZenkakuAlphabet">
+  <component name="RunManager" selected="アプリケーション.HankakuNumberToZenkakuNumber">
     <configuration name="HTMLParser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sample.htmlparser.HTMLParser" />
       <module name="asobiba" />
@@ -261,12 +259,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScannerHasNextSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.ScannerHasNextSample" />
+    <configuration name="HankakuNumberToZenkakuNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sample.convertnumber.HankakuNumberToZenkakuNumber" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.*" />
+          <option name="PATTERN" value="com.sample.convertnumber.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -302,11 +300,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.HankakuNumberToZenkakuNumber" />
         <item itemvalue="アプリケーション.HankakuAlphabetToZenkakuAlphabet" />
         <item itemvalue="アプリケーション.ZenkakuAlphabetToHankakuAlphabet" />
         <item itemvalue="アプリケーション.HTMLParser" />
         <item itemvalue="アプリケーション.ScannerUseDelimiterSample" />
-        <item itemvalue="アプリケーション.ScannerHasNextSample" />
       </list>
     </recent_temporary>
   </component>

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="半角数字を全角数字に変換するサンプル。">
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="全角数字を半角数字に変換するサンプル。">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -213,6 +213,7 @@
     "アプリケーション.WhileLoopSample.executor": "Run",
     "アプリケーション.WrapperClassSample.executor": "Run",
     "アプリケーション.ZenkakuAlphabetToHankakuAlphabet.executor": "Run",
+    "アプリケーション.ZenkakuNumberToHankakuNumber.executor": "Run",
     "アプリケーション.forEachSample.executor": "Run",
     "アプリケーション.scannerNextSample.executor": "Run",
     "アプリケーション.tryCatchFinallySample.executor": "Run",
@@ -234,20 +235,7 @@
       <recent name="com.example" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.ZenkakuNumberToHankakuNumber">
-    <configuration name="HTMLParser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sample.htmlparser.HTMLParser" />
-      <module name="asobiba" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sample.htmlparser.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="アプリケーション.ZenkakuKatakanaToHankakuKatakana">
     <configuration name="HankakuAlphabetToZenkakuAlphabet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sample.convertalphabet.HankakuAlphabetToZenkakuAlphabet" />
       <module name="asobiba" />
@@ -287,6 +275,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ZenkakuKatakanaToHankakuKatakana" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sample.convertkatakana.ZenkakuKatakanaToHankakuKatakana" />
+      <module name="asobiba" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sample.convertkatakana.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ZenkakuNumberToHankakuNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sample.convertnumber.ZenkakuNumberToHankakuNumber" />
       <module name="asobiba" />
@@ -302,11 +303,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.ZenkakuKatakanaToHankakuKatakana" />
         <item itemvalue="アプリケーション.ZenkakuNumberToHankakuNumber" />
         <item itemvalue="アプリケーション.HankakuNumberToZenkakuNumber" />
         <item itemvalue="アプリケーション.HankakuAlphabetToZenkakuAlphabet" />
         <item itemvalue="アプリケーション.ZenkakuAlphabetToHankakuAlphabet" />
-        <item itemvalue="アプリケーション.HTMLParser" />
       </list>
     </recent_temporary>
   </component>
@@ -368,14 +369,6 @@
       <workItem from="1738479684690" duration="18056000" />
       <workItem from="1739235619517" duration="1967000" />
       <workItem from="1747473906048" duration="3434000" />
-    </task>
-    <task id="LOCAL-00122" summary="ファイルやディレクトリを移動するサンプル。">
-      <option name="closed" value="true" />
-      <created>1738288683021</created>
-      <option name="number" value="00122" />
-      <option name="presentableId" value="LOCAL-00122" />
-      <option name="project" value="LOCAL" />
-      <updated>1738288683021</updated>
     </task>
     <task id="LOCAL-00123" summary="ファイルの状態を調べる(実行可能/隠しファイル/読み取り/書き込み/シンボリック・リンク)サンプル。">
       <option name="closed" value="true" />
@@ -761,7 +754,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747779058468</updated>
     </task>
-    <option name="localTasksCounter" value="171" />
+    <task id="LOCAL-00171" summary="全角数字を半角数字に変換するサンプル。">
+      <option name="closed" value="true" />
+      <created>1747863747259</created>
+      <option name="number" value="00171" />
+      <option name="presentableId" value="LOCAL-00171" />
+      <option name="project" value="LOCAL" />
+      <updated>1747863747259</updated>
+    </task>
+    <option name="localTasksCounter" value="172" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -779,7 +780,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="どちらか大きい値または小さい値を取得するサンプル。" />
     <MESSAGE value="累乗した値を取得するサンプル。" />
     <MESSAGE value="平方根と立方根を取得するサンプル。" />
     <MESSAGE value="切り上げ/切捨て/四捨五入を取得するサンプル。" />
@@ -804,7 +804,8 @@
     <MESSAGE value="HTMLファイルやXMLファイルを読み込むサンプル。" />
     <MESSAGE value="全角アルファベットを半角アルファベットに変換するサンプル。" />
     <MESSAGE value="半角数字を全角数字に変換するサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="半角数字を全角数字に変換するサンプル。" />
+    <MESSAGE value="全角数字を半角数字に変換するサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="全角数字を半角数字に変換するサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

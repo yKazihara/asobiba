@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="全角ひらがなを全角カタカナへ変換するサンプル。">
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="全角カタカナを全角ひらがなへ変換するサンプル。">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -216,6 +216,7 @@
     "アプリケーション.ZenkakuAlphabetToHankakuAlphabet.executor": "Run",
     "アプリケーション.ZenkakuHiraganaToZenkakuKatakana.executor": "Run",
     "アプリケーション.ZenkakuKatakanaToHankakuKatakana.executor": "Run",
+    "アプリケーション.ZenkakuKatakanaToZenkakuHiragana.executor": "Run",
     "アプリケーション.ZenkakuNumberToHankakuNumber.executor": "Run",
     "アプリケーション.forEachSample.executor": "Run",
     "アプリケーション.scannerNextSample.executor": "Run",
@@ -238,7 +239,20 @@
       <recent name="com.example" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.ZenkakuKatakanaToZenkakuHiragana">
+  <component name="RunManager" selected="アプリケーション.ConvertUnicode">
+    <configuration name="ConvertUnicode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sample.encode.ConvertUnicode" />
+      <module name="asobiba" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sample.encode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HankakuKatakanaToZenkakuKatakana" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sample.convertkatakana.HankakuKatakanaToZenkakuKatakana" />
       <module name="asobiba" />
@@ -291,26 +305,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZenkakuNumberToHankakuNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sample.convertnumber.ZenkakuNumberToHankakuNumber" />
-      <module name="asobiba" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sample.convertnumber.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.ConvertUnicode" />
         <item itemvalue="アプリケーション.ZenkakuKatakanaToZenkakuHiragana" />
         <item itemvalue="アプリケーション.ZenkakuHiraganaToZenkakuKatakana" />
         <item itemvalue="アプリケーション.HankakuKatakanaToZenkakuKatakana" />
         <item itemvalue="アプリケーション.ZenkakuKatakanaToHankakuKatakana" />
-        <item itemvalue="アプリケーション.ZenkakuNumberToHankakuNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -372,14 +373,6 @@
       <workItem from="1738479684690" duration="18056000" />
       <workItem from="1739235619517" duration="1967000" />
       <workItem from="1747473906048" duration="3434000" />
-    </task>
-    <task id="LOCAL-00126" summary="ファイルの最終更新日時の取得と設定のサンプルを修正。">
-      <option name="closed" value="true" />
-      <created>1738311687025</created>
-      <option name="number" value="00126" />
-      <option name="presentableId" value="LOCAL-00126" />
-      <option name="project" value="LOCAL" />
-      <updated>1738311687025</updated>
     </task>
     <task id="LOCAL-00127" summary="ディレクトリに含まれるファイルやディレクトリの一覧を取得するサンプル。">
       <option name="closed" value="true" />
@@ -765,7 +758,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748128939927</updated>
     </task>
-    <option name="localTasksCounter" value="175" />
+    <task id="LOCAL-00175" summary="全角カタカナを全角ひらがなへ変換するサンプル。">
+      <option name="closed" value="true" />
+      <created>1748210185554</created>
+      <option name="number" value="00175" />
+      <option name="presentableId" value="LOCAL-00175" />
+      <option name="project" value="LOCAL" />
+      <updated>1748210185554</updated>
+    </task>
+    <option name="localTasksCounter" value="176" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -783,7 +784,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="乱数を生成するサンプル。" />
     <MESSAGE value="StringBuilderオブジェクトの作成と基本的な使い方サンプル。" />
     <MESSAGE value="StringBuilderの他のサンプルを追加。" />
     <MESSAGE value="StringBuilderの格納されている文字列の長さや容量を取得するサンプル。" />
@@ -808,7 +808,8 @@
     <MESSAGE value="全角カタカナを半角カタカナに変換するサンプル。" />
     <MESSAGE value="半角カタカナを全角カタカナに変換するサンプル。" />
     <MESSAGE value="全角ひらがなを全角カタカナへ変換するサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="全角ひらがなを全角カタカナへ変換するサンプル。" />
+    <MESSAGE value="全角カタカナを全角ひらがなへ変換するサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="全角カタカナを全角ひらがなへ変換するサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

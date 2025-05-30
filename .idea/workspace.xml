@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="ファイルの中身を文字列として取得するサンプル。">
-      <change afterPath="$PROJECT_DIR$/src/com/sample/file/RemoveFileExtension.java" afterDir="false" />
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="ファイルの拡張子を取り除くサンプル。">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,196 +38,196 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/run/IdeaProjects/asobiba/src/com/example/file_write_demo",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true",
-    "アプリケーション.AddSuffixToNumericLiteralSample.executor": "Run",
-    "アプリケーション.ArithmeticOperatorsSample.executor": "Run",
-    "アプリケーション.ArrayIndexSample.executor": "Run",
-    "アプリケーション.ArrayLengthSample.executor": "Run",
-    "アプリケーション.ArrayListSample.executor": "Run",
-    "アプリケーション.ArraysCopyOfRangeSample.executor": "Run",
-    "アプリケーション.ArraysEqualsSample.executor": "Run",
-    "アプリケーション.ArraysFillSample.executor": "Run",
-    "アプリケーション.ArraysSortAscAndDescSample.executor": "Run",
-    "アプリケーション.ArraysSortDescSample.executor": "Run",
-    "アプリケーション.ArraysToStringSample.executor": "Run",
-    "アプリケーション.AssignmentOperatorsSample.executor": "Run",
-    "アプリケーション.BooleanLiteralsSample.executor": "Run",
-    "アプリケーション.BreakSample.executor": "Run",
-    "アプリケーション.BufferedReaderReadLineSample.executor": "Run",
-    "アプリケーション.BufferedWriterWriteSample.executor": "Run",
-    "アプリケーション.CastDuringCalcrationSample.executor": "Run",
-    "アプリケーション.CastSample.executor": "Run",
-    "アプリケーション.CharacterliteralsSample.executor": "Run",
-    "アプリケーション.CheckEncording.executor": "Run",
-    "アプリケーション.ClassSample.executor": "Run",
-    "アプリケーション.CombiningFixedAndVariableArgumentsSample.executor": "Run",
-    "アプリケーション.CommentSample.executor": "Run",
-    "アプリケーション.ConbertUnicode.executor": "Run",
-    "アプリケーション.ConstructorSample.executor": "Run",
-    "アプリケーション.ConstructorWithDifferentParamSample.executor": "Run",
-    "アプリケーション.ConstructorWithParamSample.executor": "Run",
-    "アプリケーション.ContinueSample.executor": "Run",
-    "アプリケーション.ConvertString.executor": "Run",
-    "アプリケーション.CopyArraySample (1).executor": "Run",
-    "アプリケーション.CopyArraySample.executor": "Run",
-    "アプリケーション.Dentaku.executor": "Run",
-    "アプリケーション.Dentaku0.executor": "Run",
-    "アプリケーション.Dentaku1.executor": "Run",
-    "アプリケーション.Dentaku2.executor": "Run",
-    "アプリケーション.Dentaku3.executor": "Run",
-    "アプリケーション.DoWhileSample.executor": "Run",
-    "アプリケーション.EscapeSequencesSample.executor": "Run",
-    "アプリケーション.ExtendsSample.executor": "Run",
-    "アプリケーション.FileCheckBeforeReadingSample.executor": "Run",
-    "アプリケーション.FileToString.executor": "Run",
-    "アプリケーション.FilereaderReadSample.executor": "Run",
-    "アプリケーション.FilesCopySample.executor": "Run",
-    "アプリケーション.FilesCreateDirectorySample.executor": "Run",
-    "アプリケーション.FilesCreateFileSample.executor": "Run",
-    "アプリケーション.FilesDeleteSample.executor": "Run",
-    "アプリケーション.FilesDetailsCheckSample.executor": "Run",
-    "アプリケーション.FilesExistsSample.executor": "Run",
-    "アプリケーション.FilesGetLastModifiedTimeSample.executor": "Run",
-    "アプリケーション.FilesListSample.executor": "Run",
-    "アプリケーション.FilesMoveSample.executor": "Run",
-    "アプリケーション.FilesSizeSample.executor": "Run",
-    "アプリケーション.FilewriterWriteAddSample.executor": "Run",
-    "アプリケーション.FilewriterWriteSample.executor": "Run",
-    "アプリケーション.FinalSample.executor": "Run",
-    "アプリケーション.ForLoopSample.executor": "Run",
-    "アプリケーション.HTMLParser.executor": "Run",
-    "アプリケーション.HankakuAlphabetToZenkakuAlphabet.executor": "Run",
-    "アプリケーション.HankakuKatakanaToZenkakuKatakana.executor": "Run",
-    "アプリケーション.HankakuNumberToZenkakuNumber.executor": "Run",
-    "アプリケーション.HashMapSample.executor": "Run",
-    "アプリケーション.HelloWorld.executor": "Run",
-    "アプリケーション.IncrementAndDecrementSample.executor": "Run",
-    "アプリケーション.InitArraySample.executor": "Run",
-    "アプリケーション.InitializingMultidimensionalArraysSample.executor": "Run",
-    "アプリケーション.IntStreamSample.executor": "Run",
-    "アプリケーション.IntegerLiteralsSample.executor": "Run",
-    "アプリケーション.IntegerToStringSample.executor": "Run",
-    "アプリケーション.LinkedListSample.executor": "Run",
-    "アプリケーション.LocalDateSample.executor": "Run",
-    "アプリケーション.LogicalOperatorsSample.executor": "Run",
-    "アプリケーション.Main.executor": "Run",
-    "アプリケーション.MatcherFindSample.executor": "Run",
-    "アプリケーション.MatcherLookingAtSample.executor": "Run",
-    "アプリケーション.MatcherMatchesSample.executor": "Run",
-    "アプリケーション.MatcherRegionSample.executor": "Run",
-    "アプリケーション.MatcherResetSample.executor": "Run",
-    "アプリケーション.MatcherSample.executor": "Run",
-    "アプリケーション.MatcherStartEndGroupSample.executor": "Run",
-    "アプリケーション.MathAbsSample.executor": "Run",
-    "アプリケーション.MathCeilFloorRoundSample.executor": "Run",
-    "アプリケーション.MathMinMaxSample.executor": "Run",
-    "アプリケーション.MathPowSample.executor": "Run",
-    "アプリケーション.MathRandomSample.executor": "Run",
-    "アプリケーション.MathSqrtCbrtSample.executor": "Run",
-    "アプリケーション.MethodOverloadSample.executor": "Run",
-    "アプリケーション.MethodParamSample.executor": "Run",
-    "アプリケーション.MethodParamSample2.executor": "Run",
-    "アプリケーション.MethodReturnSample.executor": "Run",
-    "アプリケーション.MethodSample.executor": "Run",
-    "アプリケーション.MultidimensionalArraysSample.executor": "Run",
-    "アプリケーション.NumberLiteralsSample.executor": "Run",
-    "アプリケーション.OperatorPrecedenceSample.executor": "Run",
-    "アプリケーション.OverloadsSample.executor": "Run",
-    "アプリケーション.PathGetCurrentDirSample.executor": "Run",
-    "アプリケーション.PathGetElementsSample.executor": "Run",
-    "アプリケーション.PathNormalizeSample.executor": "Run",
-    "アプリケーション.PathResolveSample.executor": "Run",
-    "アプリケーション.PathSample.executor": "Run",
-    "アプリケーション.PathToAbsolutePathSample.executor": "Run",
-    "アプリケーション.PatternSample.executor": "Run",
-    "アプリケーション.PatternSample02.executor": "Run",
-    "アプリケーション.PatternSplitSample.executor": "Run",
-    "アプリケーション.PrintWriterPrintlnSample.executor": "Run",
-    "アプリケーション.RegexCanonEqSample.executor": "Run",
-    "アプリケーション.RegexCommentsSample.executor": "Run",
-    "アプリケーション.RegexDotallSample.executor": "Run",
-    "アプリケーション.RegexLiteralSample.executor": "Run",
-    "アプリケーション.RegexMultilineSample.executor": "Run",
-    "アプリケーション.RegexSample.executor": "Run",
-    "アプリケーション.RegexSample02.executor": "Run",
-    "アプリケーション.RegexSample03.executor": "Run",
-    "アプリケーション.RegexSample04.executor": "Run",
-    "アプリケーション.RegexSample05.executor": "Run",
-    "アプリケーション.RegexSample06.executor": "Run",
-    "アプリケーション.RegexSample07.executor": "Run",
-    "アプリケーション.RegexUnicodeCaseSample.executor": "Run",
-    "アプリケーション.RegexUnicodeCharacterClassSample.executor": "Run",
-    "アプリケーション.RegexUnixLinesSample.executor": "Run",
-    "アプリケーション.RelationalAndEqualityOperatorsSample.executor": "Run",
-    "アプリケーション.RemoveFileExtension.executor": "Run",
-    "アプリケーション.ReplaceSample.executor": "Run",
-    "アプリケーション.ReturnSample.executor": "Run",
-    "アプリケーション.Robot.executor": "Run",
-    "アプリケーション.ScannerHasNextSample.executor": "Run",
-    "アプリケーション.ScannerNextIntSample.executor": "Run",
-    "アプリケーション.ScannerNextLineAndSplitSample.executor": "Run",
-    "アプリケーション.ScannerNextLineSample.executor": "Run",
-    "アプリケーション.ScannerNextSomeValuesSample.executor": "Run",
-    "アプリケーション.ScannerReadFromFileSample.executor": "Run",
-    "アプリケーション.ScannerUseDelimiterSample.executor": "Run",
-    "アプリケーション.SettingValuesToArraySample.executor": "Run",
-    "アプリケーション.StringBuilderAppendSample.executor": "Run",
-    "アプリケーション.StringBuilderDeleteSample.executor": "Run",
-    "アプリケーション.StringBuilderInsertSample.executor": "Run",
-    "アプリケーション.StringBuilderLengthSample.executor": "Run",
-    "アプリケーション.StringBuilderReplaceSample.executor": "Run",
-    "アプリケーション.StringBuilderReverseSample.executor": "Run",
-    "アプリケーション.StringBuilderSetLengthSample.executor": "Run",
-    "アプリケーション.StringBuilderSubstringSample.executor": "Run",
-    "アプリケーション.StringCharAtSample.executor": "Run",
-    "アプリケーション.StringCodePointAtSample.executor": "Run",
-    "アプリケーション.StringCodePointCountSample.executor": "Run",
-    "アプリケーション.StringCompareToSample.executor": "Run",
-    "アプリケーション.StringConcatSample.executor": "Run",
-    "アプリケーション.StringConcatenationSample.executor": "Run",
-    "アプリケーション.StringEqualsSample.executor": "Run",
-    "アプリケーション.StringIndexOfSample.executor": "Run",
-    "アプリケーション.StringJoinSample.executor": "Run",
-    "アプリケーション.StringLengthSample.executor": "Run",
-    "アプリケーション.StringLiteralsSample.executor": "Run",
-    "アプリケーション.StringMatchesSample.executor": "Run",
-    "アプリケーション.StringReplaceSample.executor": "Run",
-    "アプリケーション.StringSplitSample.executor": "Run",
-    "アプリケーション.StringSubstringSample.executor": "Run",
-    "アプリケーション.StringToNumberSample.executor": "Run",
-    "アプリケーション.StringToUpperLowerCaseSample.executor": "Run",
-    "アプリケーション.StringTrimStripSample.executor": "Run",
-    "アプリケーション.SystemArraycopySample.executor": "Run",
-    "アプリケーション.TernaryOperatorSample.executor": "Run",
-    "アプリケーション.UnaryMinusOperatorSample.executor": "Run",
-    "アプリケーション.VarSample.executor": "Run",
-    "アプリケーション.VariableArgumentsSample.executor": "Run",
-    "アプリケーション.WhileLoopSample.executor": "Run",
-    "アプリケーション.WrapperClassSample.executor": "Run",
-    "アプリケーション.ZenkakuAlphabetToHankakuAlphabet.executor": "Run",
-    "アプリケーション.ZenkakuHiraganaToZenkakuKatakana.executor": "Run",
-    "アプリケーション.ZenkakuKatakanaToHankakuKatakana.executor": "Run",
-    "アプリケーション.ZenkakuKatakanaToZenkakuHiragana.executor": "Run",
-    "アプリケーション.ZenkakuNumberToHankakuNumber.executor": "Run",
-    "アプリケーション.forEachSample.executor": "Run",
-    "アプリケーション.scannerNextSample.executor": "Run",
-    "アプリケーション.tryCatchFinallySample.executor": "Run",
-    "アプリケーション.tryCatchSample.executor": "Run"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/run/IdeaProjects/asobiba/src/com/example/file_write_demo&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;アプリケーション.AddSuffixToNumericLiteralSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.ArithmeticOperatorsSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.ArrayIndexSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.ArrayLengthSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.ArrayListSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.ArraysCopyOfRangeSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.ArraysEqualsSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.ArraysFillSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.ArraysSortAscAndDescSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.ArraysSortDescSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.ArraysToStringSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.AssignmentOperatorsSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.BooleanLiteralsSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.BreakSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.BufferedReaderReadLineSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.BufferedWriterWriteSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.CastDuringCalcrationSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.CastSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.CharacterliteralsSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.CheckEncording.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.ClassSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.CombiningFixedAndVariableArgumentsSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.CommentSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.ConbertUnicode.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.ConstructorSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.ConstructorWithDifferentParamSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.ConstructorWithParamSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.ContinueSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.ConvertString.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.CopyArraySample (1).executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.CopyArraySample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.Dentaku.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.Dentaku0.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.Dentaku1.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.Dentaku2.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.Dentaku3.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.DoWhileSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.EscapeSequencesSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.ExtendsSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.FileCheckBeforeReadingSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.FileToString.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.FilereaderReadSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.FilesCopySample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.FilesCreateDirectorySample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.FilesCreateFileSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.FilesDeleteSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.FilesDetailsCheckSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.FilesExistsSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.FilesGetLastModifiedTimeSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.FilesListSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.FilesMoveSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.FilesSizeSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.FilewriterWriteAddSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.FilewriterWriteSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.FinalSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.ForLoopSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.HTMLParser.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.HankakuAlphabetToZenkakuAlphabet.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.HankakuKatakanaToZenkakuKatakana.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.HankakuNumberToZenkakuNumber.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.HashMapSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.HelloWorld.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.IncrementAndDecrementSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.InitArraySample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.InitializingMultidimensionalArraysSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.IntStreamSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.IntegerLiteralsSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.IntegerToStringSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.LinkedListSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.LocalDateSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.LogicalOperatorsSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.Main.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.MatcherFindSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.MatcherLookingAtSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.MatcherMatchesSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.MatcherRegionSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.MatcherResetSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.MatcherSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.MatcherStartEndGroupSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.MathAbsSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.MathCeilFloorRoundSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.MathMinMaxSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.MathPowSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.MathRandomSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.MathSqrtCbrtSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.MethodOverloadSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.MethodParamSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.MethodParamSample2.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.MethodReturnSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.MethodSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.MultidimensionalArraysSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.NumberLiteralsSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.OperatorPrecedenceSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.OverloadsSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.PathGetCurrentDirSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.PathGetElementsSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.PathNormalizeSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.PathResolveSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.PathSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.PathToAbsolutePathSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.PatternSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.PatternSample02.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.PatternSplitSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.PrintWriterPrintlnSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.RegexCanonEqSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.RegexCommentsSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.RegexDotallSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.RegexLiteralSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.RegexMultilineSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.RegexSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.RegexSample02.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.RegexSample03.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.RegexSample04.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.RegexSample05.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.RegexSample06.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.RegexSample07.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.RegexUnicodeCaseSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.RegexUnicodeCharacterClassSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.RegexUnixLinesSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.RelationalAndEqualityOperatorsSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.RemoveFileExtension.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.ReplaceSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.ReturnSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.Robot.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.ScannerHasNextSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.ScannerNextIntSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.ScannerNextLineAndSplitSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.ScannerNextLineSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.ScannerNextSomeValuesSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.ScannerReadFromFileSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.ScannerUseDelimiterSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.SettingValuesToArraySample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.StringBuilderAppendSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.StringBuilderDeleteSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.StringBuilderInsertSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.StringBuilderLengthSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.StringBuilderReplaceSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.StringBuilderReverseSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.StringBuilderSetLengthSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.StringBuilderSubstringSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.StringCharAtSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.StringCodePointAtSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.StringCodePointCountSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.StringCompareToSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.StringConcatSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.StringConcatenationSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.StringEqualsSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.StringIndexOfSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.StringJoinSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.StringLengthSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.StringLiteralsSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.StringMatchesSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.StringReplaceSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.StringSplitSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.StringSubstringSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.StringToNumberSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.StringToUpperLowerCaseSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.StringTrimStripSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.SystemArraycopySample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.TernaryOperatorSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.UnaryMinusOperatorSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.VarSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.VariableArgumentsSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.WhileLoopSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.WrapperClassSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.ZenkakuAlphabetToHankakuAlphabet.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.ZenkakuHiraganaToZenkakuKatakana.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.ZenkakuKatakanaToHankakuKatakana.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.ZenkakuKatakanaToZenkakuHiragana.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.ZenkakuNumberToHankakuNumber.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.forEachSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.scannerNextSample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.tryCatchFinallySample.executor&quot;: &quot;Run&quot;,
+    &quot;アプリケーション.tryCatchSample.executor&quot;: &quot;Run&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/com/example/file_write_demo" />
@@ -244,7 +243,7 @@
       <recent name="com.example" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.RemoveFileExtension">
+  <component name="RunManager" selected="アプリケーション.ExceptionDialog">
     <configuration name="ConvertString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sample.encode.ConvertString" />
       <module name="asobiba" />
@@ -264,6 +263,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.sample.encode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExceptionDialog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sample.dialog.ExceptionDialog" />
+      <module name="asobiba" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sample.dialog.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -297,26 +309,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZenkakuKatakanaToZenkakuHiragana" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sample.convertkatakana.ZenkakuKatakanaToZenkakuHiragana" />
-      <module name="asobiba" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sample.convertkatakana.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.ExceptionDialog" />
         <item itemvalue="アプリケーション.RemoveFileExtension" />
         <item itemvalue="アプリケーション.FileToString" />
         <item itemvalue="アプリケーション.ConvertString" />
         <item itemvalue="アプリケーション.ConvertUnicode" />
-        <item itemvalue="アプリケーション.ZenkakuKatakanaToZenkakuHiragana" />
       </list>
     </recent_temporary>
   </component>
@@ -378,14 +377,7 @@
       <workItem from="1738479684690" duration="18056000" />
       <workItem from="1739235619517" duration="1967000" />
       <workItem from="1747473906048" duration="3434000" />
-    </task>
-    <task id="LOCAL-00130" summary="まとめてテキストを読むサンプル。">
-      <option name="closed" value="true" />
-      <created>1738480298864</created>
-      <option name="number" value="00130" />
-      <option name="presentableId" value="LOCAL-00130" />
-      <option name="project" value="LOCAL" />
-      <updated>1738480298864</updated>
+      <workItem from="1748605245202" duration="336000" />
     </task>
     <task id="LOCAL-00131" summary="テキストをファイルに書き込むサンプル。">
       <option name="closed" value="true" />
@@ -771,7 +763,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748470968293</updated>
     </task>
-    <option name="localTasksCounter" value="179" />
+    <task id="LOCAL-00179" summary="ファイルの拡張子を取り除くサンプル。">
+      <option name="closed" value="true" />
+      <created>1748555219730</created>
+      <option name="number" value="00179" />
+      <option name="presentableId" value="LOCAL-00179" />
+      <option name="project" value="LOCAL" />
+      <updated>1748555219730</updated>
+    </task>
+    <option name="localTasksCounter" value="180" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -789,7 +789,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="StringBuilderの格納されている文字列の長さや容量を取得するサンプル。" />
     <MESSAGE value="StringBuilderの格納されている文字列の長さを変更するサンプル。" />
     <MESSAGE value="StringBuilderの指定した位置に文字列を挿入するサンプル。" />
     <MESSAGE value="StringBuilderの指定範囲の部分文字列を取得するサンプル。" />
@@ -814,7 +813,8 @@
     <MESSAGE value="全角カタカナを全角ひらがなへ変換するサンプル。" />
     <MESSAGE value="文字コードを文字に変換するサンプル。" />
     <MESSAGE value="ファイルの中身を文字列として取得するサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="ファイルの中身を文字列として取得するサンプル。" />
+    <MESSAGE value="ファイルの拡張子を取り除くサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="ファイルの拡張子を取り除くサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

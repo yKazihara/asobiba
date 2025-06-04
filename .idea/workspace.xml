@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="金種の枚数を計算するサンプル。">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="Javaのバージョンをプログラムで確認するサンプル。" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -224,6 +222,7 @@
     "アプリケーション.UnaryMinusOperatorSample.executor": "Run",
     "アプリケーション.VarSample.executor": "Run",
     "アプリケーション.VariableArgumentsSample.executor": "Run",
+    "アプリケーション.VersionCheck.executor": "Run",
     "アプリケーション.WhileLoopSample.executor": "Run",
     "アプリケーション.WrapperClassSample.executor": "Run",
     "アプリケーション.ZenkakuAlphabetToHankakuAlphabet.executor": "Run",
@@ -252,13 +251,13 @@
       <recent name="com.example" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.VersionCheck">
-    <configuration name="MonthlyCalendar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sample.calendar.MonthlyCalendar" />
+  <component name="RunManager" selected="アプリケーション.JapaneseVariableName">
+    <configuration name="JapaneseVariableName" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sample.japanese.JapaneseVariableName" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sample.calendar.*" />
+          <option name="PATTERN" value="com.sample.japanese.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -266,12 +265,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProcessExecute (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sample.execute.ProcessExecute" />
+    <configuration name="MonthlyCalendar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sample.calendar.MonthlyCalendar" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sample.execute.*" />
+          <option name="PATTERN" value="com.sample.calendar.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -320,11 +319,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.JapaneseVariableName" />
         <item itemvalue="アプリケーション.VersionCheck" />
         <item itemvalue="アプリケーション.TypeOfMoneyCheck" />
         <item itemvalue="アプリケーション.MonthlyCalendar" />
         <item itemvalue="アプリケーション.ProcessExecute" />
-        <item itemvalue="アプリケーション.ProcessExecute (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -386,15 +385,7 @@
       <workItem from="1738479684690" duration="18056000" />
       <workItem from="1739235619517" duration="1967000" />
       <workItem from="1747473906048" duration="3434000" />
-      <workItem from="1748605245202" duration="4147000" />
-    </task>
-    <task id="LOCAL-00135" summary="ArrayListのサンプル。">
-      <option name="closed" value="true" />
-      <created>1738645955329</created>
-      <option name="number" value="00135" />
-      <option name="presentableId" value="LOCAL-00135" />
-      <option name="project" value="LOCAL" />
-      <updated>1738645955329</updated>
+      <workItem from="1748605245202" duration="4690000" />
     </task>
     <task id="LOCAL-00136" summary="LinkedListのサンプル。">
       <option name="closed" value="true" />
@@ -780,7 +771,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748901602683</updated>
     </task>
-    <option name="localTasksCounter" value="184" />
+    <task id="LOCAL-00184" summary="Javaのバージョンをプログラムで確認するサンプル。">
+      <option name="closed" value="true" />
+      <created>1748988632469</created>
+      <option name="number" value="00184" />
+      <option name="presentableId" value="LOCAL-00184" />
+      <option name="project" value="LOCAL" />
+      <updated>1748988632469</updated>
+    </task>
+    <option name="localTasksCounter" value="185" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -798,7 +797,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="StringBuilderの指定範囲の部分文字列を削除するサンプル。" />
     <MESSAGE value="StringBuilderの格納されている文字列の並びを逆にするサンプル。" />
     <MESSAGE value="Scannerの入力された値の中で区切り文字(デフォルトでは空白文字)までの値を受け取り次の処理へ進むサンプル。" />
     <MESSAGE value="Scannerで区切り文字を挟んで入力した複数の値を順番に受け取るサンプル。" />
@@ -823,7 +821,8 @@
     <MESSAGE value="外部プログラムを実行して結果を取得するサンプル。" />
     <MESSAGE value="カレンダー表を作成するサンプル。" />
     <MESSAGE value="金種の枚数を計算するサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="金種の枚数を計算するサンプル。" />
+    <MESSAGE value="Javaのバージョンをプログラムで確認するサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="Javaのバージョンをプログラムで確認するサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

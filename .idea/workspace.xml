@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="ClassCastException対策のサンプル。">
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="ClassNotFoundException対策のサンプル。">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,6 +73,7 @@
     "アプリケーション.CharacterliteralsSample.executor": "Run",
     "アプリケーション.CheckEncording.executor": "Run",
     "アプリケーション.ClassCastExceptionSample.executor": "Run",
+    "アプリケーション.ClassNotFoundExceptionSample.executor": "Run",
     "アプリケーション.ClassSample.executor": "Run",
     "アプリケーション.CombiningFixedAndVariableArgumentsSample.executor": "Run",
     "アプリケーション.CommentSample.executor": "Run",
@@ -261,7 +262,20 @@
       <recent name="com.example" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.ClassNotFoundExceptionSample">
+  <component name="RunManager" selected="アプリケーション.ArrayIndexOutOfBoundsExceptionSample">
+    <configuration name="ArrayIndexOutOfBoundsExceptionSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sample.exception.ArrayIndexOutOfBoundsExceptionSample" />
+      <module name="asobiba" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sample.exception.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ClassCastExceptionSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sample.exception.ClassCastExceptionSample" />
       <module name="asobiba" />
@@ -301,19 +315,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NullPointer4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sample.exception.NullPointer4" />
-      <module name="asobiba" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sample.exception.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="NullPointer5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sample.exception.NullPointer5" />
       <module name="asobiba" />
@@ -329,11 +330,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.ArrayIndexOutOfBoundsExceptionSample" />
         <item itemvalue="アプリケーション.ClassNotFoundExceptionSample" />
         <item itemvalue="アプリケーション.ClassCastExceptionSample" />
         <item itemvalue="アプリケーション.FileNotFoundExceptionSample" />
         <item itemvalue="アプリケーション.NullPointer5" />
-        <item itemvalue="アプリケーション.NullPointer4" />
       </list>
     </recent_temporary>
   </component>
@@ -395,15 +396,7 @@
       <workItem from="1738479684690" duration="18056000" />
       <workItem from="1739235619517" duration="1967000" />
       <workItem from="1747473906048" duration="3434000" />
-      <workItem from="1748605245202" duration="9941000" />
-    </task>
-    <task id="LOCAL-00143" summary="引数が異なるコンストラクタのサンプル。">
-      <option name="closed" value="true" />
-      <created>1738803380545</created>
-      <option name="number" value="00143" />
-      <option name="presentableId" value="LOCAL-00143" />
-      <option name="project" value="LOCAL" />
-      <updated>1738803380545</updated>
+      <workItem from="1748605245202" duration="10456000" />
     </task>
     <task id="LOCAL-00144" summary="スーパークラスのメンバへのアクセスのサンプル。">
       <option name="closed" value="true" />
@@ -789,7 +782,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749592624138</updated>
     </task>
-    <option name="localTasksCounter" value="192" />
+    <task id="LOCAL-00192" summary="ClassNotFoundException対策のサンプル。">
+      <option name="closed" value="true" />
+      <created>1749678823809</created>
+      <option name="number" value="00192" />
+      <option name="presentableId" value="LOCAL-00192" />
+      <option name="project" value="LOCAL" />
+      <updated>1749678823809</updated>
+    </task>
+    <option name="localTasksCounter" value="193" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -807,7 +808,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Scannerでスキャナの入力ストリームにまだ値が残っているか確認するサンプル。" />
     <MESSAGE value="Scannerで区切り文字を別の値に設定するサンプル。" />
     <MESSAGE value="HTMLファイルやXMLファイルを読み込むサンプル。" />
     <MESSAGE value="全角アルファベットを半角アルファベットに変換するサンプル。" />
@@ -832,7 +832,8 @@
     <MESSAGE value="NullPointerException 対策(その4)のサンプル。" />
     <MESSAGE value="FileNotFoundException対策のサンプル。" />
     <MESSAGE value="ClassCastException対策のサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="ClassCastException対策のサンプル。" />
+    <MESSAGE value="ClassNotFoundException対策のサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="ClassNotFoundException対策のサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

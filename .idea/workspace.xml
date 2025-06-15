@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="StringIndexOutOfBoundsException対策のサンプル。">
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="NegativeArraySizeException対策のサンプル。">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -150,6 +150,7 @@
     "アプリケーション.MethodSample.executor": "Run",
     "アプリケーション.MonthlyCalendar.executor": "Run",
     "アプリケーション.MultidimensionalArraysSample.executor": "Run",
+    "アプリケーション.NegativeArraySizeExceptionSample.executor": "Run",
     "アプリケーション.NullPointer.executor": "Run",
     "アプリケーション.NullPointer2.executor": "Run",
     "アプリケーション.NullPointer3.executor": "Run",
@@ -264,22 +265,9 @@
       <recent name="com.example" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.NegativeArraySizeExceptionSample">
+  <component name="RunManager" selected="アプリケーション.NoSuchElementExceptionSample">
     <configuration name="ArrayIndexOutOfBoundsExceptionSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sample.exception.ArrayIndexOutOfBoundsExceptionSample" />
-      <module name="asobiba" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sample.exception.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ClassCastExceptionSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sample.exception.ClassCastExceptionSample" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
@@ -317,6 +305,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NoSuchElementExceptionSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sample.exception.NoSuchElementExceptionSample" />
+      <module name="asobiba" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sample.exception.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StringIndexOutOfBoundsExceptionSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sample.exception.StringIndexOutOfBoundsExceptionSample" />
       <module name="asobiba" />
@@ -332,11 +333,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.NoSuchElementExceptionSample" />
         <item itemvalue="アプリケーション.NegativeArraySizeExceptionSample" />
         <item itemvalue="アプリケーション.StringIndexOutOfBoundsExceptionSample" />
         <item itemvalue="アプリケーション.ArrayIndexOutOfBoundsExceptionSample" />
         <item itemvalue="アプリケーション.ClassNotFoundExceptionSample" />
-        <item itemvalue="アプリケーション.ClassCastExceptionSample" />
       </list>
     </recent_temporary>
   </component>
@@ -398,15 +399,7 @@
       <workItem from="1738479684690" duration="18056000" />
       <workItem from="1739235619517" duration="1967000" />
       <workItem from="1747473906048" duration="3434000" />
-      <workItem from="1748605245202" duration="11636000" />
-    </task>
-    <task id="LOCAL-00146" summary="どちらか大きい値または小さい値を取得するサンプル。">
-      <option name="closed" value="true" />
-      <created>1738888008167</created>
-      <option name="number" value="00146" />
-      <option name="presentableId" value="LOCAL-00146" />
-      <option name="project" value="LOCAL" />
-      <updated>1738888008167</updated>
+      <workItem from="1748605245202" duration="12172000" />
     </task>
     <task id="LOCAL-00147" summary="累乗した値を取得するサンプル。">
       <option name="closed" value="true" />
@@ -792,7 +785,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749857696112</updated>
     </task>
-    <option name="localTasksCounter" value="195" />
+    <task id="LOCAL-00195" summary="NegativeArraySizeException対策のサンプル。">
+      <option name="closed" value="true" />
+      <created>1749948130166</created>
+      <option name="number" value="00195" />
+      <option name="presentableId" value="LOCAL-00195" />
+      <option name="project" value="LOCAL" />
+      <updated>1749948130166</updated>
+    </task>
+    <option name="localTasksCounter" value="196" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -810,7 +811,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="全角アルファベットを半角アルファベットに変換するサンプル。" />
     <MESSAGE value="半角数字を全角数字に変換するサンプル。" />
     <MESSAGE value="全角数字を半角数字に変換するサンプル。" />
     <MESSAGE value="全角カタカナを半角カタカナに変換するサンプル。" />
@@ -835,7 +835,8 @@
     <MESSAGE value="ClassNotFoundException対策のサンプル。" />
     <MESSAGE value="ArrayIndexOutOfBoundsException対策のサンプル。" />
     <MESSAGE value="StringIndexOutOfBoundsException対策のサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="StringIndexOutOfBoundsException対策のサンプル。" />
+    <MESSAGE value="NegativeArraySizeException対策のサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="NegativeArraySizeException対策のサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

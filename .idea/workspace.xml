@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="初期化した変数の値を変更するサンプル。">
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="変数を別の値に代入するサンプル。">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,6 +72,7 @@
     "アプリケーション.CastDuringCalcrationSample.executor": "Run",
     "アプリケーション.CastSample.executor": "Run",
     "アプリケーション.ChangeValue1.executor": "Run",
+    "アプリケーション.ChangeValue2.executor": "Run",
     "アプリケーション.CharacterliteralsSample.executor": "Run",
     "アプリケーション.CheckEncording.executor": "Run",
     "アプリケーション.ClassCastExceptionSample.executor": "Run",
@@ -269,7 +270,20 @@
       <recent name="com.example" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.ChangeValue2">
+  <component name="RunManager" selected="アプリケーション.ArithmeticOperator">
+    <configuration name="ArithmeticOperator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sample.calc.ArithmeticOperator" />
+      <module name="asobiba" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sample.calc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ChangeValue1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sample.variable.ChangeValue1" />
       <module name="asobiba" />
@@ -289,19 +303,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.sample.variable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NoSuchElementExceptionSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sample.exception.NoSuchElementExceptionSample" />
-      <module name="asobiba" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sample.exception.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -337,11 +338,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.ArithmeticOperator" />
         <item itemvalue="アプリケーション.ChangeValue2" />
         <item itemvalue="アプリケーション.ChangeValue1" />
         <item itemvalue="アプリケーション.Variable" />
         <item itemvalue="アプリケーション.NumberFormatExceptionSample" />
-        <item itemvalue="アプリケーション.NoSuchElementExceptionSample" />
       </list>
     </recent_temporary>
   </component>
@@ -403,15 +404,7 @@
       <workItem from="1738479684690" duration="18056000" />
       <workItem from="1739235619517" duration="1967000" />
       <workItem from="1747473906048" duration="3434000" />
-      <workItem from="1748605245202" duration="14755000" />
-    </task>
-    <task id="LOCAL-00151" summary="StringBuilderオブジェクトの作成と基本的な使い方サンプル。">
-      <option name="closed" value="true" />
-      <created>1738968991827</created>
-      <option name="number" value="00151" />
-      <option name="presentableId" value="LOCAL-00151" />
-      <option name="project" value="LOCAL" />
-      <updated>1738968991827</updated>
+      <workItem from="1748605245202" duration="15194000" />
     </task>
     <task id="LOCAL-00152" summary="StringBuilderの他のサンプルを追加。">
       <option name="closed" value="true" />
@@ -797,7 +790,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750284192607</updated>
     </task>
-    <option name="localTasksCounter" value="200" />
+    <task id="LOCAL-00200" summary="変数を別の値に代入するサンプル。">
+      <option name="closed" value="true" />
+      <created>1750369654029</created>
+      <option name="number" value="00200" />
+      <option name="presentableId" value="LOCAL-00200" />
+      <option name="project" value="LOCAL" />
+      <updated>1750369654029</updated>
+    </task>
+    <option name="localTasksCounter" value="201" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -815,7 +816,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="全角ひらがなを全角カタカナへ変換するサンプル。" />
     <MESSAGE value="全角カタカナを全角ひらがなへ変換するサンプル。" />
     <MESSAGE value="文字コードを文字に変換するサンプル。" />
     <MESSAGE value="ファイルの中身を文字列として取得するサンプル。" />
@@ -840,7 +840,8 @@
     <MESSAGE value="NumberFormatException対策のサンプル。" />
     <MESSAGE value="変数を宣言し、値を代入するサンプル。" />
     <MESSAGE value="初期化した変数の値を変更するサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="初期化した変数の値を変更するサンプル。" />
+    <MESSAGE value="変数を別の値に代入するサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="変数を別の値に代入するサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

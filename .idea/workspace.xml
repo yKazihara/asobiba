@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="変数を別の値に代入するサンプル。">
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="算術演算子を使用した四則演算をおこなうサンプル。">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +53,7 @@
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true",
     "アプリケーション.AddSuffixToNumericLiteralSample.executor": "Run",
+    "アプリケーション.ArithmeticOperator.executor": "Run",
     "アプリケーション.ArithmeticOperatorsSample.executor": "Run",
     "アプリケーション.ArrayIndexOutOfBoundsExceptionSample.executor": "Run",
     "アプリケーション.ArrayIndexSample.executor": "Run",
@@ -270,7 +271,7 @@
       <recent name="com.example" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.ArithmeticOperator">
+  <component name="RunManager" selected="アプリケーション.PriorityCheck">
     <configuration name="ArithmeticOperator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sample.calc.ArithmeticOperator" />
       <module name="asobiba" />
@@ -310,12 +311,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberFormatExceptionSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sample.exception.NumberFormatExceptionSample" />
+    <configuration name="PriorityCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sample.calc.PriorityCheck" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sample.exception.*" />
+          <option name="PATTERN" value="com.sample.calc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -338,11 +339,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.PriorityCheck" />
         <item itemvalue="アプリケーション.ArithmeticOperator" />
         <item itemvalue="アプリケーション.ChangeValue2" />
         <item itemvalue="アプリケーション.ChangeValue1" />
         <item itemvalue="アプリケーション.Variable" />
-        <item itemvalue="アプリケーション.NumberFormatExceptionSample" />
       </list>
     </recent_temporary>
   </component>
@@ -404,15 +405,7 @@
       <workItem from="1738479684690" duration="18056000" />
       <workItem from="1739235619517" duration="1967000" />
       <workItem from="1747473906048" duration="3434000" />
-      <workItem from="1748605245202" duration="15194000" />
-    </task>
-    <task id="LOCAL-00152" summary="StringBuilderの他のサンプルを追加。">
-      <option name="closed" value="true" />
-      <created>1738969331894</created>
-      <option name="number" value="00152" />
-      <option name="presentableId" value="LOCAL-00152" />
-      <option name="project" value="LOCAL" />
-      <updated>1738969331894</updated>
+      <workItem from="1748605245202" duration="15780000" />
     </task>
     <task id="LOCAL-00153" summary="StringBuilderの格納されている文字列の長さや容量を取得するサンプル。">
       <option name="closed" value="true" />
@@ -798,7 +791,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750369654029</updated>
     </task>
-    <option name="localTasksCounter" value="201" />
+    <task id="LOCAL-00201" summary="算術演算子を使用した四則演算をおこなうサンプル。">
+      <option name="closed" value="true" />
+      <created>1750473678673</created>
+      <option name="number" value="00201" />
+      <option name="presentableId" value="LOCAL-00201" />
+      <option name="project" value="LOCAL" />
+      <updated>1750473678673</updated>
+    </task>
+    <option name="localTasksCounter" value="202" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -816,7 +817,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="全角カタカナを全角ひらがなへ変換するサンプル。" />
     <MESSAGE value="文字コードを文字に変換するサンプル。" />
     <MESSAGE value="ファイルの中身を文字列として取得するサンプル。" />
     <MESSAGE value="ファイルの拡張子を取り除くサンプル。" />
@@ -841,7 +841,8 @@
     <MESSAGE value="変数を宣言し、値を代入するサンプル。" />
     <MESSAGE value="初期化した変数の値を変更するサンプル。" />
     <MESSAGE value="変数を別の値に代入するサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="変数を別の値に代入するサンプル。" />
+    <MESSAGE value="算術演算子を使用した四則演算をおこなうサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="算術演算子を使用した四則演算をおこなうサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

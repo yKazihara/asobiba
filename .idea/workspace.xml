@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="デクリメント演算子を使ったサンプル。">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="+演算子を使用して文字列連結と算術演算子の加算が行われるサンプル。" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -175,6 +173,7 @@
     "アプリケーション.PatternSample.executor": "Run",
     "アプリケーション.PatternSample02.executor": "Run",
     "アプリケーション.PatternSplitSample.executor": "Run",
+    "アプリケーション.PlusOperator.executor": "Run",
     "アプリケーション.PrintWriterPrintlnSample.executor": "Run",
     "アプリケーション.PriorityCheck.executor": "Run",
     "アプリケーション.ProcessExecute (1).executor": "Run",
@@ -274,20 +273,7 @@
       <recent name="com.example" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.PlusOperator">
-    <configuration name="ArithmeticOperator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sample.calc.ArithmeticOperator" />
-      <module name="asobiba" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sample.calc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="アプリケーション.KeyBordInputStringValue">
     <configuration name="DecrementOperator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sample.calc.DecrementOperator" />
       <module name="asobiba" />
@@ -307,6 +293,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.sample.calc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KeyBordInputStringValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sample.console.KeyBordInputStringValue" />
+      <module name="asobiba" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sample.console.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -342,11 +341,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.KeyBordInputStringValue" />
         <item itemvalue="アプリケーション.PlusOperator" />
         <item itemvalue="アプリケーション.DecrementOperator" />
         <item itemvalue="アプリケーション.IncrementOperator" />
         <item itemvalue="アプリケーション.PriorityCheck" />
-        <item itemvalue="アプリケーション.ArithmeticOperator" />
       </list>
     </recent_temporary>
   </component>
@@ -408,15 +407,7 @@
       <workItem from="1738479684690" duration="18056000" />
       <workItem from="1739235619517" duration="1967000" />
       <workItem from="1747473906048" duration="3434000" />
-      <workItem from="1748605245202" duration="17325000" />
-    </task>
-    <task id="LOCAL-00156" summary="StringBuilderの指定範囲の部分文字列を取得するサンプル。">
-      <option name="closed" value="true" />
-      <created>1739145447338</created>
-      <option name="number" value="00156" />
-      <option name="presentableId" value="LOCAL-00156" />
-      <option name="project" value="LOCAL" />
-      <updated>1739145447338</updated>
+      <workItem from="1748605245202" duration="17898000" />
     </task>
     <task id="LOCAL-00157" summary="StringBuilderの指定範囲の部分文字列を別の文字列に置換するサンプル。">
       <option name="closed" value="true" />
@@ -802,7 +793,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750715686918</updated>
     </task>
-    <option name="localTasksCounter" value="205" />
+    <task id="LOCAL-00205" summary="+演算子を使用して文字列連結と算術演算子の加算が行われるサンプル。">
+      <option name="closed" value="true" />
+      <created>1750803076212</created>
+      <option name="number" value="00205" />
+      <option name="presentableId" value="LOCAL-00205" />
+      <option name="project" value="LOCAL" />
+      <updated>1750803076212</updated>
+    </task>
+    <option name="localTasksCounter" value="206" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -820,7 +819,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="メッセージをダイアログボックスで表示するサンプル。" />
     <MESSAGE value="外部プログラムを実行して結果を取得するサンプル。" />
     <MESSAGE value="カレンダー表を作成するサンプル。" />
     <MESSAGE value="金種の枚数を計算するサンプル。" />
@@ -845,7 +843,8 @@
     <MESSAGE value="算術演算子の優先順位を確認するサンプル。" />
     <MESSAGE value="インクリメント演算子を使ったサンプル。" />
     <MESSAGE value="デクリメント演算子を使ったサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="デクリメント演算子を使ったサンプル。" />
+    <MESSAGE value="+演算子を使用して文字列連結と算術演算子の加算が行われるサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="+演算子を使用して文字列連結と算術演算子の加算が行われるサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="+演算子を使用して文字列連結と算術演算子の加算が行われるサンプル。" />
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="キーボードから入力されたString型の値を表示するサンプル。" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -129,6 +129,7 @@
     "アプリケーション.IntegerLiteralsSample.executor": "Run",
     "アプリケーション.IntegerToStringSample.executor": "Run",
     "アプリケーション.JapaneseVariableName.executor": "Run",
+    "アプリケーション.KeyBordInputStringValue.executor": "Run",
     "アプリケーション.LinkedListSample.executor": "Run",
     "アプリケーション.LocalDateSample.executor": "Run",
     "アプリケーション.LogicalOperatorsSample.executor": "Run",
@@ -273,7 +274,7 @@
       <recent name="com.example" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.KeyBordInputStringValue">
+  <component name="RunManager" selected="アプリケーション.KeyBordInputIntValue">
     <configuration name="DecrementOperator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sample.calc.DecrementOperator" />
       <module name="asobiba" />
@@ -293,6 +294,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.sample.calc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KeyBordInputIntValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sample.console.KeyBordInputIntValue" />
+      <module name="asobiba" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sample.console.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -326,26 +340,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PriorityCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sample.calc.PriorityCheck" />
-      <module name="asobiba" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sample.calc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.KeyBordInputIntValue" />
         <item itemvalue="アプリケーション.KeyBordInputStringValue" />
         <item itemvalue="アプリケーション.PlusOperator" />
         <item itemvalue="アプリケーション.DecrementOperator" />
         <item itemvalue="アプリケーション.IncrementOperator" />
-        <item itemvalue="アプリケーション.PriorityCheck" />
       </list>
     </recent_temporary>
   </component>
@@ -407,15 +408,7 @@
       <workItem from="1738479684690" duration="18056000" />
       <workItem from="1739235619517" duration="1967000" />
       <workItem from="1747473906048" duration="3434000" />
-      <workItem from="1748605245202" duration="17898000" />
-    </task>
-    <task id="LOCAL-00157" summary="StringBuilderの指定範囲の部分文字列を別の文字列に置換するサンプル。">
-      <option name="closed" value="true" />
-      <created>1739145638825</created>
-      <option name="number" value="00157" />
-      <option name="presentableId" value="LOCAL-00157" />
-      <option name="project" value="LOCAL" />
-      <updated>1739145638825</updated>
+      <workItem from="1748605245202" duration="18381000" />
     </task>
     <task id="LOCAL-00158" summary="StringBuilderの指定範囲の部分文字列を削除するサンプル。">
       <option name="closed" value="true" />
@@ -801,7 +794,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750803076212</updated>
     </task>
-    <option name="localTasksCounter" value="206" />
+    <task id="LOCAL-00206" summary="キーボードから入力されたString型の値を表示するサンプル。">
+      <option name="closed" value="true" />
+      <created>1750888493730</created>
+      <option name="number" value="00206" />
+      <option name="presentableId" value="LOCAL-00206" />
+      <option name="project" value="LOCAL" />
+      <updated>1750888493730</updated>
+    </task>
+    <option name="localTasksCounter" value="207" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -819,7 +820,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="外部プログラムを実行して結果を取得するサンプル。" />
     <MESSAGE value="カレンダー表を作成するサンプル。" />
     <MESSAGE value="金種の枚数を計算するサンプル。" />
     <MESSAGE value="Javaのバージョンをプログラムで確認するサンプル。" />
@@ -844,7 +844,8 @@
     <MESSAGE value="インクリメント演算子を使ったサンプル。" />
     <MESSAGE value="デクリメント演算子を使ったサンプル。" />
     <MESSAGE value="+演算子を使用して文字列連結と算術演算子の加算が行われるサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="+演算子を使用して文字列連結と算術演算子の加算が行われるサンプル。" />
+    <MESSAGE value="キーボードから入力されたString型の値を表示するサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="キーボードから入力されたString型の値を表示するサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

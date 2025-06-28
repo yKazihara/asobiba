@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="キーボードから入力されたString型の値を表示するサンプル。" />
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="キーボード入力された数値を使って足し算するサンプル。" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -129,6 +129,7 @@
     "アプリケーション.IntegerLiteralsSample.executor": "Run",
     "アプリケーション.IntegerToStringSample.executor": "Run",
     "アプリケーション.JapaneseVariableName.executor": "Run",
+    "アプリケーション.KeyBordInputIntValue.executor": "Run",
     "アプリケーション.KeyBordInputStringValue.executor": "Run",
     "アプリケーション.LinkedListSample.executor": "Run",
     "アプリケーション.LocalDateSample.executor": "Run",
@@ -274,9 +275,9 @@
       <recent name="com.example" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.KeyBordInputIntValue">
-    <configuration name="DecrementOperator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sample.calc.DecrementOperator" />
+  <component name="RunManager" selected="アプリケーション.BmiCalc">
+    <configuration name="BmiCalc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sample.calc.BmiCalc" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
@@ -288,8 +289,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IncrementOperator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sample.calc.IncrementOperator" />
+    <configuration name="DecrementOperator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sample.calc.DecrementOperator" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
@@ -342,11 +343,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.BmiCalc" />
         <item itemvalue="アプリケーション.KeyBordInputIntValue" />
         <item itemvalue="アプリケーション.KeyBordInputStringValue" />
         <item itemvalue="アプリケーション.PlusOperator" />
         <item itemvalue="アプリケーション.DecrementOperator" />
-        <item itemvalue="アプリケーション.IncrementOperator" />
       </list>
     </recent_temporary>
   </component>
@@ -408,15 +409,7 @@
       <workItem from="1738479684690" duration="18056000" />
       <workItem from="1739235619517" duration="1967000" />
       <workItem from="1747473906048" duration="3434000" />
-      <workItem from="1748605245202" duration="18381000" />
-    </task>
-    <task id="LOCAL-00158" summary="StringBuilderの指定範囲の部分文字列を削除するサンプル。">
-      <option name="closed" value="true" />
-      <created>1739145816876</created>
-      <option name="number" value="00158" />
-      <option name="presentableId" value="LOCAL-00158" />
-      <option name="project" value="LOCAL" />
-      <updated>1739145816876</updated>
+      <workItem from="1748605245202" duration="18741000" />
     </task>
     <task id="LOCAL-00159" summary="StringBuilderの格納されている文字列の並びを逆にするサンプル。">
       <option name="closed" value="true" />
@@ -802,7 +795,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750888493730</updated>
     </task>
-    <option name="localTasksCounter" value="207" />
+    <task id="LOCAL-00207" summary="キーボード入力された数値を使って足し算するサンプル。">
+      <option name="closed" value="true" />
+      <created>1750967430285</created>
+      <option name="number" value="00207" />
+      <option name="presentableId" value="LOCAL-00207" />
+      <option name="project" value="LOCAL" />
+      <updated>1750967430285</updated>
+    </task>
+    <option name="localTasksCounter" value="208" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -820,7 +821,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="カレンダー表を作成するサンプル。" />
     <MESSAGE value="金種の枚数を計算するサンプル。" />
     <MESSAGE value="Javaのバージョンをプログラムで確認するサンプル。" />
     <MESSAGE value="クラス名やメソッド名に日本語を使うサンプル。" />
@@ -845,7 +845,8 @@
     <MESSAGE value="デクリメント演算子を使ったサンプル。" />
     <MESSAGE value="+演算子を使用して文字列連結と算術演算子の加算が行われるサンプル。" />
     <MESSAGE value="キーボードから入力されたString型の値を表示するサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="キーボードから入力されたString型の値を表示するサンプル。" />
+    <MESSAGE value="キーボード入力された数値を使って足し算するサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="キーボード入力された数値を使って足し算するサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

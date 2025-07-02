@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="if文の条件式が成立しないサンプル。" />
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="!=演算子を用いた条件式が成立するサンプル。">
+      <change afterPath="$PROJECT_DIR$/src/com/sample/condition/EqualsMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -125,6 +128,7 @@
     "アプリケーション.HelloWorld.executor": "Run",
     "アプリケーション.IfStatement1.executor": "Run",
     "アプリケーション.IfStatement2.executor": "Run",
+    "アプリケーション.IfStatement3.executor": "Run",
     "アプリケーション.IncrementAndDecrementSample.executor": "Run",
     "アプリケーション.IncrementOperator.executor": "Run",
     "アプリケーション.InitArraySample.executor": "Run",
@@ -279,13 +283,13 @@
       <recent name="com.example" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.IfStatement3">
-    <configuration name="BmiCalc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sample.calc.BmiCalc" />
+  <component name="RunManager" selected="アプリケーション.EqualsMethod">
+    <configuration name="BmiKeyboardInput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sample.console.BmiKeyboardInput" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sample.calc.*" />
+          <option name="PATTERN" value="com.sample.console.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -293,12 +297,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BmiKeyboardInput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sample.console.BmiKeyboardInput" />
+    <configuration name="EqualsMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sample.condition.EqualsMethod" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sample.console.*" />
+          <option name="PATTERN" value="com.sample.condition.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -347,11 +351,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.EqualsMethod" />
         <item itemvalue="アプリケーション.IfStatement3" />
         <item itemvalue="アプリケーション.IfStatement2" />
         <item itemvalue="アプリケーション.IfStatement1" />
         <item itemvalue="アプリケーション.BmiKeyboardInput" />
-        <item itemvalue="アプリケーション.BmiCalc" />
       </list>
     </recent_temporary>
   </component>
@@ -413,15 +417,7 @@
       <workItem from="1738479684690" duration="18056000" />
       <workItem from="1739235619517" duration="1967000" />
       <workItem from="1747473906048" duration="3434000" />
-      <workItem from="1748605245202" duration="21035000" />
-    </task>
-    <task id="LOCAL-00163" summary="Scannerで区切り文字を無視して次の行までの値を受け取って分割するサンプル。">
-      <option name="closed" value="true" />
-      <created>1739233567125</created>
-      <option name="number" value="00163" />
-      <option name="presentableId" value="LOCAL-00163" />
-      <option name="project" value="LOCAL" />
-      <updated>1739233567125</updated>
+      <workItem from="1748605245202" duration="21526000" />
     </task>
     <task id="LOCAL-00164" summary="Scannerで取得した値を指定したデータ型の値として取得するサンプル。">
       <option name="closed" value="true" />
@@ -807,7 +803,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751320412570</updated>
     </task>
-    <option name="localTasksCounter" value="212" />
+    <task id="LOCAL-00212" summary="!=演算子を用いた条件式が成立するサンプル。">
+      <option name="closed" value="true" />
+      <created>1751407232374</created>
+      <option name="number" value="00212" />
+      <option name="presentableId" value="LOCAL-00212" />
+      <option name="project" value="LOCAL" />
+      <updated>1751407232374</updated>
+    </task>
+    <option name="localTasksCounter" value="213" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -825,7 +829,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="NullPointerException 対策(その2)のサンプル。" />
     <MESSAGE value="NullPointerException 対策(その3、4)のサンプル。" />
     <MESSAGE value="NullPointerException 対策(その4)のサンプル。" />
     <MESSAGE value="FileNotFoundException対策のサンプル。" />
@@ -850,7 +853,8 @@
     <MESSAGE value="BMI値を計算する(キーボード入力)サンプル。" />
     <MESSAGE value="if文の条件式が成立するサンプル。" />
     <MESSAGE value="if文の条件式が成立しないサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="if文の条件式が成立しないサンプル。" />
+    <MESSAGE value="!=演算子を用いた条件式が成立するサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="!=演算子を用いた条件式が成立するサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

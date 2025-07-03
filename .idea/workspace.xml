@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="!=演算子を用いた条件式が成立するサンプル。">
-      <change afterPath="$PROJECT_DIR$/src/com/sample/condition/EqualsMethod.java" afterDir="false" />
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="文字列を比較するequalsメソッドを使ったサンプル。">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,6 +98,7 @@
     "アプリケーション.Dentaku2.executor": "Run",
     "アプリケーション.Dentaku3.executor": "Run",
     "アプリケーション.DoWhileSample.executor": "Run",
+    "アプリケーション.EqualsMethod.executor": "Run",
     "アプリケーション.EscapeSequencesSample.executor": "Run",
     "アプリケーション.ExceptionDialog.executor": "Run",
     "アプリケーション.ExtendsSample.executor": "Run",
@@ -283,9 +283,9 @@
       <recent name="com.example" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.EqualsMethod">
-    <configuration name="BmiKeyboardInput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sample.console.BmiKeyboardInput" />
+  <component name="RunManager" selected="アプリケーション.IfElseStatement">
+    <configuration name="EqualsMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sample.condition.EqualsMethod" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
@@ -297,12 +297,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EqualsMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sample.condition.EqualsMethod" />
+    <configuration name="IfElseStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sample.console.IfElseStatement" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sample.condition.*" />
+          <option name="PATTERN" value="com.sample.console.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -315,7 +315,7 @@
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sample.condition.*" />
+          <option name="PATTERN" value="com.sample.console.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -328,7 +328,7 @@
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sample.condition.*" />
+          <option name="PATTERN" value="com.sample.console.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -341,7 +341,7 @@
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sample.condition.*" />
+          <option name="PATTERN" value="com.sample.console.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -351,11 +351,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.IfElseStatement" />
         <item itemvalue="アプリケーション.EqualsMethod" />
         <item itemvalue="アプリケーション.IfStatement3" />
         <item itemvalue="アプリケーション.IfStatement2" />
         <item itemvalue="アプリケーション.IfStatement1" />
-        <item itemvalue="アプリケーション.BmiKeyboardInput" />
       </list>
     </recent_temporary>
   </component>
@@ -417,15 +417,7 @@
       <workItem from="1738479684690" duration="18056000" />
       <workItem from="1739235619517" duration="1967000" />
       <workItem from="1747473906048" duration="3434000" />
-      <workItem from="1748605245202" duration="21526000" />
-    </task>
-    <task id="LOCAL-00164" summary="Scannerで取得した値を指定したデータ型の値として取得するサンプル。">
-      <option name="closed" value="true" />
-      <created>1739324141852</created>
-      <option name="number" value="00164" />
-      <option name="presentableId" value="LOCAL-00164" />
-      <option name="project" value="LOCAL" />
-      <updated>1739324141852</updated>
+      <workItem from="1748605245202" duration="22150000" />
     </task>
     <task id="LOCAL-00165" summary="Scannerでファイルからの入力を行うスキャナを作成するサンプル。">
       <option name="closed" value="true" />
@@ -811,7 +803,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751407232374</updated>
     </task>
-    <option name="localTasksCounter" value="213" />
+    <task id="LOCAL-00213" summary="文字列を比較するequalsメソッドを使ったサンプル。">
+      <option name="closed" value="true" />
+      <created>1751493670042</created>
+      <option name="number" value="00213" />
+      <option name="presentableId" value="LOCAL-00213" />
+      <option name="project" value="LOCAL" />
+      <updated>1751493670042</updated>
+    </task>
+    <option name="localTasksCounter" value="214" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -829,7 +829,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="NullPointerException 対策(その3、4)のサンプル。" />
     <MESSAGE value="NullPointerException 対策(その4)のサンプル。" />
     <MESSAGE value="FileNotFoundException対策のサンプル。" />
     <MESSAGE value="ClassCastException対策のサンプル。" />
@@ -854,7 +853,8 @@
     <MESSAGE value="if文の条件式が成立するサンプル。" />
     <MESSAGE value="if文の条件式が成立しないサンプル。" />
     <MESSAGE value="!=演算子を用いた条件式が成立するサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="!=演算子を用いた条件式が成立するサンプル。" />
+    <MESSAGE value="文字列を比較するequalsメソッドを使ったサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="文字列を比較するequalsメソッドを使ったサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

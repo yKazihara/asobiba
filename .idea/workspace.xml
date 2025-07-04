@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="文字列を比較するequalsメソッドを使ったサンプル。">
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="if-else文を使って文字列比較を行うサンプル。">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -126,6 +126,7 @@
     "アプリケーション.HankakuNumberToZenkakuNumber.executor": "Run",
     "アプリケーション.HashMapSample.executor": "Run",
     "アプリケーション.HelloWorld.executor": "Run",
+    "アプリケーション.IfElseStatement.executor": "Run",
     "アプリケーション.IfStatement1.executor": "Run",
     "アプリケーション.IfStatement2.executor": "Run",
     "アプリケーション.IfStatement3.executor": "Run",
@@ -283,7 +284,7 @@
       <recent name="com.example" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.IfElseStatement">
+  <component name="RunManager" selected="アプリケーション.NestedIfStatement1">
     <configuration name="EqualsMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sample.condition.EqualsMethod" />
       <module name="asobiba" />
@@ -299,19 +300,6 @@
     </configuration>
     <configuration name="IfElseStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sample.console.IfElseStatement" />
-      <module name="asobiba" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sample.console.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IfStatement1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sample.condition.IfStatement1" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
@@ -349,13 +337,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NestedIfStatement1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sample.condition.NestedIfStatement1" />
+      <module name="asobiba" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sample.condition.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.NestedIfStatement1" />
         <item itemvalue="アプリケーション.IfElseStatement" />
         <item itemvalue="アプリケーション.EqualsMethod" />
         <item itemvalue="アプリケーション.IfStatement3" />
         <item itemvalue="アプリケーション.IfStatement2" />
-        <item itemvalue="アプリケーション.IfStatement1" />
       </list>
     </recent_temporary>
   </component>
@@ -417,15 +418,7 @@
       <workItem from="1738479684690" duration="18056000" />
       <workItem from="1739235619517" duration="1967000" />
       <workItem from="1747473906048" duration="3434000" />
-      <workItem from="1748605245202" duration="22150000" />
-    </task>
-    <task id="LOCAL-00165" summary="Scannerでファイルからの入力を行うスキャナを作成するサンプル。">
-      <option name="closed" value="true" />
-      <created>1739333512617</created>
-      <option name="number" value="00165" />
-      <option name="presentableId" value="LOCAL-00165" />
-      <option name="project" value="LOCAL" />
-      <updated>1739333512617</updated>
+      <workItem from="1748605245202" duration="22790000" />
     </task>
     <task id="LOCAL-00166" summary="Scannerでスキャナの入力ストリームにまだ値が残っているか確認するサンプル。">
       <option name="closed" value="true" />
@@ -811,7 +804,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751493670042</updated>
     </task>
-    <option name="localTasksCounter" value="214" />
+    <task id="LOCAL-00214" summary="if-else文を使って文字列比較を行うサンプル。">
+      <option name="closed" value="true" />
+      <created>1751580489881</created>
+      <option name="number" value="00214" />
+      <option name="presentableId" value="LOCAL-00214" />
+      <option name="project" value="LOCAL" />
+      <updated>1751580489881</updated>
+    </task>
+    <option name="localTasksCounter" value="215" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -829,7 +830,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="NullPointerException 対策(その4)のサンプル。" />
     <MESSAGE value="FileNotFoundException対策のサンプル。" />
     <MESSAGE value="ClassCastException対策のサンプル。" />
     <MESSAGE value="ClassNotFoundException対策のサンプル。" />
@@ -854,7 +854,8 @@
     <MESSAGE value="if文の条件式が成立しないサンプル。" />
     <MESSAGE value="!=演算子を用いた条件式が成立するサンプル。" />
     <MESSAGE value="文字列を比較するequalsメソッドを使ったサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="文字列を比較するequalsメソッドを使ったサンプル。" />
+    <MESSAGE value="if-else文を使って文字列比較を行うサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="if-else文を使って文字列比較を行うサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

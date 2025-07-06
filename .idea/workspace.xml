@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="ネストしたif文内の条件が全て成立するサンプル。" />
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="ネストしたif文内の条件が成立しないサンプル。">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -164,6 +166,7 @@
     "アプリケーション.MultidimensionalArraysSample.executor": "Run",
     "アプリケーション.NegativeArraySizeExceptionSample.executor": "Run",
     "アプリケーション.NestedIfStatement1.executor": "Run",
+    "アプリケーション.NestedIfStatement2.executor": "Run",
     "アプリケーション.NoSuchElementExceptionSample.executor": "Run",
     "アプリケーション.NullPointer.executor": "Run",
     "アプリケーション.NullPointer2.executor": "Run",
@@ -283,7 +286,7 @@
       <recent name="com.example" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.NestedIfStatement2">
+  <component name="RunManager" selected="アプリケーション.EvenNumber">
     <configuration name="EqualsMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sample.condition.EqualsMethod" />
       <module name="asobiba" />
@@ -297,12 +300,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IfElseStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sample.console.IfElseStatement" />
+    <configuration name="EvenNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sample.condition.EvenNumber" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sample.console.*" />
+          <option name="PATTERN" value="com.sample.condition.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -310,8 +313,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IfStatement3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sample.condition.IfStatement3" />
+    <configuration name="IfElseStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sample.console.IfElseStatement" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
@@ -351,11 +354,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.EvenNumber" />
         <item itemvalue="アプリケーション.NestedIfStatement2" />
         <item itemvalue="アプリケーション.NestedIfStatement1" />
         <item itemvalue="アプリケーション.IfElseStatement" />
         <item itemvalue="アプリケーション.EqualsMethod" />
-        <item itemvalue="アプリケーション.IfStatement3" />
       </list>
     </recent_temporary>
   </component>
@@ -417,15 +420,7 @@
       <workItem from="1738479684690" duration="18056000" />
       <workItem from="1739235619517" duration="1967000" />
       <workItem from="1747473906048" duration="3434000" />
-      <workItem from="1748605245202" duration="23260000" />
-    </task>
-    <task id="LOCAL-00167" summary="Scannerで区切り文字を別の値に設定するサンプル。">
-      <option name="closed" value="true" />
-      <created>1739334582461</created>
-      <option name="number" value="00167" />
-      <option name="presentableId" value="LOCAL-00167" />
-      <option name="project" value="LOCAL" />
-      <updated>1739334582461</updated>
+      <workItem from="1748605245202" duration="23793000" />
     </task>
     <task id="LOCAL-00168" summary="HTMLファイルやXMLファイルを読み込むサンプル。">
       <option name="closed" value="true" />
@@ -811,7 +806,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751667558726</updated>
     </task>
-    <option name="localTasksCounter" value="216" />
+    <task id="LOCAL-00216" summary="ネストしたif文内の条件が成立しないサンプル。">
+      <option name="closed" value="true" />
+      <created>1751756358620</created>
+      <option name="number" value="00216" />
+      <option name="presentableId" value="LOCAL-00216" />
+      <option name="project" value="LOCAL" />
+      <updated>1751756358620</updated>
+    </task>
+    <option name="localTasksCounter" value="217" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -829,7 +832,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ClassCastException対策のサンプル。" />
     <MESSAGE value="ClassNotFoundException対策のサンプル。" />
     <MESSAGE value="ArrayIndexOutOfBoundsException対策のサンプル。" />
     <MESSAGE value="StringIndexOutOfBoundsException対策のサンプル。" />
@@ -854,7 +856,8 @@
     <MESSAGE value="文字列を比較するequalsメソッドを使ったサンプル。" />
     <MESSAGE value="if-else文を使って文字列比較を行うサンプル。" />
     <MESSAGE value="ネストしたif文内の条件が全て成立するサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="ネストしたif文内の条件が全て成立するサンプル。" />
+    <MESSAGE value="ネストしたif文内の条件が成立しないサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="ネストしたif文内の条件が成立しないサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="愚数か奇数かを判定するサンプル。">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="季節を判定するサンプル。" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -223,6 +221,7 @@
     "アプリケーション.ScannerNextSomeValuesSample.executor": "Run",
     "アプリケーション.ScannerReadFromFileSample.executor": "Run",
     "アプリケーション.ScannerUseDelimiterSample.executor": "Run",
+    "アプリケーション.Season.executor": "Run",
     "アプリケーション.SettingValuesToArraySample.executor": "Run",
     "アプリケーション.StringBuilderAppendSample.executor": "Run",
     "アプリケーション.StringBuilderDeleteSample.executor": "Run",
@@ -287,13 +286,13 @@
       <recent name="com.example" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.Season">
-    <configuration name="EvenNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sample.condition.EvenNumber" />
+  <component name="RunManager" selected="アプリケーション.BmiKeyboardIf">
+    <configuration name="BmiKeyboardIf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sample.console.BmiKeyboardIf" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sample.condition.*" />
+          <option name="PATTERN" value="com.sample.console.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -301,8 +300,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IfElseStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sample.console.IfElseStatement" />
+    <configuration name="EvenNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sample.condition.EvenNumber" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
@@ -319,7 +318,7 @@
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sample.condition.*" />
+          <option name="PATTERN" value="com.sample.console.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -332,7 +331,7 @@
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sample.condition.*" />
+          <option name="PATTERN" value="com.sample.console.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -341,11 +340,11 @@
       </method>
     </configuration>
     <configuration name="Season" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sample.condition.Season" />
+      <option name="MAIN_CLASS_NAME" value="com.sample.console.Season" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sample.condition.*" />
+          <option name="PATTERN" value="com.sample.console.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -355,11 +354,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.BmiKeyboardIf" />
         <item itemvalue="アプリケーション.Season" />
         <item itemvalue="アプリケーション.EvenNumber" />
         <item itemvalue="アプリケーション.NestedIfStatement2" />
         <item itemvalue="アプリケーション.NestedIfStatement1" />
-        <item itemvalue="アプリケーション.IfElseStatement" />
       </list>
     </recent_temporary>
   </component>
@@ -421,15 +420,7 @@
       <workItem from="1738479684690" duration="18056000" />
       <workItem from="1739235619517" duration="1967000" />
       <workItem from="1747473906048" duration="3434000" />
-      <workItem from="1748605245202" duration="24803000" />
-    </task>
-    <task id="LOCAL-00169" summary="全角アルファベットを半角アルファベットに変換するサンプル。">
-      <option name="closed" value="true" />
-      <created>1747606656530</created>
-      <option name="number" value="00169" />
-      <option name="presentableId" value="LOCAL-00169" />
-      <option name="project" value="LOCAL" />
-      <updated>1747606656530</updated>
+      <workItem from="1748605245202" duration="25263000" />
     </task>
     <task id="LOCAL-00170" summary="半角数字を全角数字に変換するサンプル。">
       <option name="closed" value="true" />
@@ -815,7 +806,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751839307660</updated>
     </task>
-    <option name="localTasksCounter" value="218" />
+    <task id="LOCAL-00218" summary="季節を判定するサンプル。">
+      <option name="closed" value="true" />
+      <created>1751927132469</created>
+      <option name="number" value="00218" />
+      <option name="presentableId" value="LOCAL-00218" />
+      <option name="project" value="LOCAL" />
+      <updated>1751927132469</updated>
+    </task>
+    <option name="localTasksCounter" value="219" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -833,7 +832,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ArrayIndexOutOfBoundsException対策のサンプル。" />
     <MESSAGE value="StringIndexOutOfBoundsException対策のサンプル。" />
     <MESSAGE value="NegativeArraySizeException対策のサンプル。" />
     <MESSAGE value="NoSuchElementException対策のサンプル。" />
@@ -858,7 +856,8 @@
     <MESSAGE value="ネストしたif文内の条件が全て成立するサンプル。" />
     <MESSAGE value="ネストしたif文内の条件が成立しないサンプル。" />
     <MESSAGE value="愚数か奇数かを判定するサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="愚数か奇数かを判定するサンプル。" />
+    <MESSAGE value="季節を判定するサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="季節を判定するサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

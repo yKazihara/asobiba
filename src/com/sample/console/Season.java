@@ -1,4 +1,4 @@
-package com.sample.condition;
+package com.sample.console;
 
 import java.util.Scanner;
 

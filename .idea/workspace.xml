@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="季節を判定するサンプル。" />
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="BMI値によりメッセージを出力するサンプル。">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,6 +67,7 @@
     "アプリケーション.ArraysToStringSample.executor": "Run",
     "アプリケーション.AssignmentOperatorsSample.executor": "Run",
     "アプリケーション.BmiCalc.executor": "Run",
+    "アプリケーション.BmiKeyboardIf.executor": "Run",
     "アプリケーション.BmiKeyboardInput.executor": "Run",
     "アプリケーション.BooleanLiteralsSample.executor": "Run",
     "アプリケーション.BreakSample.executor": "Run",
@@ -286,7 +289,7 @@
       <recent name="com.example" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.BmiKeyboardIf">
+  <component name="RunManager" selected="アプリケーション.NoLoop">
     <configuration name="BmiKeyboardIf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sample.console.BmiKeyboardIf" />
       <module name="asobiba" />
@@ -313,8 +316,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NestedIfStatement1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sample.condition.NestedIfStatement1" />
+    <configuration name="NestedIfStatement2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sample.condition.NestedIfStatement2" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
@@ -326,12 +329,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NestedIfStatement2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sample.condition.NestedIfStatement2" />
+    <configuration name="NoLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sample.loop.NoLoop" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sample.console.*" />
+          <option name="PATTERN" value="com.sample.loop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -354,11 +357,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.NoLoop" />
         <item itemvalue="アプリケーション.BmiKeyboardIf" />
         <item itemvalue="アプリケーション.Season" />
         <item itemvalue="アプリケーション.EvenNumber" />
         <item itemvalue="アプリケーション.NestedIfStatement2" />
-        <item itemvalue="アプリケーション.NestedIfStatement1" />
       </list>
     </recent_temporary>
   </component>
@@ -420,15 +423,7 @@
       <workItem from="1738479684690" duration="18056000" />
       <workItem from="1739235619517" duration="1967000" />
       <workItem from="1747473906048" duration="3434000" />
-      <workItem from="1748605245202" duration="25263000" />
-    </task>
-    <task id="LOCAL-00170" summary="半角数字を全角数字に変換するサンプル。">
-      <option name="closed" value="true" />
-      <created>1747779058468</created>
-      <option name="number" value="00170" />
-      <option name="presentableId" value="LOCAL-00170" />
-      <option name="project" value="LOCAL" />
-      <updated>1747779058468</updated>
+      <workItem from="1748605245202" duration="25876000" />
     </task>
     <task id="LOCAL-00171" summary="全角数字を半角数字に変換するサンプル。">
       <option name="closed" value="true" />
@@ -814,7 +809,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751927132469</updated>
     </task>
-    <option name="localTasksCounter" value="219" />
+    <task id="LOCAL-00219" summary="BMI値によりメッセージを出力するサンプル。">
+      <option name="closed" value="true" />
+      <created>1752011238468</created>
+      <option name="number" value="00219" />
+      <option name="presentableId" value="LOCAL-00219" />
+      <option name="project" value="LOCAL" />
+      <updated>1752011238468</updated>
+    </task>
+    <option name="localTasksCounter" value="220" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -832,7 +835,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="StringIndexOutOfBoundsException対策のサンプル。" />
     <MESSAGE value="NegativeArraySizeException対策のサンプル。" />
     <MESSAGE value="NoSuchElementException対策のサンプル。" />
     <MESSAGE value="NumberFormatException対策のサンプル。" />
@@ -857,7 +859,8 @@
     <MESSAGE value="ネストしたif文内の条件が成立しないサンプル。" />
     <MESSAGE value="愚数か奇数かを判定するサンプル。" />
     <MESSAGE value="季節を判定するサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="季節を判定するサンプル。" />
+    <MESSAGE value="BMI値によりメッセージを出力するサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="BMI値によりメッセージを出力するサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

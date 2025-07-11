@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="for文を使用せず同一処理を繰り返すサンプル。">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="for文を使用し同一処理を繰り返すサンプル。" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -121,6 +119,7 @@
     "アプリケーション.FilewriterWriteAddSample.executor": "Run",
     "アプリケーション.FilewriterWriteSample.executor": "Run",
     "アプリケーション.FinalSample.executor": "Run",
+    "アプリケーション.ForLoop.executor": "Run",
     "アプリケーション.ForLoopSample.executor": "Run",
     "アプリケーション.HTMLParser.executor": "Run",
     "アプリケーション.HankakuAlphabetToZenkakuAlphabet.executor": "Run",
@@ -290,22 +289,9 @@
       <recent name="com.example" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.ForLoop">
+  <component name="RunManager" selected="アプリケーション.WhileLoop">
     <configuration name="BmiKeyboardIf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sample.console.BmiKeyboardIf" />
-      <module name="asobiba" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sample.console.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EvenNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sample.condition.EvenNumber" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
@@ -356,13 +342,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WhileLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sample.loop.WhileLoop" />
+      <module name="asobiba" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sample.loop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.WhileLoop" />
         <item itemvalue="アプリケーション.ForLoop" />
         <item itemvalue="アプリケーション.NoLoop" />
         <item itemvalue="アプリケーション.BmiKeyboardIf" />
         <item itemvalue="アプリケーション.Season" />
-        <item itemvalue="アプリケーション.EvenNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -424,15 +423,7 @@
       <workItem from="1738479684690" duration="18056000" />
       <workItem from="1739235619517" duration="1967000" />
       <workItem from="1747473906048" duration="3434000" />
-      <workItem from="1748605245202" duration="26390000" />
-    </task>
-    <task id="LOCAL-00172" summary="全角カタカナを半角カタカナに変換するサンプル。">
-      <option name="closed" value="true" />
-      <created>1747952212452</created>
-      <option name="number" value="00172" />
-      <option name="presentableId" value="LOCAL-00172" />
-      <option name="project" value="LOCAL" />
-      <updated>1747952212452</updated>
+      <workItem from="1748605245202" duration="26886000" />
     </task>
     <task id="LOCAL-00173" summary="半角カタカナを全角カタカナに変換するサンプル。">
       <option name="closed" value="true" />
@@ -818,7 +809,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752098829605</updated>
     </task>
-    <option name="localTasksCounter" value="221" />
+    <task id="LOCAL-00221" summary="for文を使用し同一処理を繰り返すサンプル。">
+      <option name="closed" value="true" />
+      <created>1752184231365</created>
+      <option name="number" value="00221" />
+      <option name="presentableId" value="LOCAL-00221" />
+      <option name="project" value="LOCAL" />
+      <updated>1752184231365</updated>
+    </task>
+    <option name="localTasksCounter" value="222" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -836,7 +835,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="NoSuchElementException対策のサンプル。" />
     <MESSAGE value="NumberFormatException対策のサンプル。" />
     <MESSAGE value="変数を宣言し、値を代入するサンプル。" />
     <MESSAGE value="初期化した変数の値を変更するサンプル。" />
@@ -861,7 +859,8 @@
     <MESSAGE value="季節を判定するサンプル。" />
     <MESSAGE value="BMI値によりメッセージを出力するサンプル。" />
     <MESSAGE value="for文を使用せず同一処理を繰り返すサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="for文を使用せず同一処理を繰り返すサンプル。" />
+    <MESSAGE value="for文を使用し同一処理を繰り返すサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="for文を使用し同一処理を繰り返すサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

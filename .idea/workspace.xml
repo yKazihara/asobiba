@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="for文を使用し同一処理を繰り返すサンプル。" />
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="while文を用いて同じメッセージを繰り返すサンプル。">
+      <change afterPath="$PROJECT_DIR$/src/com/sample/loop/BreakStatement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,6 +72,7 @@
     "アプリケーション.BmiKeyboardInput.executor": "Run",
     "アプリケーション.BooleanLiteralsSample.executor": "Run",
     "アプリケーション.BreakSample.executor": "Run",
+    "アプリケーション.BreakStatement.executor": "Run",
     "アプリケーション.BufferedReaderReadLineSample.executor": "Run",
     "アプリケーション.BufferedWriterWriteSample.executor": "Run",
     "アプリケーション.CastDuringCalcrationSample.executor": "Run",
@@ -261,6 +265,7 @@
     "アプリケーション.Variable.executor": "Run",
     "アプリケーション.VariableArgumentsSample.executor": "Run",
     "アプリケーション.VersionCheck.executor": "Run",
+    "アプリケーション.WhileLoop.executor": "Run",
     "アプリケーション.WhileLoopSample.executor": "Run",
     "アプリケーション.WrapperClassSample.executor": "Run",
     "アプリケーション.ZenkakuAlphabetToHankakuAlphabet.executor": "Run",
@@ -289,13 +294,26 @@
       <recent name="com.example" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.WhileLoop">
+  <component name="RunManager" selected="アプリケーション.BreakStatement">
     <configuration name="BmiKeyboardIf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sample.console.BmiKeyboardIf" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.sample.console.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BreakStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sample.loop.BreakStatement" />
+      <module name="asobiba" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sample.loop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -329,19 +347,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Season" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sample.console.Season" />
-      <module name="asobiba" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sample.console.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="WhileLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sample.loop.WhileLoop" />
       <module name="asobiba" />
@@ -357,11 +362,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.BreakStatement" />
         <item itemvalue="アプリケーション.WhileLoop" />
         <item itemvalue="アプリケーション.ForLoop" />
         <item itemvalue="アプリケーション.NoLoop" />
         <item itemvalue="アプリケーション.BmiKeyboardIf" />
-        <item itemvalue="アプリケーション.Season" />
       </list>
     </recent_temporary>
   </component>
@@ -423,15 +428,7 @@
       <workItem from="1738479684690" duration="18056000" />
       <workItem from="1739235619517" duration="1967000" />
       <workItem from="1747473906048" duration="3434000" />
-      <workItem from="1748605245202" duration="26886000" />
-    </task>
-    <task id="LOCAL-00173" summary="半角カタカナを全角カタカナに変換するサンプル。">
-      <option name="closed" value="true" />
-      <created>1748039588893</created>
-      <option name="number" value="00173" />
-      <option name="presentableId" value="LOCAL-00173" />
-      <option name="project" value="LOCAL" />
-      <updated>1748039588893</updated>
+      <workItem from="1748605245202" duration="27526000" />
     </task>
     <task id="LOCAL-00174" summary="全角ひらがなを全角カタカナへ変換するサンプル。">
       <option name="closed" value="true" />
@@ -817,7 +814,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752184231365</updated>
     </task>
-    <option name="localTasksCounter" value="222" />
+    <task id="LOCAL-00222" summary="while文を用いて同じメッセージを繰り返すサンプル。">
+      <option name="closed" value="true" />
+      <created>1752270416682</created>
+      <option name="number" value="00222" />
+      <option name="presentableId" value="LOCAL-00222" />
+      <option name="project" value="LOCAL" />
+      <updated>1752270416682</updated>
+    </task>
+    <option name="localTasksCounter" value="223" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -835,7 +840,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="NumberFormatException対策のサンプル。" />
     <MESSAGE value="変数を宣言し、値を代入するサンプル。" />
     <MESSAGE value="初期化した変数の値を変更するサンプル。" />
     <MESSAGE value="変数を別の値に代入するサンプル。" />
@@ -860,7 +864,8 @@
     <MESSAGE value="BMI値によりメッセージを出力するサンプル。" />
     <MESSAGE value="for文を使用せず同一処理を繰り返すサンプル。" />
     <MESSAGE value="for文を使用し同一処理を繰り返すサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="for文を使用し同一処理を繰り返すサンプル。" />
+    <MESSAGE value="while文を用いて同じメッセージを繰り返すサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="while文を用いて同じメッセージを繰り返すサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

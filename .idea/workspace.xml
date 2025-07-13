@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="while文を用いて同じメッセージを繰り返すサンプル。">
-      <change afterPath="$PROJECT_DIR$/src/com/sample/loop/BreakStatement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="break文でwhile文の終了を制御するサンプル。" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -294,13 +291,13 @@
       <recent name="com.example" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.BreakStatement">
-    <configuration name="BmiKeyboardIf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sample.console.BmiKeyboardIf" />
+  <component name="RunManager" selected="アプリケーション.ContinueStatement">
+    <configuration name="BreakStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sample.loop.BreakStatement" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sample.console.*" />
+          <option name="PATTERN" value="com.sample.loop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -308,8 +305,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BreakStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sample.loop.BreakStatement" />
+    <configuration name="ContinueStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sample.loop.ContinueStatement" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
@@ -362,11 +359,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.ContinueStatement" />
         <item itemvalue="アプリケーション.BreakStatement" />
         <item itemvalue="アプリケーション.WhileLoop" />
         <item itemvalue="アプリケーション.ForLoop" />
         <item itemvalue="アプリケーション.NoLoop" />
-        <item itemvalue="アプリケーション.BmiKeyboardIf" />
       </list>
     </recent_temporary>
   </component>
@@ -428,15 +425,7 @@
       <workItem from="1738479684690" duration="18056000" />
       <workItem from="1739235619517" duration="1967000" />
       <workItem from="1747473906048" duration="3434000" />
-      <workItem from="1748605245202" duration="27526000" />
-    </task>
-    <task id="LOCAL-00174" summary="全角ひらがなを全角カタカナへ変換するサンプル。">
-      <option name="closed" value="true" />
-      <created>1748128939927</created>
-      <option name="number" value="00174" />
-      <option name="presentableId" value="LOCAL-00174" />
-      <option name="project" value="LOCAL" />
-      <updated>1748128939927</updated>
+      <workItem from="1748605245202" duration="28060000" />
     </task>
     <task id="LOCAL-00175" summary="全角カタカナを全角ひらがなへ変換するサンプル。">
       <option name="closed" value="true" />
@@ -822,7 +811,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752270416682</updated>
     </task>
-    <option name="localTasksCounter" value="223" />
+    <task id="LOCAL-00223" summary="break文でwhile文の終了を制御するサンプル。">
+      <option name="closed" value="true" />
+      <created>1752362335761</created>
+      <option name="number" value="00223" />
+      <option name="presentableId" value="LOCAL-00223" />
+      <option name="project" value="LOCAL" />
+      <updated>1752362335761</updated>
+    </task>
+    <option name="localTasksCounter" value="224" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -840,7 +837,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="変数を宣言し、値を代入するサンプル。" />
     <MESSAGE value="初期化した変数の値を変更するサンプル。" />
     <MESSAGE value="変数を別の値に代入するサンプル。" />
     <MESSAGE value="算術演算子を使用した四則演算をおこなうサンプル。" />
@@ -865,7 +861,8 @@
     <MESSAGE value="for文を使用せず同一処理を繰り返すサンプル。" />
     <MESSAGE value="for文を使用し同一処理を繰り返すサンプル。" />
     <MESSAGE value="while文を用いて同じメッセージを繰り返すサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="while文を用いて同じメッセージを繰り返すサンプル。" />
+    <MESSAGE value="break文でwhile文の終了を制御するサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="break文でwhile文の終了を制御するサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="continue文でwhile文内の処理の流れを制御するサンプル。">
-      <change afterPath="$PROJECT_DIR$/src/com/sample/loop/Sum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="forループ文を使ってNまで合計するサンプル。" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -296,7 +293,7 @@
       <recent name="com.example" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.Sum">
+  <component name="RunManager" selected="アプリケーション.SumKeyboardInput">
     <configuration name="BreakStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sample.loop.BreakStatement" />
       <module name="asobiba" />
@@ -323,8 +320,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sample.loop.ForLoop" />
+    <configuration name="Sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sample.loop.Sum" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
@@ -336,12 +333,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sample.loop.Sum" />
+    <configuration name="SumKeyboardInput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sample.console.SumKeyboardInput" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sample.loop.*" />
+          <option name="PATTERN" value="com.sample.console.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -364,11 +361,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.SumKeyboardInput" />
         <item itemvalue="アプリケーション.Sum" />
         <item itemvalue="アプリケーション.ContinueStatement" />
         <item itemvalue="アプリケーション.BreakStatement" />
         <item itemvalue="アプリケーション.WhileLoop" />
-        <item itemvalue="アプリケーション.ForLoop" />
       </list>
     </recent_temporary>
   </component>
@@ -430,15 +427,7 @@
       <workItem from="1738479684690" duration="18056000" />
       <workItem from="1739235619517" duration="1967000" />
       <workItem from="1747473906048" duration="3434000" />
-      <workItem from="1748605245202" duration="29004000" />
-    </task>
-    <task id="LOCAL-00176" summary="全角カタカナを全角ひらがなへ変換するサンプル。">
-      <option name="closed" value="true" />
-      <created>1748296961345</created>
-      <option name="number" value="00176" />
-      <option name="presentableId" value="LOCAL-00176" />
-      <option name="project" value="LOCAL" />
-      <updated>1748296961345</updated>
+      <workItem from="1748605245202" duration="29481000" />
     </task>
     <task id="LOCAL-00177" summary="文字コードを文字に変換するサンプル。">
       <option name="closed" value="true" />
@@ -824,7 +813,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752443619654</updated>
     </task>
-    <option name="localTasksCounter" value="225" />
+    <task id="LOCAL-00225" summary="forループ文を使ってNまで合計するサンプル。">
+      <option name="closed" value="true" />
+      <created>1752529967137</created>
+      <option name="number" value="00225" />
+      <option name="presentableId" value="LOCAL-00225" />
+      <option name="project" value="LOCAL" />
+      <updated>1752529967137</updated>
+    </task>
+    <option name="localTasksCounter" value="226" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -842,7 +839,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="変数を別の値に代入するサンプル。" />
     <MESSAGE value="算術演算子を使用した四則演算をおこなうサンプル。" />
     <MESSAGE value="算術演算子の優先順位を確認するサンプル。" />
     <MESSAGE value="インクリメント演算子を使ったサンプル。" />
@@ -867,7 +863,8 @@
     <MESSAGE value="while文を用いて同じメッセージを繰り返すサンプル。" />
     <MESSAGE value="break文でwhile文の終了を制御するサンプル。" />
     <MESSAGE value="continue文でwhile文内の処理の流れを制御するサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="continue文でwhile文内の処理の流れを制御するサンプル。" />
+    <MESSAGE value="forループ文を使ってNまで合計するサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="forループ文を使ってNまで合計するサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

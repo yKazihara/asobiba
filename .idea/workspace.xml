@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="for文を使ってNまで合計するサンプル。">
-      <change afterPath="$PROJECT_DIR$/src/com/sample/console/SumKeyboardInputLoop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="for文を使ってNまで合計するサンプル。" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -298,9 +295,9 @@
       <recent name="com.example" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.SumKeyboardInputLoop">
-    <configuration name="BreakStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sample.loop.BreakStatement" />
+  <component name="RunManager" selected="アプリケーション.HighAndLowS01">
+    <configuration name="ContinueStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sample.loop.ContinueStatement" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
@@ -312,12 +309,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContinueStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sample.loop.ContinueStatement" />
+    <configuration name="HighAndLowS01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sample.highandlow.HighAndLowS01" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sample.loop.*" />
+          <option name="PATTERN" value="com.sample.highandlow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -366,11 +363,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.HighAndLowS01" />
         <item itemvalue="アプリケーション.SumKeyboardInputLoop" />
         <item itemvalue="アプリケーション.SumKeyboardInput" />
         <item itemvalue="アプリケーション.Sum" />
         <item itemvalue="アプリケーション.ContinueStatement" />
-        <item itemvalue="アプリケーション.BreakStatement" />
       </list>
     </recent_temporary>
   </component>
@@ -432,15 +429,7 @@
       <workItem from="1738479684690" duration="18056000" />
       <workItem from="1739235619517" duration="1967000" />
       <workItem from="1747473906048" duration="3434000" />
-      <workItem from="1748605245202" duration="30176000" />
-    </task>
-    <task id="LOCAL-00178" summary="ファイルの中身を文字列として取得するサンプル。">
-      <option name="closed" value="true" />
-      <created>1748470968293</created>
-      <option name="number" value="00178" />
-      <option name="presentableId" value="LOCAL-00178" />
-      <option name="project" value="LOCAL" />
-      <updated>1748470968293</updated>
+      <workItem from="1748605245202" duration="30565000" />
     </task>
     <task id="LOCAL-00179" summary="ファイルの拡張子を取り除くサンプル。">
       <option name="closed" value="true" />
@@ -826,7 +815,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752616726767</updated>
     </task>
-    <option name="localTasksCounter" value="227" />
+    <task id="LOCAL-00227" summary="for文を使ってNまで合計するサンプル。">
+      <option name="closed" value="true" />
+      <created>1752703486630</created>
+      <option name="number" value="00227" />
+      <option name="presentableId" value="LOCAL-00227" />
+      <option name="project" value="LOCAL" />
+      <updated>1752703486630</updated>
+    </task>
+    <option name="localTasksCounter" value="228" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

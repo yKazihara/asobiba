@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="for文を使ってNまで合計するサンプル。" />
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="ゲームタイトルと終了メッセージを表示するサンプル。">
+      <change afterPath="$PROJECT_DIR$/src/com/sample/highandlow/HighAndLowS02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sample/highandlow/HighAndLowS01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sample/highandlow/HighAndLowS01.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -129,6 +133,8 @@
     "アプリケーション.HankakuNumberToZenkakuNumber.executor": "Run",
     "アプリケーション.HashMapSample.executor": "Run",
     "アプリケーション.HelloWorld.executor": "Run",
+    "アプリケーション.HighAndLowS01.executor": "Run",
+    "アプリケーション.HighAndLowS02.executor": "Run",
     "アプリケーション.IfElseStatement.executor": "Run",
     "アプリケーション.IfStatement1.executor": "Run",
     "アプリケーション.IfStatement2.executor": "Run",
@@ -295,13 +301,13 @@
       <recent name="com.example" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.HighAndLowS01">
-    <configuration name="ContinueStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sample.loop.ContinueStatement" />
+  <component name="RunManager" selected="アプリケーション.HighAndLowS02">
+    <configuration name="HighAndLowS01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sample.highandlow.HighAndLowS01" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sample.loop.*" />
+          <option name="PATTERN" value="com.sample.highandlow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -309,8 +315,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HighAndLowS01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sample.highandlow.HighAndLowS01" />
+    <configuration name="HighAndLowS02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sample.highandlow.HighAndLowS02" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
@@ -363,11 +369,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.HighAndLowS02" />
         <item itemvalue="アプリケーション.HighAndLowS01" />
         <item itemvalue="アプリケーション.SumKeyboardInputLoop" />
         <item itemvalue="アプリケーション.SumKeyboardInput" />
         <item itemvalue="アプリケーション.Sum" />
-        <item itemvalue="アプリケーション.ContinueStatement" />
       </list>
     </recent_temporary>
   </component>
@@ -429,15 +435,7 @@
       <workItem from="1738479684690" duration="18056000" />
       <workItem from="1739235619517" duration="1967000" />
       <workItem from="1747473906048" duration="3434000" />
-      <workItem from="1748605245202" duration="30565000" />
-    </task>
-    <task id="LOCAL-00179" summary="ファイルの拡張子を取り除くサンプル。">
-      <option name="closed" value="true" />
-      <created>1748555219730</created>
-      <option name="number" value="00179" />
-      <option name="presentableId" value="LOCAL-00179" />
-      <option name="project" value="LOCAL" />
-      <updated>1748555219730</updated>
+      <workItem from="1748605245202" duration="31336000" />
     </task>
     <task id="LOCAL-00180" summary="メッセージをダイアログボックスで表示するサンプル。">
       <option name="closed" value="true" />
@@ -823,7 +821,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752703486630</updated>
     </task>
-    <option name="localTasksCounter" value="228" />
+    <task id="LOCAL-00228" summary="ゲームタイトルと終了メッセージを表示するサンプル。">
+      <option name="closed" value="true" />
+      <created>1752789196122</created>
+      <option name="number" value="00228" />
+      <option name="presentableId" value="LOCAL-00228" />
+      <option name="project" value="LOCAL" />
+      <updated>1752789196122</updated>
+    </task>
+    <option name="localTasksCounter" value="229" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -841,7 +847,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="算術演算子の優先順位を確認するサンプル。" />
     <MESSAGE value="インクリメント演算子を使ったサンプル。" />
     <MESSAGE value="デクリメント演算子を使ったサンプル。" />
     <MESSAGE value="+演算子を使用して文字列連結と算術演算子の加算が行われるサンプル。" />
@@ -866,7 +871,8 @@
     <MESSAGE value="continue文でwhile文内の処理の流れを制御するサンプル。" />
     <MESSAGE value="forループ文を使ってNまで合計するサンプル。" />
     <MESSAGE value="for文を使ってNまで合計するサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="for文を使ってNまで合計するサンプル。" />
+    <MESSAGE value="ゲームタイトルと終了メッセージを表示するサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="ゲームタイトルと終了メッセージを表示するサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="ランダムな数値を取得して表示するサンプル。">
-      <change afterPath="$PROJECT_DIR$/src/com/sample/highandlow/HighAndLowS03.java" afterDir="false" />
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="ランダムな数値をトランプの枠に合わせて表示するサンプル。">
+      <change afterPath="$PROJECT_DIR$/src/com/sample/highandlow/HighAndLowS04.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,6 +134,7 @@
     "アプリケーション.HighAndLowS01.executor": "Run",
     "アプリケーション.HighAndLowS02.executor": "Run",
     "アプリケーション.HighAndLowS03.executor": "Run",
+    "アプリケーション.HighAndLowS04.executor": "Run",
     "アプリケーション.IfElseStatement.executor": "Run",
     "アプリケーション.IfStatement1.executor": "Run",
     "アプリケーション.IfStatement2.executor": "Run",
@@ -300,7 +301,7 @@
       <recent name="com.example" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.HighAndLowS03">
+  <component name="RunManager" selected="アプリケーション.HighAndLowS04">
     <configuration name="HighAndLowS01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sample.highandlow.HighAndLowS01" />
       <module name="asobiba" />
@@ -340,12 +341,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumKeyboardInput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sample.console.SumKeyboardInput" />
+    <configuration name="HighAndLowS04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sample.highandlow.HighAndLowS04" />
       <module name="asobiba" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sample.console.*" />
+          <option name="PATTERN" value="com.sample.highandlow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -368,11 +369,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.HighAndLowS04" />
         <item itemvalue="アプリケーション.HighAndLowS03" />
         <item itemvalue="アプリケーション.HighAndLowS02" />
         <item itemvalue="アプリケーション.HighAndLowS01" />
         <item itemvalue="アプリケーション.SumKeyboardInputLoop" />
-        <item itemvalue="アプリケーション.SumKeyboardInput" />
       </list>
     </recent_temporary>
   </component>
@@ -434,15 +435,7 @@
       <workItem from="1738479684690" duration="18056000" />
       <workItem from="1739235619517" duration="1967000" />
       <workItem from="1747473906048" duration="3434000" />
-      <workItem from="1748605245202" duration="31782000" />
-    </task>
-    <task id="LOCAL-00181" summary="外部プログラムを実行して結果を取得するサンプル。">
-      <option name="closed" value="true" />
-      <created>1748736971919</created>
-      <option name="number" value="00181" />
-      <option name="presentableId" value="LOCAL-00181" />
-      <option name="project" value="LOCAL" />
-      <updated>1748736971919</updated>
+      <workItem from="1748605245202" duration="32484000" />
     </task>
     <task id="LOCAL-00182" summary="カレンダー表を作成するサンプル。">
       <option name="closed" value="true" />
@@ -828,7 +821,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752890567365</updated>
     </task>
-    <option name="localTasksCounter" value="230" />
+    <task id="LOCAL-00230" summary="ランダムな数値をトランプの枠に合わせて表示するサンプル。">
+      <option name="closed" value="true" />
+      <created>1752965313248</created>
+      <option name="number" value="00230" />
+      <option name="presentableId" value="LOCAL-00230" />
+      <option name="project" value="LOCAL" />
+      <updated>1752965313248</updated>
+    </task>
+    <option name="localTasksCounter" value="231" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -846,7 +847,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="デクリメント演算子を使ったサンプル。" />
     <MESSAGE value="+演算子を使用して文字列連結と算術演算子の加算が行われるサンプル。" />
     <MESSAGE value="キーボードから入力されたString型の値を表示するサンプル。" />
     <MESSAGE value="キーボード入力された数値を使って足し算するサンプル。" />
@@ -871,7 +871,8 @@
     <MESSAGE value="for文を使ってNまで合計するサンプル。" />
     <MESSAGE value="ゲームタイトルと終了メッセージを表示するサンプル。" />
     <MESSAGE value="ランダムな数値を取得して表示するサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="ランダムな数値を取得して表示するサンプル。" />
+    <MESSAGE value="ランダムな数値をトランプの枠に合わせて表示するサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="ランダムな数値をトランプの枠に合わせて表示するサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

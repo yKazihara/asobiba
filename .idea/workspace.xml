@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="隠れた数値を画面に表示するサンプル。">
-      <change afterPath="$PROJECT_DIR$/src/com/sample/highandlow/HighAndLowS06.java" afterDir="false" />
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="隠れた数値と比較してゲーム結果を画面に表示するサンプル。">
+      <change afterPath="$PROJECT_DIR$/src/com/sample/highandlow/HighAndLowS07.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,6 +137,7 @@
     "アプリケーション.HighAndLowS04.executor": "Run",
     "アプリケーション.HighAndLowS05.executor": "Run",
     "アプリケーション.HighAndLowS06.executor": "Run",
+    "アプリケーション.HighAndLowS07.executor": "Run",
     "アプリケーション.IfElseStatement.executor": "Run",
     "アプリケーション.IfStatement1.executor": "Run",
     "アプリケーション.IfStatement2.executor": "Run",
@@ -303,20 +304,7 @@
       <recent name="com.example" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.HighAndLowS06">
-    <configuration name="HighAndLowS02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sample.highandlow.HighAndLowS02" />
-      <module name="asobiba" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sample.highandlow.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="アプリケーション.HighAndLowS07">
     <configuration name="HighAndLowS03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sample.highandlow.HighAndLowS03" />
       <module name="asobiba" />
@@ -369,13 +357,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HighAndLowS07" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sample.highandlow.HighAndLowS07" />
+      <module name="asobiba" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sample.highandlow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.HighAndLowS07" />
         <item itemvalue="アプリケーション.HighAndLowS06" />
         <item itemvalue="アプリケーション.HighAndLowS05" />
         <item itemvalue="アプリケーション.HighAndLowS04" />
         <item itemvalue="アプリケーション.HighAndLowS03" />
-        <item itemvalue="アプリケーション.HighAndLowS02" />
       </list>
     </recent_temporary>
   </component>
@@ -437,15 +438,7 @@
       <workItem from="1738479684690" duration="18056000" />
       <workItem from="1739235619517" duration="1967000" />
       <workItem from="1747473906048" duration="3434000" />
-      <workItem from="1748605245202" duration="33733000" />
-    </task>
-    <task id="LOCAL-00184" summary="Javaのバージョンをプログラムで確認するサンプル。">
-      <option name="closed" value="true" />
-      <created>1748988632469</created>
-      <option name="number" value="00184" />
-      <option name="presentableId" value="LOCAL-00184" />
-      <option name="project" value="LOCAL" />
-      <updated>1748988632469</updated>
+      <workItem from="1748605245202" duration="34320000" />
     </task>
     <task id="LOCAL-00185" summary="クラス名やメソッド名に日本語を使うサンプル。">
       <option name="closed" value="true" />
@@ -831,7 +824,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753134973980</updated>
     </task>
-    <option name="localTasksCounter" value="233" />
+    <task id="LOCAL-00233" summary="隠れた数値と比較してゲーム結果を画面に表示するサンプル。">
+      <option name="closed" value="true" />
+      <created>1753221760650</created>
+      <option name="number" value="00233" />
+      <option name="presentableId" value="LOCAL-00233" />
+      <option name="project" value="LOCAL" />
+      <updated>1753221760650</updated>
+    </task>
+    <option name="localTasksCounter" value="234" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -849,7 +850,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="キーボード入力された数値を使って足し算するサンプル。" />
     <MESSAGE value="BMI値を計算するサンプル。" />
     <MESSAGE value="BMI値を計算する(キーボード入力)サンプル。" />
     <MESSAGE value="if文の条件式が成立するサンプル。" />
@@ -874,7 +874,8 @@
     <MESSAGE value="ランダムな数値をトランプの枠に合わせて表示するサンプル。" />
     <MESSAGE value="キーボード入力を利用してHigh or Lowを選択するサンプル。" />
     <MESSAGE value="隠れた数値を画面に表示するサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="隠れた数値を画面に表示するサンプル。" />
+    <MESSAGE value="隠れた数値と比較してゲーム結果を画面に表示するサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="隠れた数値と比較してゲーム結果を画面に表示するサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

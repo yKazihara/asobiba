@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="連続挑戦できるように繰り返すサンプル。">
-      <change afterPath="$PROJECT_DIR$/src/com/game/Sample01.java" afterDir="false" />
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="ウインドウを表示するサンプル。">
+      <change afterPath="$PROJECT_DIR$/src/com/game/Sample02.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -229,6 +229,7 @@
     "アプリケーション.ReturnSample.executor": "Run",
     "アプリケーション.Robot.executor": "Run",
     "アプリケーション.Sample01.executor": "Run",
+    "アプリケーション.Sample02.executor": "Run",
     "アプリケーション.ScannerHasNextSample.executor": "Run",
     "アプリケーション.ScannerNextIntSample.executor": "Run",
     "アプリケーション.ScannerNextLineAndSplitSample.executor": "Run",
@@ -302,23 +303,11 @@
       <recent name="com" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.game" />
       <recent name="com.example" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.Sample01">
-    <configuration name="HighAndLowS04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sample.highandlow.HighAndLowS04" />
-      <module name="asobiba" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sample.highandlow.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="アプリケーション.Sample02">
     <configuration name="HighAndLowS05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sample.highandlow.HighAndLowS05" />
       <module name="asobiba" />
@@ -371,13 +360,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Sample02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.game.Sample02" />
+      <module name="asobiba" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.game.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.Sample02" />
         <item itemvalue="アプリケーション.Sample01" />
         <item itemvalue="アプリケーション.HighAndLowS07" />
         <item itemvalue="アプリケーション.HighAndLowS06" />
         <item itemvalue="アプリケーション.HighAndLowS05" />
-        <item itemvalue="アプリケーション.HighAndLowS04" />
       </list>
     </recent_temporary>
   </component>
@@ -439,15 +441,7 @@
       <workItem from="1738479684690" duration="18056000" />
       <workItem from="1739235619517" duration="1967000" />
       <workItem from="1747473906048" duration="3434000" />
-      <workItem from="1748605245202" duration="35282000" />
-    </task>
-    <task id="LOCAL-00186" summary="NullPointerException 対策(その1)のサンプル。">
-      <option name="closed" value="true" />
-      <created>1749160192559</created>
-      <option name="number" value="00186" />
-      <option name="presentableId" value="LOCAL-00186" />
-      <option name="project" value="LOCAL" />
-      <updated>1749160192559</updated>
+      <workItem from="1748605245202" duration="35922000" />
     </task>
     <task id="LOCAL-00187" summary="NullPointerException 対策(その2)のサンプル。">
       <option name="closed" value="true" />
@@ -833,7 +827,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753308049905</updated>
     </task>
-    <option name="localTasksCounter" value="235" />
+    <task id="LOCAL-00235" summary="ウインドウを表示するサンプル。">
+      <option name="closed" value="true" />
+      <created>1753395538440</created>
+      <option name="number" value="00235" />
+      <option name="presentableId" value="LOCAL-00235" />
+      <option name="project" value="LOCAL" />
+      <updated>1753395538440</updated>
+    </task>
+    <option name="localTasksCounter" value="236" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -851,7 +853,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="BMI値を計算する(キーボード入力)サンプル。" />
     <MESSAGE value="if文の条件式が成立するサンプル。" />
     <MESSAGE value="if文の条件式が成立しないサンプル。" />
     <MESSAGE value="!=演算子を用いた条件式が成立するサンプル。" />
@@ -876,7 +877,8 @@
     <MESSAGE value="隠れた数値を画面に表示するサンプル。" />
     <MESSAGE value="隠れた数値と比較してゲーム結果を画面に表示するサンプル。" />
     <MESSAGE value="連続挑戦できるように繰り返すサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="連続挑戦できるように繰り返すサンプル。" />
+    <MESSAGE value="ウインドウを表示するサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="ウインドウを表示するサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

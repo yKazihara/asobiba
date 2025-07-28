@@ -89,12 +89,12 @@ class GameWindow extends JFrame { // staticキーワードを削除
 
         // High&Lowボタンが押されたときの動作を定義する
         // Highを選んだ場合は「true」、Lowの場合は「false」とする
-        highButton.addActionListener(e -> judge(true));
-        lowButton.addActionListener(e -> judge(false));
+        highButton.addActionListener(_ -> judge(true));
+        lowButton.addActionListener(_ -> judge(false));
 
         // システムボタンが押されたときの動作を定義する
-        resumeButton.addActionListener(e -> resume());
-        exitButton.addActionListener(e -> exit());
+        resumeButton.addActionListener(_ -> resume());
+        exitButton.addActionListener(_ -> exit());
 
         // 各High&Lowボタンを描画領域に追加する
         canvas.add(highButton);
@@ -204,7 +204,7 @@ class Card { // staticキーワードを削除
     // カードリスト
     // 内部では0～51の番号で管理し、
     // スペード「0～12」、ハート「13～25」、ダイヤ「26～38」、クラブ「39～51」となる
-    private List<Integer> cardList; // ジェネリクスを追加
+    private final List<Integer> cardList; // ジェネリクスを追加
 
     // カードインデックス
     // 1枚取るごとに加算し、51になったら0に戻す

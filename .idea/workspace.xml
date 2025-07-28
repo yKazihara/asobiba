@@ -310,20 +310,7 @@
       <recent name="com.example" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.Sample05 (2)">
-    <configuration name="Sample03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.game.Sample03" />
-      <module name="asobiba" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.game.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="アプリケーション.Sample05 (3)">
     <configuration name="Sample04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.game.Sample04" />
       <module name="asobiba" />
@@ -363,6 +350,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Sample05 (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.game.Sample05" />
+      <module name="asobiba" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.game.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Sample05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.game.Sample05" />
       <module name="asobiba" />
@@ -378,11 +378,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.Sample05 (3)" />
         <item itemvalue="アプリケーション.Sample05 (2)" />
         <item itemvalue="アプリケーション.Sample05 (1)" />
         <item itemvalue="アプリケーション.Sample05" />
         <item itemvalue="アプリケーション.Sample04" />
-        <item itemvalue="アプリケーション.Sample03" />
       </list>
     </recent_temporary>
   </component>

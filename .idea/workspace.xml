@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="じゃんけんゲームのサンプル。">
-      <change afterPath="$PROJECT_DIR$/src/com/game/Sample05.java" afterDir="false" />
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="High&amp;Lowゲームのサンプル。">
+      <change afterPath="$PROJECT_DIR$/src/com/game/Sample06.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/game/Sample05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/game/Sample05.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +45,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/run/IdeaProjects/asobiba/src/com/example/file_write_demo",
+    "last_opened_file_path": "/Users/run/IdeaProjects/asobiba/src/com/game",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -232,7 +233,11 @@
     "アプリケーション.Sample02.executor": "Run",
     "アプリケーション.Sample03.executor": "Run",
     "アプリケーション.Sample04.executor": "Run",
+    "アプリケーション.Sample05 (1).executor": "Run",
+    "アプリケーション.Sample05 (2).executor": "Run",
+    "アプリケーション.Sample05 (3).executor": "Run",
     "アプリケーション.Sample05.executor": "Run",
+    "アプリケーション.Sample06.executor": "Run",
     "アプリケーション.ScannerHasNextSample.executor": "Run",
     "アプリケーション.ScannerNextIntSample.executor": "Run",
     "アプリケーション.ScannerNextLineAndSplitSample.executor": "Run",
@@ -296,6 +301,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/game" />
       <recent name="$PROJECT_DIR$/src/com/example/file_write_demo" />
       <recent name="$PROJECT_DIR$/src/com/example" />
     </key>
@@ -310,20 +316,7 @@
       <recent name="com.example" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.Sample05 (3)">
-    <configuration name="Sample04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.game.Sample04" />
-      <module name="asobiba" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.game.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="アプリケーション.Sample06">
     <configuration name="Sample05 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.game.Sample05" />
       <module name="asobiba" />
@@ -350,7 +343,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sample05 (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Sample05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.game.Sample05" />
       <module name="asobiba" />
       <extension name="coverage">
@@ -376,13 +369,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Sample05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.game.Sample05" />
+      <module name="asobiba" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.game.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sample05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.game.Sample05" />
+      <module name="asobiba" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.game.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sample06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.game.Sample06" />
+      <module name="asobiba" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.game.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.Sample06" />
         <item itemvalue="アプリケーション.Sample05 (3)" />
         <item itemvalue="アプリケーション.Sample05 (2)" />
         <item itemvalue="アプリケーション.Sample05 (1)" />
         <item itemvalue="アプリケーション.Sample05" />
-        <item itemvalue="アプリケーション.Sample04" />
       </list>
     </recent_temporary>
   </component>
@@ -444,23 +476,7 @@
       <workItem from="1738479684690" duration="18056000" />
       <workItem from="1739235619517" duration="1967000" />
       <workItem from="1747473906048" duration="3434000" />
-      <workItem from="1748605245202" duration="38828000" />
-    </task>
-    <task id="LOCAL-00190" summary="FileNotFoundException対策のサンプル。">
-      <option name="closed" value="true" />
-      <created>1749506973500</created>
-      <option name="number" value="00190" />
-      <option name="presentableId" value="LOCAL-00190" />
-      <option name="project" value="LOCAL" />
-      <updated>1749506973500</updated>
-    </task>
-    <task id="LOCAL-00191" summary="ClassCastException対策のサンプル。">
-      <option name="closed" value="true" />
-      <created>1749592624138</created>
-      <option name="number" value="00191" />
-      <option name="presentableId" value="LOCAL-00191" />
-      <option name="project" value="LOCAL" />
-      <updated>1749592624138</updated>
+      <workItem from="1748605245202" duration="39919000" />
     </task>
     <task id="LOCAL-00192" summary="ClassNotFoundException対策のサンプル。">
       <option name="closed" value="true" />
@@ -838,7 +854,23 @@
       <option name="project" value="LOCAL" />
       <updated>1753654003694</updated>
     </task>
-    <option name="localTasksCounter" value="239" />
+    <task id="LOCAL-00239" summary="High&amp;Lowゲームのサンプル。">
+      <option name="closed" value="true" />
+      <created>1753740569899</created>
+      <option name="number" value="00239" />
+      <option name="presentableId" value="LOCAL-00239" />
+      <option name="project" value="LOCAL" />
+      <updated>1753740569900</updated>
+    </task>
+    <task id="LOCAL-00240" summary="High&amp;Lowゲームのサンプル。">
+      <option name="closed" value="true" />
+      <created>1753740683790</created>
+      <option name="number" value="00240" />
+      <option name="presentableId" value="LOCAL-00240" />
+      <option name="project" value="LOCAL" />
+      <updated>1753740683790</updated>
+    </task>
+    <option name="localTasksCounter" value="241" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -856,7 +888,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="文字列を比較するequalsメソッドを使ったサンプル。" />
     <MESSAGE value="if-else文を使って文字列比較を行うサンプル。" />
     <MESSAGE value="ネストしたif文内の条件が全て成立するサンプル。" />
     <MESSAGE value="ネストしたif文内の条件が成立しないサンプル。" />
@@ -881,7 +912,8 @@
     <MESSAGE value="パネル（描画領域）を追加するサンプル。" />
     <MESSAGE value="メッセージボックス（ラベル）とボタンを追加するサンプル。" />
     <MESSAGE value="じゃんけんゲームのサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="じゃんけんゲームのサンプル。" />
+    <MESSAGE value="High&amp;Lowゲームのサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="High&amp;Lowゲームのサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

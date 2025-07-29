@@ -25,7 +25,7 @@ public class Sample05 {
 class GameWindow extends JFrame { // staticキーワードを削除
 
     // 各GUI部品を定義する
-    Canvas2 canvas2; // staticキーワードを削除
+    Canvas canvas; // staticキーワードを削除
 
     // 各ラベルを定義する
     Label labelA; // staticキーワードを削除
@@ -67,9 +67,9 @@ class GameWindow extends JFrame { // staticキーワードを削除
         setDefaultCloseOperation(EXIT_ON_CLOSE);
 
         // カンバスを生成する
-        canvas2 = new Canvas2(width, height);
+        canvas = new Canvas();
         // 描画領域をウインドウに追加する（initより前に移動）
-        add(canvas2);
+        add(canvas);
 
         // ラベルやボタンなどの初期化処理を行う
         init();
@@ -97,12 +97,12 @@ class GameWindow extends JFrame { // staticキーワードを削除
         exitButton.addActionListener(_ -> exit());
 
         // 各High&Lowボタンを描画領域に追加する
-        canvas2.add(highButton);
-        canvas2.add(lowButton);
+        canvas.add(highButton);
+        canvas.add(lowButton);
 
         // 各システムボタンを描画領域に追加する
-        canvas2.add(resumeButton);
-        canvas2.add(exitButton);
+        canvas.add(resumeButton);
+        canvas.add(exitButton);
 
         // 各ラベルを生成する
         labelA = new Label("", 0, 50, 1280, 100);
@@ -111,10 +111,10 @@ class GameWindow extends JFrame { // staticキーワードを削除
         enemyLabel = new Label("", 890, 300, 300, 100);
 
         // 各ラベルを描画領域に追加する
-        canvas2.add(labelA);
-        canvas2.add(labelB);
-        canvas2.add(playerLabel);
-        canvas2.add(enemyLabel);
+        canvas.add(labelA);
+        canvas.add(labelB);
+        canvas.add(playerLabel);
+        canvas.add(enemyLabel);
 
         // プレイヤーと敵それぞれのカードを表示する
         playerLabel.setVisible(true);

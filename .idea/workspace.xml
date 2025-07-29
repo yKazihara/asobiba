@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="High&amp;Lowゲームのサンプル。">
-      <change afterPath="$PROJECT_DIR$/src/com/game/Sample06.java" afterDir="false" />
+    <list default="true" id="f6fc21f9-ae76-4309-a970-27cfa78bb47f" name="変更" comment="「KeyListenerインターフェース」でキー入力を受け付けるサンプル。">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/game/Sample05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/game/Sample05.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -316,7 +316,7 @@
       <recent name="com.example" />
     </key>
   </component>
-  <component name="RunManager" selected="アプリケーション.Sample06">
+  <component name="RunManager" selected="アプリケーション.Sample05 (2)">
     <configuration name="Sample05 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.game.Sample05" />
       <module name="asobiba" />
@@ -410,11 +410,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.Sample05 (2)" />
+        <item itemvalue="アプリケーション.Sample05 (1)" />
         <item itemvalue="アプリケーション.Sample06" />
         <item itemvalue="アプリケーション.Sample05 (3)" />
         <item itemvalue="アプリケーション.Sample05 (2)" />
-        <item itemvalue="アプリケーション.Sample05 (1)" />
-        <item itemvalue="アプリケーション.Sample05" />
       </list>
     </recent_temporary>
   </component>
@@ -476,15 +476,7 @@
       <workItem from="1738479684690" duration="18056000" />
       <workItem from="1739235619517" duration="1967000" />
       <workItem from="1747473906048" duration="3434000" />
-      <workItem from="1748605245202" duration="39919000" />
-    </task>
-    <task id="LOCAL-00192" summary="ClassNotFoundException対策のサンプル。">
-      <option name="closed" value="true" />
-      <created>1749678823809</created>
-      <option name="number" value="00192" />
-      <option name="presentableId" value="LOCAL-00192" />
-      <option name="project" value="LOCAL" />
-      <updated>1749678823809</updated>
+      <workItem from="1748605245202" duration="40228000" />
     </task>
     <task id="LOCAL-00193" summary="ArrayIndexOutOfBoundsException対策のサンプル。">
       <option name="closed" value="true" />
@@ -870,7 +862,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753740683790</updated>
     </task>
-    <option name="localTasksCounter" value="241" />
+    <task id="LOCAL-00241" summary="「KeyListenerインターフェース」でキー入力を受け付けるサンプル。">
+      <option name="closed" value="true" />
+      <created>1753826815054</created>
+      <option name="number" value="00241" />
+      <option name="presentableId" value="LOCAL-00241" />
+      <option name="project" value="LOCAL" />
+      <updated>1753826815054</updated>
+    </task>
+    <option name="localTasksCounter" value="242" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -888,7 +888,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="if-else文を使って文字列比較を行うサンプル。" />
     <MESSAGE value="ネストしたif文内の条件が全て成立するサンプル。" />
     <MESSAGE value="ネストしたif文内の条件が成立しないサンプル。" />
     <MESSAGE value="愚数か奇数かを判定するサンプル。" />
@@ -913,7 +912,8 @@
     <MESSAGE value="メッセージボックス（ラベル）とボタンを追加するサンプル。" />
     <MESSAGE value="じゃんけんゲームのサンプル。" />
     <MESSAGE value="High&amp;Lowゲームのサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="High&amp;Lowゲームのサンプル。" />
+    <MESSAGE value="「KeyListenerインターフェース」でキー入力を受け付けるサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="「KeyListenerインターフェース」でキー入力を受け付けるサンプル。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
